@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>트렌드 분석 - Korean HF Datasets</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        .trend-container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+
+        .chart-container {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .chart-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--secondary-color);
+        }
+
+        .growth-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .growth-card {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .growth-card h3 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .growth-card p {
+            opacity: 0.9;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin: 1rem 0;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📈 트렌드 분석</h1>
+            <p class="subtitle">한국어 Hugging Face 데이터셋 증가 추이</p>
+        </div>
+    </header>
+
+    <main class="trend-container">
+        <a href="index.html" class="back-link">← 메인 페이지로 돌아가기</a>
+
+        <div id="loading" class="loading">데이터를 불러오는 중...</div>
+
+        <div id="trend-content" style="display: none;">
+            <section class="growth-stats">
+                <div class="growth-card">
+                    <h3 id="growth-rate">-</h3>
+                    <p>전체 성장률</p>
+                </div>
+                <div class="growth-card">
+                    <h3 id="total-weeks">-</h3>
+                    <p>수집 주차</p>
+                </div>
+                <div class="growth-card">
+                    <h3 id="date-range">-</h3>
+                    <p>수집 기간</p>
+                </div>
+            </section>
+
+            <div class="chart-container">
+                <h2 class="chart-title">데이터셋 수 변화</h2>
+                <canvas id="datasetsChart"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h2 class="chart-title">다운로드 수 변화</h2>
+                <canvas id="downloadsChart"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h2 class="chart-title">좋아요 수 변화</h2>
+                <canvas id="likesChart"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h2 class="chart-title">다국어 데이터셋 비율</h2>
+                <canvas id="multilingualChart"></canvas>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>
+                <a href="https://github.com/songys/-Korean-HF-datasets-catalog" target="_blank">GitHub</a> |
+                <a href="https://arxiv.org/abs/2507.04329" target="_blank">arXiv:2507.04329</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/trends.js"></script>
+</body>
+</html>

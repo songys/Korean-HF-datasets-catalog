@@ -65,25 +65,43 @@ def collect_korean_datasets() -> List[Dict]:
 def process_and_save_datasets(datasets: List[Dict], output_dir: str = "docs/data"):
     """데이터셋 정보를 처리하고 JSON 파일로 저장합니다."""
     os.makedirs(output_dir, exist_ok=True)
+    archive_dir = os.path.join(output_dir, "archive")
+    os.makedirs(archive_dir, exist_ok=True)
 
-    # JSON 파일로 저장
+    current_time = datetime.now()
+    timestamp = current_time.strftime("%Y%m%d")
+
+    # 현재 데이터 구조
+    current_data = {
+        "last_updated": current_time.isoformat(),
+        "total_count": len(datasets),
+        "datasets": datasets
+    }
+
+    # 1. 현재 데이터를 archive에 저장 (날짜별)
+    archive_file = os.path.join(archive_dir, f"korean_datasets_{timestamp}.json")
+    with open(archive_file, 'w', encoding='utf-8') as f:
+        json.dump(current_data, f, ensure_ascii=False, indent=2)
+    print(f"아카이브 저장: {archive_file}")
+
+    # 2. 최신 데이터를 메인 파일로 저장
     output_file = os.path.join(output_dir, "korean_datasets.json")
     with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump({
-            "last_updated": datetime.now().isoformat(),
-            "total_count": len(datasets),
-            "datasets": datasets
-        }, f, ensure_ascii=False, indent=2)
+        json.dump(current_data, f, ensure_ascii=False, indent=2)
 
     print(f"\n총 {len(datasets)}개의 데이터셋 정보를 저장했습니다.")
     print(f"파일 위치: {output_file}")
 
-    # CSV 파일로도 저장 (백업용)
+    # 3. CSV 파일로도 저장 (백업용)
     if datasets:
         df = pd.DataFrame(datasets)
         csv_file = os.path.join(output_dir, "korean_datasets.csv")
         df.to_csv(csv_file, index=False, encoding='utf-8-sig')
         print(f"CSV 파일: {csv_file}")
+
+        # 아카이브 CSV도 저장
+        archive_csv = os.path.join(archive_dir, f"korean_datasets_{timestamp}.csv")
+        df.to_csv(archive_csv, index=False, encoding='utf-8-sig')
 
     return output_file
 
@@ -139,12 +157,23 @@ def main():
 
     # 통계 생성 및 저장
     stats = generate_statistics(datasets)
+    current_time = datetime.now()
+    timestamp = current_time.strftime("%Y%m%d")
+
+    stats_data = {
+        "last_updated": current_time.isoformat(),
+        "statistics": stats
+    }
+
+    # 현재 통계 저장
     stats_file = "docs/data/statistics.json"
     with open(stats_file, 'w', encoding='utf-8') as f:
-        json.dump({
-            "last_updated": datetime.now().isoformat(),
-            "statistics": stats
-        }, f, ensure_ascii=False, indent=2)
+        json.dump(stats_data, f, ensure_ascii=False, indent=2)
+
+    # 아카이브에도 통계 저장
+    archive_stats_file = f"docs/data/archive/statistics_{timestamp}.json"
+    with open(archive_stats_file, 'w', encoding='utf-8') as f:
+        json.dump(stats_data, f, ensure_ascii=False, indent=2)
 
     print(f"\n통계 정보:")
     print(f"  - 총 데이터셋: {stats['total_datasets']}")

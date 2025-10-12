@@ -30,16 +30,20 @@ jobs:
         run: |
           python scripts/collect_korean_datasets.py
 
+      - name: Generate trend analysis
+        run: |
+          python scripts/generate_trends.py
+
       - name: Commit and push if changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add docs/data/*.json docs/data/*.csv
+          git add docs/data/*.json docs/data/*.csv docs/data/archive/*
 
           # 변경사항이 있는지 확인
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "🤖 Update Korean datasets - $(date +'%Y-%m-%d %H:%M')"
+            git commit -m "🤖 Weekly update: Korean datasets - $(date +'%Y-%m-%d %H:%M')"
             git push
           fi
