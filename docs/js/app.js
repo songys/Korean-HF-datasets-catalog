@@ -18,7 +18,7 @@ async function loadData() {
 
         // 업데이트 날짜 표시
         document.getElementById('last-updated').textContent =
-            new Date(datasetsData.last_updated).toLocaleString('ko-KR');
+            new Date(datasetsData.last_updated).toLocaleString('en-US');
 
         // 통계 표시
         displayStatistics(statsData.statistics);
@@ -34,18 +34,18 @@ async function loadData() {
         document.getElementById('loading').style.display = 'none';
 
     } catch (error) {
-        console.error('데이터 로드 오류:', error);
+        console.error('Data loading error:', error);
         document.getElementById('loading').textContent =
-            '데이터를 불러오는 중 오류가 발생했습니다.';
+            'Error loading datasets.';
     }
 }
 
 // 통계 표시
 function displayStatistics(stats) {
-    document.getElementById('total-datasets').textContent = stats.total_datasets.toLocaleString('ko-KR');
-    document.getElementById('total-downloads').textContent = stats.total_downloads.toLocaleString('ko-KR');
-    document.getElementById('total-likes').textContent = stats.total_likes.toLocaleString('ko-KR');
-    document.getElementById('multilingual-count').textContent = stats.multilingual_count.toLocaleString('ko-KR');
+    document.getElementById('total-datasets').textContent = stats.total_datasets.toLocaleString('en-US');
+    document.getElementById('total-downloads').textContent = stats.total_downloads.toLocaleString('en-US');
+    document.getElementById('total-likes').textContent = stats.total_likes.toLocaleString('en-US');
+    document.getElementById('multilingual-count').textContent = stats.multilingual_count.toLocaleString('en-US');
 }
 
 // 필터 옵션 초기화
@@ -107,7 +107,7 @@ function displayDatasets() {
 function createDatasetCard(dataset) {
     const description = dataset.description
         ? dataset.description.substring(0, 150) + (dataset.description.length > 150 ? '...' : '')
-        : '설명이 없습니다.';
+        : 'No description available.';
 
     const languages = dataset.languages.slice(0, 3).map(lang =>
         `<span class="tag language">${lang}</span>`
@@ -129,8 +129,8 @@ function createDatasetCard(dataset) {
                 ${tasks}
             </div>
             <div class="dataset-stats">
-                <span class="stat-item">📥 ${(dataset.downloads || 0).toLocaleString('ko-KR')}</span>
-                <span class="stat-item">❤️ ${(dataset.likes || 0).toLocaleString('ko-KR')}</span>
+                <span class="stat-item">📥 ${(dataset.downloads || 0).toLocaleString('en-US')}</span>
+                <span class="stat-item">❤️ ${(dataset.likes || 0).toLocaleString('en-US')}</span>
             </div>
         </div>
     `;

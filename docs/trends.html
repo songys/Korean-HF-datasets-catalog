@@ -68,54 +68,54 @@
 <body>
     <header>
         <div class="container">
-            <h1>트렌드 분석</h1>
-            <p class="subtitle">한국어 Hugging Face 데이터셋 증가 추이</p>
-            <p class="subtitle-small">Growth Trends of Korean Language Datasets</p>
+            <h1>Trend Analysis</h1>
+            <p class="subtitle">Growth Trends of Korean Language Datasets</p>
+            <p class="subtitle-small">Tracking the Evolution of Korean HuggingFace Datasets</p>
         </div>
     </header>
 
     <main class="trend-container">
         <div style="text-align: center; margin: 1rem 0;">
             <a href="index.html" style="display: inline-block; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white; text-decoration: none; border-radius: 4px; font-weight: 600;">
-                ← 메인 페이지로 돌아가기
+                ← Back to Main Page
             </a>
         </div>
 
-        <div id="loading" class="loading">데이터를 불러오는 중...</div>
+        <div id="loading" class="loading">Loading data...</div>
 
         <div id="trend-content" style="display: none;">
             <section class="growth-stats">
                 <div class="growth-card">
                     <h3 id="growth-rate">-</h3>
-                    <p>전체 성장률</p>
+                    <p>Overall Growth Rate</p>
                 </div>
                 <div class="growth-card">
                     <h3 id="total-weeks">-</h3>
-                    <p>수집 주차</p>
+                    <p>Weeks Tracked</p>
                 </div>
                 <div class="growth-card">
                     <h3 id="date-range">-</h3>
-                    <p>수집 기간</p>
+                    <p>Date Range</p>
                 </div>
             </section>
 
             <div class="chart-container">
-                <h2 class="chart-title">데이터셋 수 변화</h2>
+                <h2 class="chart-title">Number of Datasets Over Time</h2>
                 <canvas id="datasetsChart"></canvas>
             </div>
 
             <div class="chart-container">
-                <h2 class="chart-title">다운로드 수 변화</h2>
+                <h2 class="chart-title">Total Downloads Over Time</h2>
                 <canvas id="downloadsChart"></canvas>
             </div>
 
             <div class="chart-container">
-                <h2 class="chart-title">좋아요 수 변화</h2>
+                <h2 class="chart-title">Total Likes Over Time</h2>
                 <canvas id="likesChart"></canvas>
             </div>
 
             <div class="chart-container">
-                <h2 class="chart-title">다국어 데이터셋 비율</h2>
+                <h2 class="chart-title">Multilingual Dataset Ratio</h2>
                 <canvas id="multilingualChart"></canvas>
             </div>
         </div>
@@ -124,9 +124,9 @@
     <footer>
         <div class="container">
             <p>
-                <a href="index.html">메인 페이지</a> |
+                <a href="index.html">Main Page</a> |
                 <a href="https://github.com/songys/-Korean-HF-datasets-catalog" target="_blank">GitHub</a> |
-                데이터 출처: <a href="https://huggingface.co/datasets" target="_blank">Hugging Face</a> |
+                Data Source: <a href="https://huggingface.co/datasets" target="_blank">Hugging Face</a> |
                 <a href="https://arxiv.org/abs/2507.04329" target="_blank">arXiv:2507.04329</a>
             </p>
         </div>

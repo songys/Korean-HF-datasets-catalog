@@ -29,9 +29,9 @@ async function loadTrendData() {
         createMultilingualChart(trends);
 
     } catch (error) {
-        console.error('트렌드 데이터 로드 오류:', error);
+        console.error('Trend data loading error:', error);
         document.getElementById('loading').textContent =
-            '트렌드 데이터가 아직 생성되지 않았습니다. 다음 주부터 데이터가 수집됩니다.';
+            'Trend data not yet available. Data will be collected starting next week.';
     }
 }
 
@@ -47,7 +47,7 @@ function createDatasetsChart(trends) {
         data: {
             labels: trends.dates.map(formatDate),
             datasets: [{
-                label: '총 데이터셋 수',
+                label: 'Total Datasets',
                 data: trends.total_datasets,
                 borderColor: '#ff6b35',
                 backgroundColor: 'rgba(255, 107, 53, 0.1)',
@@ -84,7 +84,7 @@ function createDownloadsChart(trends) {
         data: {
             labels: trends.dates.map(formatDate),
             datasets: [{
-                label: '총 다운로드 수',
+                label: 'Total Downloads',
                 data: trends.total_downloads,
                 borderColor: '#004e89',
                 backgroundColor: 'rgba(0, 78, 137, 0.1)',
@@ -121,7 +121,7 @@ function createLikesChart(trends) {
         data: {
             labels: trends.dates.map(formatDate),
             datasets: [{
-                label: '총 좋아요 수',
+                label: 'Total Likes',
                 data: trends.total_likes,
                 borderColor: '#2ecc71',
                 backgroundColor: 'rgba(46, 204, 113, 0.1)',
@@ -165,7 +165,7 @@ function createMultilingualChart(trends) {
         data: {
             labels: trends.dates.map(formatDate),
             datasets: [{
-                label: '다국어 데이터셋 비율 (%)',
+                label: 'Multilingual Dataset Ratio (%)',
                 data: multilingualRatio,
                 backgroundColor: 'rgba(155, 89, 182, 0.7)',
                 borderColor: '#9b59b6',

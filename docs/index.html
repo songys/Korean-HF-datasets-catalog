@@ -11,8 +11,8 @@
     <header>
         <div class="container">
             <h1>No Language Data Left Behind</h1>
-            <p class="subtitle">한국어 Hugging Face 데이터셋 카탈로그</p>
-            <p class="subtitle-small">A Comprehensive Korean Language Dataset Catalog</p>
+            <p class="subtitle">Korean Hugging Face Dataset Catalog</p>
+            <p class="subtitle-small">A Comprehensive Collection of Korean Language Datasets</p>
             <p class="subtitle-small">
                 <a href="https://arxiv.org/abs/2507.04329" target="_blank" style="color: white; text-decoration: underline;">
                     arXiv:2507.04329
@@ -22,78 +22,78 @@
     </header>
 
     <main class="container">
-        <!-- 트렌드 링크 -->
+        <!-- Trend Link -->
         <div style="text-align: center; margin: 1rem 0;">
             <a href="trends.html" style="display: inline-block; padding: 0.75rem 1.5rem; background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white; text-decoration: none; border-radius: 4px; font-weight: 600;">
-                트렌드 분석 보기
+                View Trend Analysis
             </a>
         </div>
 
-        <!-- 통계 섹션 -->
+        <!-- Statistics Section -->
         <section class="stats-section">
             <div class="stat-card">
                 <h3 id="total-datasets">-</h3>
-                <p>총 데이터셋</p>
+                <p>Total Datasets</p>
             </div>
             <div class="stat-card">
                 <h3 id="total-downloads">-</h3>
-                <p>총 다운로드</p>
+                <p>Total Downloads</p>
             </div>
             <div class="stat-card">
                 <h3 id="total-likes">-</h3>
-                <p>총 좋아요</p>
+                <p>Total Likes</p>
             </div>
             <div class="stat-card">
                 <h3 id="multilingual-count">-</h3>
-                <p>다국어 데이터셋</p>
+                <p>Multilingual Datasets</p>
             </div>
         </section>
 
-        <!-- 검색 및 필터 -->
+        <!-- Search and Filter -->
         <section class="search-section">
             <div class="search-container">
-                <input type="text" id="search-input" placeholder="데이터셋 이름, 설명 검색...">
+                <input type="text" id="search-input" placeholder="Search by dataset name or description...">
             </div>
             <div class="filters">
                 <select id="author-filter">
-                    <option value="">모든 저자</option>
+                    <option value="">All Authors</option>
                 </select>
                 <select id="task-filter">
-                    <option value="">모든 작업</option>
+                    <option value="">All Tasks</option>
                 </select>
                 <select id="sort-select">
-                    <option value="likes">인기순 (좋아요)</option>
-                    <option value="downloads">다운로드순</option>
-                    <option value="recent">최신순</option>
-                    <option value="name">이름순</option>
+                    <option value="likes">Most Liked</option>
+                    <option value="downloads">Most Downloaded</option>
+                    <option value="recent">Most Recent</option>
+                    <option value="name">Name (A-Z)</option>
                 </select>
             </div>
         </section>
 
-        <!-- 데이터셋 목록 -->
+        <!-- Dataset List -->
         <section class="datasets-section">
-            <div id="loading" class="loading">데이터를 불러오는 중...</div>
+            <div id="loading" class="loading">Loading datasets...</div>
             <div id="datasets-container" class="datasets-grid"></div>
             <div id="no-results" class="no-results" style="display: none;">
-                검색 결과가 없습니다.
+                No datasets found.
             </div>
         </section>
 
-        <!-- 페이지네이션 -->
+        <!-- Pagination -->
         <section class="pagination">
-            <button id="prev-page" disabled>이전</button>
+            <button id="prev-page" disabled>Previous</button>
             <span id="page-info">1 / 1</span>
-            <button id="next-page" disabled>다음</button>
+            <button id="next-page" disabled>Next</button>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>마지막 업데이트: <span id="last-updated">-</span></p>
+            <p>Last Updated: <span id="last-updated">-</span></p>
             <p>
-                <a href="trends.html">트렌드 분석</a> |
+                <a href="trends.html">Trend Analysis</a> |
                 <a href="https://github.com/songys/-Korean-HF-datasets-catalog" target="_blank">GitHub</a> |
-                데이터 출처: <a href="https://huggingface.co/datasets" target="_blank">Hugging Face</a> |
+                Data Source: <a href="https://huggingface.co/datasets" target="_blank">Hugging Face</a> |
                 <a href="https://arxiv.org/abs/2507.04329" target="_blank">arXiv:2507.04329</a>
             </p>
         </div>
