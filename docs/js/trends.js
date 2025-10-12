@@ -42,17 +42,22 @@ function formatDate(dateStr) {
 
 function createDatasetsChart(trends) {
     const ctx = document.getElementById('datasetsChart').getContext('2d');
+
+    // Determine chart type based on data points
+    const chartType = trends.dates.length === 1 ? 'bar' : 'line';
+
     new Chart(ctx, {
-        type: 'line',
+        type: chartType,
         data: {
             labels: trends.dates.map(formatDate),
             datasets: [{
                 label: 'Total Datasets',
                 data: trends.total_datasets,
                 borderColor: '#ff6b35',
-                backgroundColor: 'rgba(255, 107, 53, 0.1)',
+                backgroundColor: chartType === 'bar' ? 'rgba(255, 107, 53, 0.7)' : 'rgba(255, 107, 53, 0.1)',
                 tension: 0.4,
-                fill: true
+                fill: chartType === 'line',
+                borderWidth: chartType === 'bar' ? 1 : 2
             }]
         },
         options: {
@@ -79,17 +84,22 @@ function createDatasetsChart(trends) {
 
 function createDownloadsChart(trends) {
     const ctx = document.getElementById('downloadsChart').getContext('2d');
+
+    // Determine chart type based on data points
+    const chartType = trends.dates.length === 1 ? 'bar' : 'line';
+
     new Chart(ctx, {
-        type: 'line',
+        type: chartType,
         data: {
             labels: trends.dates.map(formatDate),
             datasets: [{
                 label: 'Total Downloads',
                 data: trends.total_downloads,
                 borderColor: '#004e89',
-                backgroundColor: 'rgba(0, 78, 137, 0.1)',
+                backgroundColor: chartType === 'bar' ? 'rgba(0, 78, 137, 0.7)' : 'rgba(0, 78, 137, 0.1)',
                 tension: 0.4,
-                fill: true
+                fill: chartType === 'line',
+                borderWidth: chartType === 'bar' ? 1 : 2
             }]
         },
         options: {
@@ -116,17 +126,22 @@ function createDownloadsChart(trends) {
 
 function createLikesChart(trends) {
     const ctx = document.getElementById('likesChart').getContext('2d');
+
+    // Determine chart type based on data points
+    const chartType = trends.dates.length === 1 ? 'bar' : 'line';
+
     new Chart(ctx, {
-        type: 'line',
+        type: chartType,
         data: {
             labels: trends.dates.map(formatDate),
             datasets: [{
                 label: 'Total Likes',
                 data: trends.total_likes,
                 borderColor: '#2ecc71',
-                backgroundColor: 'rgba(46, 204, 113, 0.1)',
+                backgroundColor: chartType === 'bar' ? 'rgba(46, 204, 113, 0.7)' : 'rgba(46, 204, 113, 0.1)',
                 tension: 0.4,
-                fill: true
+                fill: chartType === 'line',
+                borderWidth: chartType === 'bar' ? 1 : 2
             }]
         },
         options: {
