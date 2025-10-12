@@ -188,3 +188,6 @@ const itemsPerPage = 12;  // 원하는 숫자로 변경
 ---
 
 ⭐ 이 프로젝트가 유용하다면 별표를 눌러주세요!
+
+결과물은 다음 페이지에서 확인하실 수 있습니다.
+https://songys.github.io/-Korean-HF-datasets-catalog/
