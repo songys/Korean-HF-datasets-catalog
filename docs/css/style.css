@@ -44,6 +44,12 @@ header h1 {
 .subtitle {
     font-size: 1.1rem;
     opacity: 0.9;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle-small {
+    font-size: 0.9rem;
+    opacity: 0.85;
 }
 
 /* Stats Section */
