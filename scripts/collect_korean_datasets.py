@@ -47,10 +47,10 @@ def collect_korean_datasets() -> List[Dict]:
                         elif tag.startswith("size_categories:"):
                             dataset_info["size_categories"].append(tag.replace("size_categories:", ""))
 
-                # 한국어 필터링: 한국어만 포함하거나 한국어가 포함된 데이터셋 중 언어 수가 5개 이하인 경우만
+                # 한국어 필터링: 한국어를 포함하고 언어 수가 100개 이하인 데이터셋
                 if "ko" in dataset_info["languages"]:
-                    # 한국어 단독 또는 소수 언어(5개 이하)만 포함
-                    if len(dataset_info["languages"]) <= 5:
+                    # 한국어 포함 + 최대 100개 언어
+                    if len(dataset_info["languages"]) <= 100:
                         datasets.append(dataset_info)
             except Exception as e:
                 print(f"데이터셋 처리 오류 {dataset.id}: {e}")

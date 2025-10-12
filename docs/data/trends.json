@@ -1,31 +1,31 @@
 {
-  "generated_at": "2025-10-12T15:29:57.773872",
+  "generated_at": "2025-10-12T15:32:39.459674",
   "trends": {
     "dates": [
       "20251012"
     ],
     "total_datasets": [
-      925
+      1326
     ],
     "total_downloads": [
-      136148
+      890871
     ],
     "total_likes": [
-      3913
+      10761
     ],
     "multilingual_count": [
-      184
+      585
     ],
     "growth_rate": 0,
     "latest_stats": {
-      "total_datasets": 925,
-      "total_downloads": 136148,
-      "total_likes": 3913,
+      "total_datasets": 1326,
+      "total_downloads": 890871,
+      "total_likes": 10761,
       "top_authors": {
         "nmixx-fin": 37,
         "nayohan": 31,
+        "jaeyong2": 24,
         "werty1248": 23,
-        "jaeyong2": 23,
         "davidkim205": 21,
         "ChuGyouk": 21,
         "jp1924": 18,
@@ -34,18 +34,18 @@
         "Nexdata": 12
       },
       "top_tasks": {
-        "text-generation": 202,
-        "question-answering": 121,
-        "text-classification": 77,
-        "translation": 55,
-        "summarization": 29,
-        "automatic-speech-recognition": 25,
-        "feature-extraction": 24,
-        "table-question-answering": 21,
-        "token-classification": 19,
-        "visual-question-answering": 18
+        "text-generation": 297,
+        "question-answering": 181,
+        "text-classification": 152,
+        "translation": 115,
+        "feature-extraction": 47,
+        "summarization": 44,
+        "automatic-speech-recognition": 42,
+        "token-classification": 34,
+        "text-retrieval": 33,
+        "visual-question-answering": 33
       },
-      "multilingual_count": 184
+      "multilingual_count": 585
     },
     "first_date": "20251012",
     "last_date": "20251012",
