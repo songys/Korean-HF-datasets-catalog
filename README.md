@@ -158,6 +158,24 @@ const itemsPerPage = 12;  // 원하는 숫자로 변경
 
 이 프로젝트는 MIT 라이선스를 따릅니다.
 
+## 📚 인용
+
+이 프로젝트를 사용하시는 경우 다음 논문을 인용해 주세요:
+
+```bibtex
+@misc{choi2025languagedataleftbehind,
+      title={No Language Data Left Behind: A Comparative Study of CJK Language Datasets in the Hugging Face Ecosystem},
+      author={Dasol Choi and Woomyoung Park and Youngsook Song},
+      year={2025},
+      eprint={2507.04329},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.04329},
+}
+```
+
+**논문 링크**: [arXiv:2507.04329](https://arxiv.org/abs/2507.04329)
+
 ## 🙏 감사의 말
 
 - [Hugging Face](https://huggingface.co/) - 데이터셋 제공
