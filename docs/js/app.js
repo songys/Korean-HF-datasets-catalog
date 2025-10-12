@@ -1,36 +1,36 @@
-// 전역 변수
+// Global variables
 let allDatasets = [];
 let filteredDatasets = [];
 let currentPage = 1;
 const itemsPerPage = 12;
 
-// 데이터 로드
+// Load data
 async function loadData() {
     try {
-        // 데이터셋 로드
+        // Load datasets
         const datasetsResponse = await fetch('data/korean_datasets.json');
         const datasetsData = await datasetsResponse.json();
         allDatasets = datasetsData.datasets;
 
-        // 통계 로드
+        // Load statistics
         const statsResponse = await fetch('data/statistics.json');
         const statsData = await statsResponse.json();
 
-        // 업데이트 날짜 표시
+        // Display update date
         document.getElementById('last-updated').textContent =
             new Date(datasetsData.last_updated).toLocaleString('en-US');
 
-        // 통계 표시
+        // Display statistics
         displayStatistics(statsData.statistics);
 
-        // 필터 옵션 초기화
+        // Initialize filter options
         initializeFilters();
 
-        // 초기 데이터 표시
+        // Display initial data
         filteredDatasets = [...allDatasets];
         displayDatasets();
 
-        // 로딩 숨기기
+        // Hide loading
         document.getElementById('loading').style.display = 'none';
 
     } catch (error) {
@@ -40,7 +40,7 @@ async function loadData() {
     }
 }
 
-// 통계 표시
+// Display statistics
 function displayStatistics(stats) {
     document.getElementById('total-datasets').textContent = stats.total_datasets.toLocaleString('en-US');
     document.getElementById('total-downloads').textContent = stats.total_downloads.toLocaleString('en-US');
@@ -48,7 +48,7 @@ function displayStatistics(stats) {
     document.getElementById('multilingual-count').textContent = stats.multilingual_count.toLocaleString('en-US');
 }
 
-// 필터 옵션 초기화
+// Initialize filter options
 function initializeFilters() {
     const authors = new Set();
     const tasks = new Set();
@@ -58,7 +58,7 @@ function initializeFilters() {
         if (dataset.tasks) dataset.tasks.forEach(task => tasks.add(task));
     });
 
-    // 저자 필터
+    // Author filter
     const authorFilter = document.getElementById('author-filter');
     Array.from(authors).sort().forEach(author => {
         const option = document.createElement('option');
@@ -67,7 +67,7 @@ function initializeFilters() {
         authorFilter.appendChild(option);
     });
 
-    // 작업 필터
+    // Task filter
     const taskFilter = document.getElementById('task-filter');
     Array.from(tasks).sort().forEach(task => {
         const option = document.createElement('option');
@@ -77,7 +77,7 @@ function initializeFilters() {
     });
 }
 
-// 데이터셋 표시
+// Display datasets
 function displayDatasets() {
     const container = document.getElementById('datasets-container');
     const noResults = document.getElementById('no-results');
@@ -91,19 +91,19 @@ function displayDatasets() {
 
     noResults.style.display = 'none';
 
-    // 페이지네이션 계산
+    // Calculate pagination
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
     const pageDatasets = filteredDatasets.slice(startIndex, endIndex);
 
-    // 데이터셋 카드 생성
+    // Create dataset cards
     container.innerHTML = pageDatasets.map(dataset => createDatasetCard(dataset)).join('');
 
-    // 페이지네이션 업데이트
+    // Update pagination
     updatePagination();
 }
 
-// 데이터셋 카드 생성
+// Create dataset card
 function createDatasetCard(dataset) {
     const description = dataset.description
         ? dataset.description.substring(0, 150) + (dataset.description.length > 150 ? '...' : '')
@@ -136,7 +136,7 @@ function createDatasetCard(dataset) {
     `;
 }
 
-// 페이지네이션 업데이트
+// Update pagination
 function updatePagination() {
     const totalPages = Math.ceil(filteredDatasets.length / itemsPerPage);
 
@@ -145,14 +145,14 @@ function updatePagination() {
     document.getElementById('next-page').disabled = currentPage >= totalPages || totalPages === 0;
 }
 
-// 필터 적용
+// Apply filters
 function applyFilters() {
     const searchTerm = document.getElementById('search-input').value.toLowerCase();
     const authorFilter = document.getElementById('author-filter').value;
     const taskFilter = document.getElementById('task-filter').value;
     const sortBy = document.getElementById('sort-select').value;
 
-    // 필터링
+    // Filtering
     filteredDatasets = allDatasets.filter(dataset => {
         const matchesSearch = !searchTerm ||
             dataset.id.toLowerCase().includes(searchTerm) ||
@@ -166,7 +166,7 @@ function applyFilters() {
         return matchesSearch && matchesAuthor && matchesTask;
     });
 
-    // 정렬
+    // Sorting
     switch(sortBy) {
         case 'likes':
             filteredDatasets.sort((a, b) => (b.likes || 0) - (a.likes || 0));
@@ -183,24 +183,24 @@ function applyFilters() {
             break;
     }
 
-    // 첫 페이지로 리셋
+    // Reset to first page
     currentPage = 1;
     displayDatasets();
 }
 
-// 이벤트 리스너 설정
+// Set up event listeners
 document.addEventListener('DOMContentLoaded', () => {
     loadData();
 
-    // 검색
+    // Search
     document.getElementById('search-input').addEventListener('input', applyFilters);
 
-    // 필터
+    // Filters
     document.getElementById('author-filter').addEventListener('change', applyFilters);
     document.getElementById('task-filter').addEventListener('change', applyFilters);
     document.getElementById('sort-select').addEventListener('change', applyFilters);
 
-    // 페이지네이션
+    // Pagination
     document.getElementById('prev-page').addEventListener('click', () => {
         if (currentPage > 1) {
             currentPage--;

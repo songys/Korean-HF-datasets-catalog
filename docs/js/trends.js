@@ -1,4 +1,4 @@
-// 트렌드 데이터 로드 및 시각화
+// Load and visualize trend data
 
 async function loadTrendData() {
     try {
@@ -6,23 +6,23 @@ async function loadTrendData() {
         const data = await response.json();
         const trends = data.trends;
 
-        // 로딩 숨기기
+        // Hide loading
         document.getElementById('loading').style.display = 'none';
         document.getElementById('trend-content').style.display = 'block';
 
-        // 성장률 표시
+        // Display growth rate
         document.getElementById('growth-rate').textContent =
             trends.growth_rate > 0 ? `+${trends.growth_rate}%` : `${trends.growth_rate}%`;
         document.getElementById('total-weeks').textContent = trends.total_weeks;
 
-        // 날짜 범위 표시
+        // Display date range
         if (trends.first_date && trends.last_date) {
             const firstDate = formatDate(trends.first_date);
             const lastDate = formatDate(trends.last_date);
             document.getElementById('date-range').textContent = `${firstDate} ~ ${lastDate}`;
         }
 
-        // 차트 생성
+        // Create charts
         createDatasetsChart(trends);
         createDownloadsChart(trends);
         createLikesChart(trends);
@@ -154,7 +154,7 @@ function createLikesChart(trends) {
 function createMultilingualChart(trends) {
     const ctx = document.getElementById('multilingualChart').getContext('2d');
 
-    // 다국어 비율 계산
+    // Calculate multilingual ratio
     const multilingualRatio = trends.total_datasets.map((total, index) => {
         const multilingual = trends.multilingual_count[index];
         return total > 0 ? (multilingual / total * 100).toFixed(1) : 0;
@@ -195,5 +195,5 @@ function createMultilingualChart(trends) {
     });
 }
 
-// 페이지 로드 시 실행
+// Execute on page load
 document.addEventListener('DOMContentLoaded', loadTrendData);
