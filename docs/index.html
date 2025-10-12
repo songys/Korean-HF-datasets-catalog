@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국어 Hugging Face 데이터셋 카탈로그</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🤗 한국어 Hugging Face 데이터셋</h1>
+            <p class="subtitle">한국어를 지원하는 Hugging Face 데이터셋 카탈로그</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- 통계 섹션 -->
+        <section class="stats-section">
+            <div class="stat-card">
+                <h3 id="total-datasets">-</h3>
+                <p>총 데이터셋</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="total-downloads">-</h3>
+                <p>총 다운로드</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="total-likes">-</h3>
+                <p>총 좋아요</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="multilingual-count">-</h3>
+                <p>다국어 데이터셋</p>
+            </div>
+        </section>
+
+        <!-- 검색 및 필터 -->
+        <section class="search-section">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="데이터셋 이름, 설명 검색...">
+            </div>
+            <div class="filters">
+                <select id="author-filter">
+                    <option value="">모든 저자</option>
+                </select>
+                <select id="task-filter">
+                    <option value="">모든 작업</option>
+                </select>
+                <select id="sort-select">
+                    <option value="likes">인기순 (좋아요)</option>
+                    <option value="downloads">다운로드순</option>
+                    <option value="recent">최신순</option>
+                    <option value="name">이름순</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- 데이터셋 목록 -->
+        <section class="datasets-section">
+            <div id="loading" class="loading">데이터를 불러오는 중...</div>
+            <div id="datasets-container" class="datasets-grid"></div>
+            <div id="no-results" class="no-results" style="display: none;">
+                검색 결과가 없습니다.
+            </div>
+        </section>
+
+        <!-- 페이지네이션 -->
+        <section class="pagination">
+            <button id="prev-page" disabled>이전</button>
+            <span id="page-info">1 / 1</span>
+            <button id="next-page" disabled>다음</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>마지막 업데이트: <span id="last-updated">-</span></p>
+            <p>
+                <a href="https://github.com/yourusername/korean-hf-datasets" target="_blank">GitHub</a> |
+                데이터 출처: <a href="https://huggingface.co/datasets" target="_blank">Hugging Face</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
