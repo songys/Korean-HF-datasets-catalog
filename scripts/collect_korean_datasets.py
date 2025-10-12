@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 
 def collect_korean_datasets() -> List[Dict]:
-    """허깅페이스에서 한국어가 포함된 데이터셋을 수집합니다."""
+    """허깅페이스에서 한국어 데이터셋을 수집합니다."""
     api = HfApi()
     datasets = []
 
@@ -47,7 +47,11 @@ def collect_korean_datasets() -> List[Dict]:
                         elif tag.startswith("size_categories:"):
                             dataset_info["size_categories"].append(tag.replace("size_categories:", ""))
 
-                datasets.append(dataset_info)
+                # 한국어 필터링: 한국어만 포함하거나 한국어가 포함된 데이터셋 중 언어 수가 5개 이하인 경우만
+                if "ko" in dataset_info["languages"]:
+                    # 한국어 단독 또는 소수 언어(5개 이하)만 포함
+                    if len(dataset_info["languages"]) <= 5:
+                        datasets.append(dataset_info)
             except Exception as e:
                 print(f"데이터셋 처리 오류 {dataset.id}: {e}")
                 continue
