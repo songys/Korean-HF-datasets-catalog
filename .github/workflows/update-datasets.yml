@@ -75,20 +75,12 @@ jobs:
           git diff --name-only
 
       - name: Commit and push if changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-
-          # Add all changed files in docs/data directory
-          git add docs/data/
-
-          # Check if there are changes to commit
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-
-          echo "Changes detected, committing..."
-          git commit -m "🤖 Weekly update: Korean datasets - $(date +'%Y-%m-%d %H:%M')"
-          git push
-          echo "✓ Changes pushed successfully"
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 Weekly update: Korean datasets"
+          file_pattern: "docs/data/*.json docs/data/*.csv docs/data/archive/*"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          skip_dirty_check: false
+          skip_fetch: false
