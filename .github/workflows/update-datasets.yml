@@ -29,15 +29,42 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install huggingface-hub pandas tqdm
+          echo "✓ Dependencies installed"
+          echo "Python version: $(python --version)"
+          echo "pip list:"
+          pip list | grep -E "(huggingface|pandas|tqdm)"
+
+      - name: Verify directory structure
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Directory structure:"
+          ls -la
+          echo "Scripts directory:"
+          ls -la scripts/
+          echo "Docs/data directory:"
+          mkdir -p docs/data/archive
+          ls -la docs/data/
 
       - name: Collect Korean datasets
+        env:
+          PYTHONUNBUFFERED: "1"
         run: |
-          python scripts/collect_korean_datasets.py
+          echo "Starting dataset collection..."
+          python scripts/collect_korean_datasets.py || {
+            echo "Error: Dataset collection failed with exit code $?"
+            exit 1
+          }
           echo "✓ Dataset collection completed"
 
       - name: Generate trend analysis
+        env:
+          PYTHONUNBUFFERED: "1"
         run: |
-          python scripts/generate_trends.py
+          echo "Starting trend analysis..."
+          python scripts/generate_trends.py || {
+            echo "Error: Trend analysis failed with exit code $?"
+            exit 1
+          }
           echo "✓ Trend analysis completed"
 
       - name: Check for changes
