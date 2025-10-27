@@ -33,21 +33,35 @@ jobs:
       - name: Collect Korean datasets
         run: |
           python scripts/collect_korean_datasets.py
+          echo "✓ Dataset collection completed"
 
       - name: Generate trend analysis
         run: |
           python scripts/generate_trends.py
+          echo "✓ Trend analysis completed"
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git status
+          echo "Files that changed:"
+          git diff --name-only
 
       - name: Commit and push if changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add docs/data/*.json docs/data/*.csv docs/data/archive/*
 
-          # 변경사항이 있는지 확인
+          # Add all changed files in docs/data directory
+          git add docs/data/
+
+          # Check if there are changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "🤖 Weekly update: Korean datasets - $(date +'%Y-%m-%d %H:%M')"
-            git push
+            exit 0
           fi
+
+          echo "Changes detected, committing..."
+          git commit -m "🤖 Weekly update: Korean datasets - $(date +'%Y-%m-%d %H:%M')"
+          git push
+          echo "✓ Changes pushed successfully"
