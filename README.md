@@ -71,6 +71,18 @@ git push -u origin main
 - **Automatic Updates**: Runs automatically every Monday at 9 AM (KST)
 - **Manual Updates**: You can manually run the `Update Korean Datasets` workflow from the GitHub Actions tab
 
+### 4. Email Notifications (Optional)
+
+To receive email notifications when the dataset is updated:
+
+1. Follow the instructions in [EMAIL_SETUP.md](EMAIL_SETUP.md)
+2. Set up three GitHub Secrets: `EMAIL_USERNAME`, `EMAIL_PASSWORD`, `EMAIL_TO`
+3. You'll receive emails with:
+   - Workflow execution status
+   - Current statistics and trends
+   - Links to the updated website
+   - Notification even when no changes are detected
+
 ## 📊 Features
 
 ### Website Features
