@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-10-12T15:32:29.369632",
+  "last_updated": "2025-10-28T20:55:37.986126",
   "statistics": {
-    "total_datasets": 1326,
-    "total_downloads": 890871,
-    "total_likes": 10761,
+    "total_datasets": 1354,
+    "total_downloads": 763446,
+    "total_likes": 10869,
     "top_authors": {
       "nmixx-fin": 37,
       "nayohan": 31,
@@ -17,17 +17,17 @@
       "Nexdata": 12
     },
     "top_tasks": {
-      "text-generation": 297,
-      "question-answering": 181,
-      "text-classification": 152,
-      "translation": 115,
+      "text-generation": 301,
+      "question-answering": 184,
+      "text-classification": 156,
+      "translation": 117,
       "feature-extraction": 47,
       "summarization": 44,
       "automatic-speech-recognition": 42,
       "token-classification": 34,
-      "text-retrieval": 33,
-      "visual-question-answering": 33
+      "visual-question-answering": 33,
+      "text-retrieval": 33
     },
-    "multilingual_count": 585
+    "multilingual_count": 594
   }
 }
