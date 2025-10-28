@@ -48,24 +48,34 @@ jobs:
       - name: Collect Korean datasets
         env:
           PYTHONUNBUFFERED: "1"
+        timeout-minutes: 10
         run: |
           echo "Starting dataset collection..."
+          echo "Timestamp: $(date)"
           python scripts/collect_korean_datasets.py || {
-            echo "Error: Dataset collection failed with exit code $?"
-            exit 1
+            EXIT_CODE=$?
+            echo "Error: Dataset collection failed with exit code $EXIT_CODE"
+            echo "Timestamp: $(date)"
+            exit $EXIT_CODE
           }
           echo "✓ Dataset collection completed"
+          echo "Timestamp: $(date)"
 
       - name: Generate trend analysis
         env:
           PYTHONUNBUFFERED: "1"
+        timeout-minutes: 5
         run: |
           echo "Starting trend analysis..."
+          echo "Timestamp: $(date)"
           python scripts/generate_trends.py || {
-            echo "Error: Trend analysis failed with exit code $?"
-            exit 1
+            EXIT_CODE=$?
+            echo "Error: Trend analysis failed with exit code $EXIT_CODE"
+            echo "Timestamp: $(date)"
+            exit $EXIT_CODE
           }
           echo "✓ Trend analysis completed"
+          echo "Timestamp: $(date)"
 
       - name: Check for changes
         id: check_changes

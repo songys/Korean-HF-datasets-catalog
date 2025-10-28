@@ -4,6 +4,8 @@
 """
 import json
 import os
+import sys
+import time
 from datetime import datetime
 from typing import List, Dict
 import pandas as pd
@@ -11,53 +13,72 @@ from huggingface_hub import HfApi, list_datasets
 from tqdm import tqdm
 
 
-def collect_korean_datasets() -> List[Dict]:
+def collect_korean_datasets(max_retries: int = 3) -> List[Dict]:
     """허깅페이스에서 한국어 데이터셋을 수집합니다."""
     api = HfApi()
     datasets = []
 
     print("한국어 데이터셋 수집 중...")
 
-    # 한국어 태그가 있는 데이터셋 검색
-    try:
-        for dataset in tqdm(list_datasets(language="ko", full=True)):
-            try:
-                dataset_info = {
-                    "id": dataset.id,
-                    "author": dataset.author,
-                    "created_at": str(dataset.created_at) if dataset.created_at else None,
-                    "last_modified": str(dataset.last_modified) if dataset.last_modified else None,
-                    "downloads": dataset.downloads if hasattr(dataset, 'downloads') else 0,
-                    "likes": dataset.likes if hasattr(dataset, 'likes') else 0,
-                    "tags": list(dataset.tags) if dataset.tags else [],
-                    "description": dataset.description if hasattr(dataset, 'description') else "",
-                    "url": f"https://huggingface.co/datasets/{dataset.id}",
-                    "languages": [],
-                    "tasks": [],
-                    "size_categories": []
-                }
+    # 한국어 태그가 있는 데이터셋 검색 (재시도 로직 포함)
+    for attempt in range(max_retries):
+        try:
+            print(f"시도 {attempt + 1}/{max_retries}...")
+            dataset_list = list(list_datasets(language="ko", full=True))
+            print(f"총 {len(dataset_list)}개의 데이터셋 발견")
 
-                # 태그에서 언어, 작업, 크기 정보 추출
-                if dataset.tags:
-                    for tag in dataset.tags:
-                        if tag.startswith("language:"):
-                            dataset_info["languages"].append(tag.replace("language:", ""))
-                        elif tag.startswith("task_categories:"):
-                            dataset_info["tasks"].append(tag.replace("task_categories:", ""))
-                        elif tag.startswith("size_categories:"):
-                            dataset_info["size_categories"].append(tag.replace("size_categories:", ""))
+            for dataset in tqdm(dataset_list):
+                try:
+                    dataset_info = {
+                        "id": dataset.id,
+                        "author": dataset.author,
+                        "created_at": str(dataset.created_at) if dataset.created_at else None,
+                        "last_modified": str(dataset.last_modified) if dataset.last_modified else None,
+                        "downloads": dataset.downloads if hasattr(dataset, 'downloads') else 0,
+                        "likes": dataset.likes if hasattr(dataset, 'likes') else 0,
+                        "tags": list(dataset.tags) if dataset.tags else [],
+                        "description": dataset.description if hasattr(dataset, 'description') else "",
+                        "url": f"https://huggingface.co/datasets/{dataset.id}",
+                        "languages": [],
+                        "tasks": [],
+                        "size_categories": []
+                    }
 
-                # 한국어 필터링: 한국어를 포함하고 언어 수가 100개 이하인 데이터셋
-                if "ko" in dataset_info["languages"]:
-                    # 한국어 포함 + 최대 100개 언어
-                    if len(dataset_info["languages"]) <= 100:
-                        datasets.append(dataset_info)
-            except Exception as e:
-                print(f"데이터셋 처리 오류 {dataset.id}: {e}")
-                continue
+                    # 태그에서 언어, 작업, 크기 정보 추출
+                    if dataset.tags:
+                        for tag in dataset.tags:
+                            if tag.startswith("language:"):
+                                dataset_info["languages"].append(tag.replace("language:", ""))
+                            elif tag.startswith("task_categories:"):
+                                dataset_info["tasks"].append(tag.replace("task_categories:", ""))
+                            elif tag.startswith("size_categories:"):
+                                dataset_info["size_categories"].append(tag.replace("size_categories:", ""))
 
-    except Exception as e:
-        print(f"데이터셋 목록 가져오기 오류: {e}")
+                    # 한국어 필터링: 한국어를 포함하고 언어 수가 100개 이하인 데이터셋
+                    if "ko" in dataset_info["languages"]:
+                        # 한국어 포함 + 최대 100개 언어
+                        if len(dataset_info["languages"]) <= 100:
+                            datasets.append(dataset_info)
+                except Exception as e:
+                    print(f"데이터셋 처리 오류 {dataset.id}: {e}")
+                    continue
+
+            # 성공적으로 완료되면 반복문 탈출
+            break
+
+        except Exception as e:
+            print(f"데이터셋 목록 가져오기 오류 (시도 {attempt + 1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                wait_time = 2 ** attempt  # 지수 백오프: 1초, 2초, 4초
+                print(f"{wait_time}초 후 재시도...")
+                time.sleep(wait_time)
+            else:
+                print("최대 재시도 횟수 초과. 수집 실패.")
+                print(f"오류 타입: {type(e).__name__}")
+                print(f"오류 메시지: {str(e)}")
+                # 재시도 후에도 실패하면 에러를 발생시키지 않고 빈 리스트를 반환
+                # 이렇게 하면 기존 데이터를 유지할 수 있음
+                return []
 
     return datasets
 
@@ -149,8 +170,10 @@ def main():
     datasets = collect_korean_datasets()
 
     if not datasets:
-        print("수집된 데이터셋이 없습니다.")
-        return
+        print("경고: 수집된 데이터셋이 없습니다.")
+        print("API 연결 문제 또는 일시적인 오류일 수 있습니다.")
+        print("기존 데이터가 유지됩니다.")
+        sys.exit(0)  # 오류가 아닌 정상 종료로 처리
 
     # 데이터 저장
     output_file = process_and_save_datasets(datasets)
