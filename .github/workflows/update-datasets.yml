@@ -77,6 +77,22 @@ jobs:
           echo "✓ Trend analysis completed"
           echo "Timestamp: $(date)"
 
+      - name: Generate weekly changelog
+        env:
+          PYTHONUNBUFFERED: "1"
+        timeout-minutes: 5
+        run: |
+          echo "Starting changelog generation..."
+          echo "Timestamp: $(date)"
+          python scripts/generate_changelog.py || {
+            EXIT_CODE=$?
+            echo "Error: Changelog generation failed with exit code $EXIT_CODE"
+            echo "Timestamp: $(date)"
+            exit $EXIT_CODE
+          }
+          echo "✓ Changelog generation completed"
+          echo "Timestamp: $(date)"
+
       - name: Get statistics for summary
         id: stats
         run: |
@@ -127,6 +143,7 @@ jobs:
           commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
           skip_dirty_check: false
           skip_fetch: false
+          add_options: '-A'
 
       - name: Create workflow summary
         if: always()

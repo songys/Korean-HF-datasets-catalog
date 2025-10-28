@@ -1,0 +1,1075 @@
+{
+  "generated_at": "2025-10-28T22:12:15.451915",
+  "previous_date": "20251027",
+  "current_date": "20251028",
+  "previous_count": 1352,
+  "current_count": 1354,
+  "changes": {
+    "new_datasets": [
+      {
+        "id": "dong3058/dayo-data-set",
+        "author": "dong3058",
+        "created_at": "2025-10-28 05:10:34+00:00",
+        "last_modified": "2025-10-28 06:12:38+00:00",
+        "downloads": 0,
+        "likes": 0,
+        "tags": [
+          "language:ko",
+          "size_categories:n<1K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "",
+        "url": "https://huggingface.co/datasets/dong3058/dayo-data-set",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "Mobiusi/korean-medical-dispute-cases",
+        "author": "Mobiusi",
+        "created_at": "2025-10-28 09:06:18+00:00",
+        "last_modified": "2025-10-28 09:06:24+00:00",
+        "downloads": 0,
+        "likes": 0,
+        "tags": [
+          "language:en",
+          "language:ko",
+          "license:cc-by-nc-4.0",
+          "size_categories:n<1K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us",
+          "medical disputes",
+          "healthcare",
+          "Korea",
+          "legal mediation",
+          "case studies"
+        ],
+        "description": "\n\t\n\t\t\n\t\tkorean-medical-dispute-cases\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nThis dataset aims to provide a comprehensive overview of various medical dispute cases in Korea, focusing on mediation outcomes and case details. It features well-structured data, including clear definitions for each field, covering a range of medical disputes with rich details that facilitate analysis and research. The dataset has been improved by simplifying and standardizing longer text fields, increasing the diversity… See the full description on the dataset page: https://huggingface.co/datasets/Mobiusi/korean-medical-dispute-cases.",
+        "url": "https://huggingface.co/datasets/Mobiusi/korean-medical-dispute-cases",
+        "languages": [
+          "en",
+          "ko"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "4n3mone/Ko-AgentBench",
+        "author": "4n3mone",
+        "created_at": "2025-10-28 07:29:42+00:00",
+        "last_modified": "2025-10-28 07:31:32+00:00",
+        "downloads": 0,
+        "likes": 0,
+        "tags": [
+          "task_categories:question-answering",
+          "language:ko",
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us",
+          "agent",
+          "benchmark",
+          "tool-use",
+          "korean"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKo-AgentBench\n\t\n\n한국어 에이전트 벤치마크 데이터셋\n\n\t\n\t\t\n\t\t데이터 로드\n\t\n\nfrom datasets import load_dataset\n\n# 특정 레벨 로드\ndataset = load_dataset(\"Hugging-Face-KREW/Ko-AgentBench\", data_files=\"L1.json\")\n\n# 또는 모든 레벨 로드\ndataset = load_dataset(\"Hugging-Face-KREW/Ko-AgentBench\", data_files=\"*.json\")\n\n\n\t\n\t\t\n\t\n\t\n\t\t레벨\n\t\n\n\nL1: Single Tool\nL2: Tool Retrieval & Selection  \nL3: Multiple Tools\nL4: Complex Tool Chaining\nL5: Conditional Logic\nL6: State Management\nL7: Multi-step Planning\n\n",
+        "url": "https://huggingface.co/datasets/4n3mone/Ko-AgentBench",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "question-answering"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      }
+    ],
+    "removed_datasets": [
+      {
+        "id": "phamngocchien/sn96",
+        "author": "phamngocchien",
+        "created_at": "2025-10-19 10:11:38+00:00",
+        "last_modified": "2025-10-27 06:20:49+00:00",
+        "downloads": 1248,
+        "likes": 0,
+        "tags": [
+          "language:en",
+          "language:vi",
+          "language:es",
+          "language:pt",
+          "language:id",
+          "language:th",
+          "language:hi",
+          "language:zh",
+          "language:ja",
+          "language:ko",
+          "license:mit",
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us",
+          "education",
+          "dialogues",
+          "flock",
+          "sn96"
+        ],
+        "description": "\n\t\n\t\t\n\t\tFLock OFF Dataset\n\t\n\nAuto-generated educational dialogs (multilingual) for AI training.\n\nTopics: Diverse educational subjects.\nGenerated using Ollama (local AI).\nFormat: JSONL with system prompt and conversations.\nLicense: MIT\n\nTotal lines: 12000\n",
+        "url": "https://huggingface.co/datasets/phamngocchien/sn96",
+        "languages": [
+          "en",
+          "vi",
+          "es",
+          "pt",
+          "id",
+          "th",
+          "hi",
+          "zh",
+          "ja",
+          "ko"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "10K<n<100K"
+        ]
+      }
+    ],
+    "updated_datasets": [
+      {
+        "id": "amphion/Emilia-Dataset",
+        "author": "amphion",
+        "url": "https://huggingface.co/datasets/amphion/Emilia-Dataset",
+        "changes": {
+          "downloads": {
+            "previous": 85071,
+            "current": 94204,
+            "change": 9133
+          },
+          "likes": {
+            "previous": 392,
+            "current": 392,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "neulab/CulturalGround",
+        "author": "neulab",
+        "url": "https://huggingface.co/datasets/neulab/CulturalGround",
+        "changes": {
+          "downloads": {
+            "previous": 14288,
+            "current": 17521,
+            "change": 3233
+          },
+          "likes": {
+            "previous": 8,
+            "current": 8,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "occiglot/tokenizer-wiki-bench",
+        "author": "occiglot",
+        "url": "https://huggingface.co/datasets/occiglot/tokenizer-wiki-bench",
+        "changes": {
+          "downloads": {
+            "previous": 24368,
+            "current": 26884,
+            "change": 2516
+          },
+          "likes": {
+            "previous": 6,
+            "current": 6,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "hltcoe/megawika",
+        "author": "hltcoe",
+        "url": "https://huggingface.co/datasets/hltcoe/megawika",
+        "changes": {
+          "downloads": {
+            "previous": 67462,
+            "current": 69791,
+            "change": 2329
+          },
+          "likes": {
+            "previous": 40,
+            "current": 40,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "sentence-transformers/parallel-sentences-ccmatrix",
+        "author": "sentence-transformers",
+        "url": "https://huggingface.co/datasets/sentence-transformers/parallel-sentences-ccmatrix",
+        "changes": {
+          "downloads": {
+            "previous": 3736,
+            "current": 4155,
+            "change": 419
+          },
+          "likes": {
+            "previous": 10,
+            "current": 10,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "coastalcph/tydi_xor_rc",
+        "author": "coastalcph",
+        "url": "https://huggingface.co/datasets/coastalcph/tydi_xor_rc",
+        "changes": {
+          "downloads": {
+            "previous": 8103,
+            "current": 8509,
+            "change": 406
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "taeminlee/Ko-StrategyQA",
+        "author": "taeminlee",
+        "url": "https://huggingface.co/datasets/taeminlee/Ko-StrategyQA",
+        "changes": {
+          "downloads": {
+            "previous": 10421,
+            "current": 10813,
+            "change": 392
+          },
+          "likes": {
+            "previous": 19,
+            "current": 19,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "refine-ai/subscene",
+        "author": "refine-ai",
+        "url": "https://huggingface.co/datasets/refine-ai/subscene",
+        "changes": {
+          "downloads": {
+            "previous": 4254,
+            "current": 4555,
+            "change": 301
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "OpenAssistant/oasst1",
+        "author": "OpenAssistant",
+        "url": "https://huggingface.co/datasets/OpenAssistant/oasst1",
+        "changes": {
+          "downloads": {
+            "previous": 8006,
+            "current": 8270,
+            "change": 264
+          },
+          "likes": {
+            "previous": 1440,
+            "current": 1440,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "CohereLabs/Global-MMLU",
+        "author": "CohereLabs",
+        "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU",
+        "changes": {
+          "downloads": {
+            "previous": 12462,
+            "current": 12718,
+            "change": 256
+          },
+          "likes": {
+            "previous": 137,
+            "current": 137,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "rubricreward/mR3-Dataset-100K-EasyToHard",
+        "author": "rubricreward",
+        "url": "https://huggingface.co/datasets/rubricreward/mR3-Dataset-100K-EasyToHard",
+        "changes": {
+          "downloads": {
+            "previous": 280,
+            "current": 517,
+            "change": 237
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "MoritzLaurer/multilingual-NLI-26lang-2mil7",
+        "author": "MoritzLaurer",
+        "url": "https://huggingface.co/datasets/MoritzLaurer/multilingual-NLI-26lang-2mil7",
+        "changes": {
+          "downloads": {
+            "previous": 2767,
+            "current": 3004,
+            "change": 237
+          },
+          "likes": {
+            "previous": 47,
+            "current": 47,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "arsaporta/symile-m3",
+        "author": "arsaporta",
+        "url": "https://huggingface.co/datasets/arsaporta/symile-m3",
+        "changes": {
+          "downloads": {
+            "previous": 22781,
+            "current": 23004,
+            "change": 223
+          },
+          "likes": {
+            "previous": 6,
+            "current": 6,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "sentence-transformers/mldr",
+        "author": "sentence-transformers",
+        "url": "https://huggingface.co/datasets/sentence-transformers/mldr",
+        "changes": {
+          "downloads": {
+            "previous": 3079,
+            "current": 3294,
+            "change": 215
+          },
+          "likes": {
+            "previous": 6,
+            "current": 6,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "LLaMAX/BenchMAX_Problem_Solving",
+        "author": "LLaMAX",
+        "url": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Problem_Solving",
+        "changes": {
+          "downloads": {
+            "previous": 1039,
+            "current": 1240,
+            "change": 201
+          },
+          "likes": {
+            "previous": 1,
+            "current": 1,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "CohereLabs/Global-MMLU-Lite",
+        "author": "CohereLabs",
+        "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
+        "changes": {
+          "downloads": {
+            "previous": 4433,
+            "current": 4607,
+            "change": 174
+          },
+          "likes": {
+            "previous": 26,
+            "current": 27,
+            "change": 1
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "tabtoyou/KRETA",
+        "author": "tabtoyou",
+        "url": "https://huggingface.co/datasets/tabtoyou/KRETA",
+        "changes": {
+          "downloads": {
+            "previous": 333,
+            "current": 487,
+            "change": 154
+          },
+          "likes": {
+            "previous": 8,
+            "current": 8,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "sentence-transformers/parallel-sentences-opensubtitles",
+        "author": "sentence-transformers",
+        "url": "https://huggingface.co/datasets/sentence-transformers/parallel-sentences-opensubtitles",
+        "changes": {
+          "downloads": {
+            "previous": 2817,
+            "current": 2962,
+            "change": 145
+          },
+          "likes": {
+            "previous": 3,
+            "current": 3,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "CohereLabsCommunity/multilingual-reward-bench",
+        "author": "CohereLabsCommunity",
+        "url": "https://huggingface.co/datasets/CohereLabsCommunity/multilingual-reward-bench",
+        "changes": {
+          "downloads": {
+            "previous": 1141,
+            "current": 1285,
+            "change": 144
+          },
+          "likes": {
+            "previous": 32,
+            "current": 32,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "wecover/OPUS_GlobalVoices",
+        "author": "wecover",
+        "url": "https://huggingface.co/datasets/wecover/OPUS_GlobalVoices",
+        "changes": {
+          "downloads": {
+            "previous": 7560,
+            "current": 7693,
+            "change": 133
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "zhihz0535/X-AlpacaEval",
+        "author": "zhihz0535",
+        "url": "https://huggingface.co/datasets/zhihz0535/X-AlpacaEval",
+        "changes": {
+          "downloads": {
+            "previous": 85,
+            "current": 212,
+            "change": 127
+          },
+          "likes": {
+            "previous": 5,
+            "current": 5,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "stanford-oval/ccnews",
+        "author": "stanford-oval",
+        "url": "https://huggingface.co/datasets/stanford-oval/ccnews",
+        "changes": {
+          "downloads": {
+            "previous": 6128,
+            "current": 6250,
+            "change": 122
+          },
+          "likes": {
+            "previous": 28,
+            "current": 28,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "maitrix-org/Voila-million-voice",
+        "author": "maitrix-org",
+        "url": "https://huggingface.co/datasets/maitrix-org/Voila-million-voice",
+        "changes": {
+          "downloads": {
+            "previous": 218,
+            "current": 334,
+            "change": 116
+          },
+          "likes": {
+            "previous": 2,
+            "current": 2,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "HPLT/DocHPLT",
+        "author": "HPLT",
+        "url": "https://huggingface.co/datasets/HPLT/DocHPLT",
+        "changes": {
+          "downloads": {
+            "previous": 925,
+            "current": 1038,
+            "change": 113
+          },
+          "likes": {
+            "previous": 12,
+            "current": 12,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "sentence-transformers/parallel-sentences-wikimatrix",
+        "author": "sentence-transformers",
+        "url": "https://huggingface.co/datasets/sentence-transformers/parallel-sentences-wikimatrix",
+        "changes": {
+          "downloads": {
+            "previous": 2970,
+            "current": 3079,
+            "change": 109
+          },
+          "likes": {
+            "previous": 7,
+            "current": 7,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "sentence-transformers/miracl",
+        "author": "sentence-transformers",
+        "url": "https://huggingface.co/datasets/sentence-transformers/miracl",
+        "changes": {
+          "downloads": {
+            "previous": 1868,
+            "current": 1974,
+            "change": 106
+          },
+          "likes": {
+            "previous": 2,
+            "current": 2,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "simon3000/genshin-voice",
+        "author": "simon3000",
+        "url": "https://huggingface.co/datasets/simon3000/genshin-voice",
+        "changes": {
+          "downloads": {
+            "previous": 2452,
+            "current": 2548,
+            "change": 96
+          },
+          "likes": {
+            "previous": 123,
+            "current": 123,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "simon3000/starrail-voice",
+        "author": "simon3000",
+        "url": "https://huggingface.co/datasets/simon3000/starrail-voice",
+        "changes": {
+          "downloads": {
+            "previous": 808,
+            "current": 881,
+            "change": 73
+          },
+          "likes": {
+            "previous": 47,
+            "current": 47,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "Helsinki-NLP/opus-100",
+        "author": "Helsinki-NLP",
+        "url": "https://huggingface.co/datasets/Helsinki-NLP/opus-100",
+        "changes": {
+          "downloads": {
+            "previous": 23088,
+            "current": 23149,
+            "change": 61
+          },
+          "likes": {
+            "previous": 211,
+            "current": 211,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "LLaMAX/BenchMAX_Science",
+        "author": "LLaMAX",
+        "url": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Science",
+        "changes": {
+          "downloads": {
+            "previous": 423,
+            "current": 484,
+            "change": 61
+          },
+          "likes": {
+            "previous": 3,
+            "current": 3,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "google-research-datasets/tydiqa",
+        "author": "google-research-datasets",
+        "url": "https://huggingface.co/datasets/google-research-datasets/tydiqa",
+        "changes": {
+          "downloads": {
+            "previous": 2869,
+            "current": 2927,
+            "change": 58
+          },
+          "likes": {
+            "previous": 34,
+            "current": 34,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "wikimedia/wikisource",
+        "author": "wikimedia",
+        "url": "https://huggingface.co/datasets/wikimedia/wikisource",
+        "changes": {
+          "downloads": {
+            "previous": 2364,
+            "current": 2422,
+            "change": 58
+          },
+          "likes": {
+            "previous": 81,
+            "current": 81,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "KOREAson/YiSang-STEM_Code-Unfiltered",
+        "author": "KOREAson",
+        "url": "https://huggingface.co/datasets/KOREAson/YiSang-STEM_Code-Unfiltered",
+        "changes": {
+          "downloads": {
+            "previous": 69,
+            "current": 117,
+            "change": 48
+          },
+          "likes": {
+            "previous": 9,
+            "current": 9,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "nayeon212/BLEnD",
+        "author": "nayeon212",
+        "url": "https://huggingface.co/datasets/nayeon212/BLEnD",
+        "changes": {
+          "downloads": {
+            "previous": 496,
+            "current": 542,
+            "change": 46
+          },
+          "likes": {
+            "previous": 12,
+            "current": 12,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "Bingsu/zeroth-korean",
+        "author": "Bingsu",
+        "url": "https://huggingface.co/datasets/Bingsu/zeroth-korean",
+        "changes": {
+          "downloads": {
+            "previous": 464,
+            "current": 507,
+            "change": 43
+          },
+          "likes": {
+            "previous": 39,
+            "current": 39,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "hac541309/polyglot-ko-tokenizer-corpus",
+        "author": "hac541309",
+        "url": "https://huggingface.co/datasets/hac541309/polyglot-ko-tokenizer-corpus",
+        "changes": {
+          "downloads": {
+            "previous": 780,
+            "current": 823,
+            "change": 43
+          },
+          "likes": {
+            "previous": 1,
+            "current": 1,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "o0dimplz0o/Zeroth-STT-Korean",
+        "author": "o0dimplz0o",
+        "url": "https://huggingface.co/datasets/o0dimplz0o/Zeroth-STT-Korean",
+        "changes": {
+          "downloads": {
+            "previous": 201,
+            "current": 244,
+            "change": 43
+          },
+          "likes": {
+            "previous": 1,
+            "current": 1,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "HAERAE-HUB/HAE_RAE_BENCH_1.1",
+        "author": "HAERAE-HUB",
+        "url": "https://huggingface.co/datasets/HAERAE-HUB/HAE_RAE_BENCH_1.1",
+        "changes": {
+          "downloads": {
+            "previous": 1647,
+            "current": 1689,
+            "change": 42
+          },
+          "likes": {
+            "previous": 20,
+            "current": 20,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "Helsinki-NLP/tatoeba_mt",
+        "author": "Helsinki-NLP",
+        "url": "https://huggingface.co/datasets/Helsinki-NLP/tatoeba_mt",
+        "changes": {
+          "downloads": {
+            "previous": 1621,
+            "current": 1663,
+            "change": 42
+          },
+          "likes": {
+            "previous": 61,
+            "current": 61,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "1-800-SHARED-TASKS/xlsum-subset",
+        "author": "1-800-SHARED-TASKS",
+        "url": "https://huggingface.co/datasets/1-800-SHARED-TASKS/xlsum-subset",
+        "changes": {
+          "downloads": {
+            "previous": 634,
+            "current": 675,
+            "change": 41
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "AaronZ345/GTSinger",
+        "author": "AaronZ345",
+        "url": "https://huggingface.co/datasets/AaronZ345/GTSinger",
+        "changes": {
+          "downloads": {
+            "previous": 6790,
+            "current": 6831,
+            "change": 41
+          },
+          "likes": {
+            "previous": 9,
+            "current": 9,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "lightblue/text_ratings",
+        "author": "lightblue",
+        "url": "https://huggingface.co/datasets/lightblue/text_ratings",
+        "changes": {
+          "downloads": {
+            "previous": 534,
+            "current": 573,
+            "change": 39
+          },
+          "likes": {
+            "previous": 4,
+            "current": 4,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "Malikeh1375/code-switching-tokenizer-robustness",
+        "author": "Malikeh1375",
+        "url": "https://huggingface.co/datasets/Malikeh1375/code-switching-tokenizer-robustness",
+        "changes": {
+          "downloads": {
+            "previous": 739,
+            "current": 778,
+            "change": 39
+          },
+          "likes": {
+            "previous": 1,
+            "current": 1,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "miracl/miracl",
+        "author": "miracl",
+        "url": "https://huggingface.co/datasets/miracl/miracl",
+        "changes": {
+          "downloads": {
+            "previous": 1364,
+            "current": 1403,
+            "change": 39
+          },
+          "likes": {
+            "previous": 61,
+            "current": 61,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "LHF/escorpius-mr",
+        "author": "LHF",
+        "url": "https://huggingface.co/datasets/LHF/escorpius-mr",
+        "changes": {
+          "downloads": {
+            "previous": 11489,
+            "current": 11527,
+            "change": 38
+          },
+          "likes": {
+            "previous": 5,
+            "current": 5,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "ZurichNLP/rsd-ists-2016",
+        "author": "ZurichNLP",
+        "url": "https://huggingface.co/datasets/ZurichNLP/rsd-ists-2016",
+        "changes": {
+          "downloads": {
+            "previous": 363,
+            "current": 400,
+            "change": 37
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "allganize/RAG-Evaluation-Dataset-KO",
+        "author": "allganize",
+        "url": "https://huggingface.co/datasets/allganize/RAG-Evaluation-Dataset-KO",
+        "changes": {
+          "downloads": {
+            "previous": 345,
+            "current": 381,
+            "change": 36
+          },
+          "likes": {
+            "previous": 101,
+            "current": 101,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "styletts2-community/multilingual-pl-bert",
+        "author": "styletts2-community",
+        "url": "https://huggingface.co/datasets/styletts2-community/multilingual-pl-bert",
+        "changes": {
+          "downloads": {
+            "previous": 1650,
+            "current": 1683,
+            "change": 33
+          },
+          "likes": {
+            "previous": 17,
+            "current": 17,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "fdemelo/vox-communis-parallel-g2p",
+        "author": "fdemelo",
+        "url": "https://huggingface.co/datasets/fdemelo/vox-communis-parallel-g2p",
+        "changes": {
+          "downloads": {
+            "previous": 341,
+            "current": 374,
+            "change": 33
+          },
+          "likes": {
+            "previous": 1,
+            "current": 1,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "FBK-MT/Speech-MASSIVE",
+        "author": "FBK-MT",
+        "url": "https://huggingface.co/datasets/FBK-MT/Speech-MASSIVE",
+        "changes": {
+          "downloads": {
+            "previous": 518,
+            "current": 550,
+            "change": 32
+          },
+          "likes": {
+            "previous": 44,
+            "current": 44,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      }
+    ],
+    "unchanged_count": 382
+  },
+  "summary": {
+    "new_count": 3,
+    "removed_count": 1,
+    "updated_count": 50,
+    "unchanged_count": 382,
+    "net_change": 2
+  }
+}
