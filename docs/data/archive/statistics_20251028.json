@@ -1,0 +1,33 @@
+{
+  "last_updated": "2025-10-28T20:55:37.986126",
+  "statistics": {
+    "total_datasets": 1354,
+    "total_downloads": 763446,
+    "total_likes": 10869,
+    "top_authors": {
+      "nmixx-fin": 37,
+      "nayohan": 31,
+      "jaeyong2": 24,
+      "werty1248": 23,
+      "davidkim205": 21,
+      "ChuGyouk": 21,
+      "jp1924": 18,
+      "youjunhyeok": 17,
+      "KETI-AIR": 14,
+      "Nexdata": 12
+    },
+    "top_tasks": {
+      "text-generation": 301,
+      "question-answering": 184,
+      "text-classification": 156,
+      "translation": 117,
+      "feature-extraction": 47,
+      "summarization": 44,
+      "automatic-speech-recognition": 42,
+      "token-classification": 34,
+      "visual-question-answering": 33,
+      "text-retrieval": 33
+    },
+    "multilingual_count": 594
+  }
+}
