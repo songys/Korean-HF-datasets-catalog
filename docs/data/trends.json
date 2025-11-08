@@ -1,27 +1,32 @@
 {
-  "generated_at": "2025-11-07T23:45:12.634410",
+  "generated_at": "2025-11-08T11:54:19.300357",
   "trends": {
     "dates": [
+      "20251012",
       "20251028",
       "20251107"
     ],
     "total_datasets": [
+      1326,
       1354,
       1367
     ],
     "total_downloads": [
+      890871,
       763446,
       787921
     ],
     "total_likes": [
+      10761,
       10869,
       10953
     ],
     "multilingual_count": [
+      585,
       594,
       600
     ],
-    "growth_rate": 0.96,
+    "growth_rate": 3.09,
     "latest_stats": {
       "total_datasets": 1367,
       "total_downloads": 787921,
@@ -52,8 +57,8 @@
       },
       "multilingual_count": 600
     },
-    "first_date": "20251028",
+    "first_date": "20251012",
     "last_date": "20251107",
-    "total_weeks": 2
+    "total_weeks": 3
   }
 }
