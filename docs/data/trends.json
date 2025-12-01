@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-11-24T01:20:23.359025",
+  "generated_at": "2025-12-01T01:29:06.712479",
   "trends": {
     "dates": [
       "20251012",
@@ -7,7 +7,8 @@
       "20251107",
       "20251110",
       "20251117",
-      "20251124"
+      "20251124",
+      "20251201"
     ],
     "total_datasets": [
       1326,
@@ -15,7 +16,8 @@
       1367,
       1369,
       1377,
-      1389
+      1389,
+      1398
     ],
     "total_downloads": [
       890871,
@@ -23,7 +25,8 @@
       787921,
       806512,
       823653,
-      786611
+      786611,
+      789682
     ],
     "total_likes": [
       10761,
@@ -31,7 +34,8 @@
       10953,
       10971,
       11071,
-      11125
+      11125,
+      11176
     ],
     "multilingual_count": [
       585,
@@ -39,41 +43,42 @@
       600,
       601,
       606,
-      611
+      611,
+      617
     ],
-    "growth_rate": 4.75,
+    "growth_rate": 5.43,
     "latest_stats": {
-      "total_datasets": 1389,
-      "total_downloads": 786611,
-      "total_likes": 11125,
+      "total_datasets": 1398,
+      "total_downloads": 789682,
+      "total_likes": 11176,
       "top_authors": {
         "nmixx-fin": 37,
         "nayohan": 31,
         "jaeyong2": 24,
         "werty1248": 23,
-        "ChuGyouk": 21,
         "davidkim205": 21,
+        "ChuGyouk": 21,
         "jp1924": 18,
         "youjunhyeok": 17,
         "KETI-AIR": 14,
-        "Kratos-AI": 12
+        "Nexdata": 12
       },
       "top_tasks": {
-        "text-generation": 308,
-        "question-answering": 193,
-        "text-classification": 163,
+        "text-generation": 313,
+        "question-answering": 196,
+        "text-classification": 165,
         "translation": 121,
         "feature-extraction": 48,
         "summarization": 44,
-        "automatic-speech-recognition": 42,
+        "automatic-speech-recognition": 41,
         "visual-question-answering": 36,
         "token-classification": 34,
-        "text-retrieval": 33
+        "text-retrieval": 34
       },
-      "multilingual_count": 611
+      "multilingual_count": 617
     },
     "first_date": "20251012",
-    "last_date": "20251124",
-    "total_weeks": 6
+    "last_date": "20251201",
+    "total_weeks": 7
   }
 }
