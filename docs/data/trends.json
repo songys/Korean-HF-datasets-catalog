@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-01T01:29:06.712479",
+  "generated_at": "2025-12-08T01:18:09.017719",
   "trends": {
     "dates": [
       "20251012",
@@ -8,7 +8,8 @@
       "20251110",
       "20251117",
       "20251124",
-      "20251201"
+      "20251201",
+      "20251208"
     ],
     "total_datasets": [
       1326,
@@ -17,7 +18,8 @@
       1369,
       1377,
       1389,
-      1398
+      1398,
+      1409
     ],
     "total_downloads": [
       890871,
@@ -26,7 +28,8 @@
       806512,
       823653,
       786611,
-      789682
+      789682,
+      911221
     ],
     "total_likes": [
       10761,
@@ -35,7 +38,8 @@
       10971,
       11071,
       11125,
-      11176
+      11176,
+      11210
     ],
     "multilingual_count": [
       585,
@@ -44,13 +48,14 @@
       601,
       606,
       611,
-      617
+      617,
+      623
     ],
-    "growth_rate": 5.43,
+    "growth_rate": 6.26,
     "latest_stats": {
-      "total_datasets": 1398,
-      "total_downloads": 789682,
-      "total_likes": 11176,
+      "total_datasets": 1409,
+      "total_downloads": 911221,
+      "total_likes": 11210,
       "top_authors": {
         "nmixx-fin": 37,
         "nayohan": 31,
@@ -64,21 +69,21 @@
         "Nexdata": 12
       },
       "top_tasks": {
-        "text-generation": 313,
+        "text-generation": 316,
         "question-answering": 196,
-        "text-classification": 165,
-        "translation": 121,
+        "text-classification": 170,
+        "translation": 122,
         "feature-extraction": 48,
         "summarization": 44,
-        "automatic-speech-recognition": 41,
+        "automatic-speech-recognition": 40,
         "visual-question-answering": 36,
-        "token-classification": 34,
-        "text-retrieval": 34
+        "text-retrieval": 34,
+        "token-classification": 34
       },
-      "multilingual_count": 617
+      "multilingual_count": 623
     },
     "first_date": "20251012",
-    "last_date": "20251201",
-    "total_weeks": 7
+    "last_date": "20251208",
+    "total_weeks": 8
   }
 }

@@ -1,164 +1,81 @@
 {
-  "generated_at": "2025-12-01T01:29:06.802806",
-  "previous_date": "20251124",
-  "current_date": "20251201",
-  "previous_count": 1389,
-  "current_count": 1398,
+  "generated_at": "2025-12-08T01:18:09.104967",
+  "previous_date": "20251201",
+  "current_date": "20251208",
+  "previous_count": 1398,
+  "current_count": 1409,
   "changes": {
     "new_datasets": [
       {
-        "id": "OpenLab-NLP/ko-corpus",
-        "author": "OpenLab-NLP",
-        "created_at": "2025-11-27 13:35:07+00:00",
-        "last_modified": "2025-11-28 02:36:25+00:00",
-        "downloads": 58,
+        "id": "KAI-KratosAI/Korean-Signs-Image-Dataset",
+        "author": "KAI-KratosAI",
+        "created_at": "2025-10-13 08:29:56+00:00",
+        "last_modified": "2025-10-13 08:31:17+00:00",
+        "downloads": 47,
         "likes": 0,
         "tags": [
-          "task_categories:text-generation",
+          "task_categories:image-classification",
           "language:ko",
-          "license:apache-2.0",
-          "size_categories:10M<n<100M",
-          "format:text",
-          "modality:text",
-          "library:datasets",
-          "library:mlcroissant",
-          "region:us",
-          "corpus"
-        ],
-        "description": "",
-        "url": "https://huggingface.co/datasets/OpenLab-NLP/ko-corpus",
-        "languages": [
-          "ko"
-        ],
-        "tasks": [
-          "text-generation"
-        ],
-        "size_categories": [
-          "10M<n<100M"
-        ]
-      },
-      {
-        "id": "jiwon9703/ko-hallucination-benchmark",
-        "author": "jiwon9703",
-        "created_at": "2025-11-25 02:17:52+00:00",
-        "last_modified": "2025-11-25 02:19:33+00:00",
-        "downloads": 174,
-        "likes": 1,
-        "tags": [
-          "task_categories:text-generation",
-          "task_categories:question-answering",
-          "language:ko",
-          "license:mit",
-          "size_categories:n<1K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us",
-          "hallucination",
-          "benchmark",
-          "evaluation",
-          "korean"
-        ],
-        "description": "\n\t\n\t\t\n\t\tHallucination Benchmark v1\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nHallucination Benchmark는 한국어 LLM의 환각(Hallucination) 탐지 성능을 평가하기 위한 벤치마크 데이터셋입니다.\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\n\n언어: 한국어 (Korean)\n샘플 수: 244개\n태스크: 6가지 (Coding, Dialogue, General, Math, QA, Summarization)\n환각 타입: 5가지 (No Hallucination, Factual Contradiction, Factual Fabrication, Instruction Inconsistency, Logical Inconsistency)\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n이 벤치마크는 다음과 같은 태스크를 포함합니다:\n\nCoding (40 samples): 코드 생성 및 프로그래밍 문제\nDialogue (40… See the full description on the dataset page: https://huggingface.co/datasets/jiwon9703/ko-hallucination-benchmark.",
-        "url": "https://huggingface.co/datasets/jiwon9703/ko-hallucination-benchmark",
-        "languages": [
-          "ko"
-        ],
-        "tasks": [
-          "text-generation",
-          "question-answering"
-        ],
-        "size_categories": [
-          "n<1K"
-        ]
-      },
-      {
-        "id": "ronantakizawa/twitter-trending-hashtags",
-        "author": "ronantakizawa",
-        "created_at": "2025-11-30 11:21:21+00:00",
-        "last_modified": "2025-11-30 16:50:08+00:00",
-        "downloads": 0,
-        "likes": 1,
-        "tags": [
-          "task_categories:text-classification",
-          "task_categories:time-series-forecasting",
-          "task_categories:text-retrieval",
-          "language:en",
-          "language:es",
-          "language:ar",
-          "language:th",
-          "language:pt",
-          "language:zh",
-          "language:ru",
-          "language:ko",
-          "language:ja",
-          "language:multilingual",
-          "license:mit",
-          "size_categories:10K<n<100K",
-          "format:csv",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us",
-          "twitter",
-          "x",
-          "trending",
-          "hashtags",
-          "social-media",
-          "cultural-trends",
-          "news",
-          "politics"
-        ],
-        "description": "\n\t\n\t\t\n\t\tTwitter/X Trending Hashtags (2020-2025)\n\t\n\nA comprehensive dataset of trending hashtags on Twitter/X from 2020 to 2025, containing 12,036 unique trend entries across six years, capturing major world events, cultural moments, and viral phenomena.\n\n\t\n\t\t\n\t\t📊 Dataset Description\n\t\n\nThis dataset captures trending hashtags from Twitter/X (formerly Twitter) by analyzing Wayback Machine snapshots of trends24.in, providing insights into breaking news, viral content, cultural moments, and… See the full description on the dataset page: https://huggingface.co/datasets/ronantakizawa/twitter-trending-hashtags.",
-        "url": "https://huggingface.co/datasets/ronantakizawa/twitter-trending-hashtags",
-        "languages": [
-          "en",
-          "es",
-          "ar",
-          "th",
-          "pt",
-          "zh",
-          "ru",
-          "ko",
-          "ja",
-          "multilingual"
-        ],
-        "tasks": [
-          "text-classification",
-          "time-series-forecasting",
-          "text-retrieval"
-        ],
-        "size_categories": [
-          "10K<n<100K"
-        ]
-      },
-      {
-        "id": "KyungsuLee/SemanticDiffusion-for-Line-Art-dataset",
-        "author": "KyungsuLee",
-        "created_at": "2025-11-30 12:51:35+00:00",
-        "last_modified": "2025-11-30 12:55:01+00:00",
-        "downloads": 0,
-        "likes": 0,
-        "tags": [
-          "language:ko",
-          "license:mit",
+          "license:cc-by-4.0",
           "size_categories:n<1K",
           "format:imagefolder",
           "modality:image",
           "library:datasets",
           "library:mlcroissant",
           "region:us",
-          "art"
+          "image",
+          "korean",
+          "signboards",
+          "street-signs",
+          "scene-text",
+          "ocr",
+          "ai-research",
+          "multilingual",
+          "computer-vision"
         ],
-        "description": "",
-        "url": "https://huggingface.co/datasets/KyungsuLee/SemanticDiffusion-for-Line-Art-dataset",
+        "description": "\n\t\n\t\t\n\t\tKorean Signs Image Dataset\n\t\n\nThis dataset contains a diverse collection of high-resolution images of Korean street signs, shop boards, and public information signs. The dataset has been curated and anonymized to support research in multilingual OCR, text detection, and cultural-linguistic visual understanding.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask Categories:… See the full description on the dataset page: https://huggingface.co/datasets/KAI-KratosAI/Korean-Signs-Image-Dataset.",
+        "url": "https://huggingface.co/datasets/KAI-KratosAI/Korean-Signs-Image-Dataset",
         "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "nowsika/NOBLE_Eastern-Philosophy-Alignment-Engine",
+        "author": "nowsika",
+        "created_at": "2025-12-05 02:28:21+00:00",
+        "last_modified": "2025-12-08 00:33:09+00:00",
+        "downloads": 32,
+        "likes": 0,
+        "tags": [
+          "language:en",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "modality:document",
+          "modality:text",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "alignment",
+          "safety",
+          "ai-safety",
+          "prompt-engineering",
+          "ethics",
+          "llm",
+          "korean",
+          "eastern-philosophy",
+          "nobility"
+        ],
+        "description": "\n\t\n\t\t\n\t\tNOBLE: Eastern-Philosophy Alignment Engine (v1.0)\n\t\n\n\n“This is not a paper. This is a designer’s alignment notebook.\nBut anyway... It works.”\n\n\n\t\n\t\t\n\t\t☯️ What is NOBLE?\n\t\n\nProject NOBLE is an experimental alignment framework that utilizes Eastern Philosophy (Yin-Yang, Daoism) and Dynamic State Vectors to control the moral standing of Large Language Models (LLMs).\nUnlike traditional RLHF which \"surgically\" alters model weights, NOBLE acts as a \"Semantic Operating System\" injected via… See the full description on the dataset page: https://huggingface.co/datasets/nowsika/NOBLE_Eastern-Philosophy-Alignment-Engine.",
+        "url": "https://huggingface.co/datasets/nowsika/NOBLE_Eastern-Philosophy-Alignment-Engine",
+        "languages": [
+          "en",
           "ko"
         ],
         "tasks": [],
@@ -167,12 +84,92 @@
         ]
       },
       {
-        "id": "ronantakizawa/tiktok-trending-hashtags",
-        "author": "ronantakizawa",
-        "created_at": "2025-11-29 02:53:42+00:00",
-        "last_modified": "2025-11-29 03:17:04+00:00",
-        "downloads": 23,
-        "likes": 1,
+        "id": "KAI-KratosAI/Korean_Menus_Image_Dataset",
+        "author": "KAI-KratosAI",
+        "created_at": "2025-10-13 08:51:26+00:00",
+        "last_modified": "2025-10-13 08:52:13+00:00",
+        "downloads": 153,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-classification",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "image",
+          "korean",
+          "menus",
+          "restaurant",
+          "text-recognition",
+          "ocr",
+          "ai-research",
+          "computer-vision",
+          "food",
+          "multilingual"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Menus Image Dataset\n\t\n\nThis dataset contains high-resolution images of Korean restaurant menus, including traditional, fast-food, and café menus. It has been curated and anonymized to support AI research in OCR, menu understanding, multilingual translation, and food recommendation systems.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask Categories:  \n\nImage… See the full description on the dataset page: https://huggingface.co/datasets/KAI-KratosAI/Korean_Menus_Image_Dataset.",
+        "url": "https://huggingface.co/datasets/KAI-KratosAI/Korean_Menus_Image_Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "KAI-KratosAI/Korean_Warning_Labels_Dataset",
+        "author": "KAI-KratosAI",
+        "created_at": "2025-10-13 09:02:09+00:00",
+        "last_modified": "2025-10-13 09:02:44+00:00",
+        "downloads": 159,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-classification",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "image",
+          "warning-labels",
+          "korean",
+          "safety",
+          "hazard",
+          "signage",
+          "text-recognition",
+          "ocr",
+          "ai-research",
+          "computer-vision"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Warning Labels Dataset\n\t\n\nThis dataset contains high-resolution images of Korean warning and safety labels, including product hazard signs, electrical warnings, chemical safety labels, and public safety notices. It supports AI research in OCR, text detection, and safety compliance analysis.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask Categories:  \n\nImage… See the full description on the dataset page: https://huggingface.co/datasets/KAI-KratosAI/Korean_Warning_Labels_Dataset.",
+        "url": "https://huggingface.co/datasets/KAI-KratosAI/Korean_Warning_Labels_Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "ZouSeth/tiktok-trending-hashtags",
+        "author": "ZouSeth",
+        "created_at": "2025-12-04 15:46:01+00:00",
+        "last_modified": "2025-12-04 15:46:02+00:00",
+        "downloads": 22,
+        "likes": 0,
         "tags": [
           "task_categories:text-classification",
           "task_categories:time-series-forecasting",
@@ -202,8 +199,8 @@
           "social-media",
           "cultural-trends"
         ],
-        "description": "\n\t\n\t\t\n\t\tTikTok Trending Hashtags (2022-2025)\n\t\n\nA comprehensive dataset of trending hashtags on TikTok from 2022 to 2025, containing 1,830 unique hashtag entries across multiple years, languages, and cultural contexts.\n\n\t\n\t\t\n\t\t📊 Dataset Description\n\t\n\nThis dataset captures trending hashtags from TikTok's Creative Center, providing insights into viral content, cultural moments, and global events from 2022 to 2025.\nData Source: TikTok Creative Center - Popular Hashtags\n\n\t\n\t\t\n\t\tDataset Structure… See the full description on the dataset page: https://huggingface.co/datasets/ronantakizawa/tiktok-trending-hashtags.",
-        "url": "https://huggingface.co/datasets/ronantakizawa/tiktok-trending-hashtags",
+        "description": "\n\t\n\t\t\n\t\tTikTok Trending Hashtags (2022-2025)\n\t\n\nA comprehensive dataset of trending hashtags on TikTok from 2022 to 2025, containing 1,830 unique hashtag entries across multiple years, languages, and cultural contexts.\n\n\t\n\t\t\n\t\t📊 Dataset Description\n\t\n\nThis dataset captures trending hashtags from TikTok's Creative Center, providing insights into viral content, cultural moments, and global events from 2022 to 2025.\nData Source: TikTok Creative Center - Popular Hashtags\n\n\t\n\t\t\n\t\tDataset Structure… See the full description on the dataset page: https://huggingface.co/datasets/ZouSeth/tiktok-trending-hashtags.",
+        "url": "https://huggingface.co/datasets/ZouSeth/tiktok-trending-hashtags",
         "languages": [
           "en",
           "es",
@@ -225,573 +222,638 @@
         ]
       },
       {
-        "id": "ranjanhr1/nayanabench-rendered",
-        "author": "ranjanhr1",
-        "created_at": "2025-11-29 12:26:02+00:00",
-        "last_modified": "2025-11-29 17:59:01+00:00",
-        "downloads": 4,
+        "id": "LimYeri/kor-diary-emotion",
+        "author": "LimYeri",
+        "created_at": "2025-12-02 09:15:44+00:00",
+        "last_modified": "2025-12-02 10:08:17+00:00",
+        "downloads": 29,
         "likes": 0,
         "tags": [
-          "task_categories:image-to-text",
-          "task_categories:object-detection",
-          "multilinguality:multilingual",
-          "language:en",
-          "language:hi",
-          "language:kn",
-          "language:ta",
-          "language:te",
-          "language:mr",
-          "language:pa",
-          "language:bn",
-          "language:or",
-          "language:ml",
-          "language:gu",
-          "language:sa",
-          "language:ja",
+          "task_categories:text-classification",
           "language:ko",
-          "language:zh",
+          "license:mit",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Daily-Emotion & Situation Dataset\n\t\n\n\n\t\n\t\t\n\t\t📌 Dataset Overview\n\t\n\n이 데이터셋은 한국어 감정 분류를 위해 제작된 텍스트 데이터셋으로,OpenAI API를 활용해 생성된 일기(Diary) 형식의 자연스럽고 일상적인 문장들로 구성되어 있습니다.총 29,968개의 문장을 포함하며, 각 샘플은 사용자의 일상 경험·상황·감정 흐름을 반영하도록 설계되었습니다.  \nThis is a large-scale Korean diary-style emotion classification dataset generated using OpenAI's GPT-4o-mini model.It contains 29,968 samples, each written in a natural diary format,capturing everyday situations and emotional nuances across 8 main… See the full description on the dataset page: https://huggingface.co/datasets/LimYeri/kor-diary-emotion.",
+        "url": "https://huggingface.co/datasets/LimYeri/kor-diary-emotion",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "text-classification"
+        ],
+        "size_categories": [
+          "10K<n<100K"
+        ]
+      },
+      {
+        "id": "KAI-KratosAI/Korean_Price_Tags_Image_Dataset",
+        "author": "KAI-KratosAI",
+        "created_at": "2025-10-13 08:54:05+00:00",
+        "last_modified": "2025-10-13 08:55:09+00:00",
+        "downloads": 48,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-classification",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "image",
+          "korean",
+          "price-tags",
+          "retail",
+          "pricing",
+          "text-recognition",
+          "ocr",
+          "computer-vision",
+          "ai-research",
+          "multilingual"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Price Tags Image Dataset\n\t\n\nThis dataset contains high-resolution images of Korean price tags found in retail stores, supermarkets, and markets. It has been curated and anonymized to support AI research in OCR, pricing recognition, product detection, and retail analytics.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask Categories:  \n\nImage Classification  \nText… See the full description on the dataset page: https://huggingface.co/datasets/KAI-KratosAI/Korean_Price_Tags_Image_Dataset.",
+        "url": "https://huggingface.co/datasets/KAI-KratosAI/Korean_Price_Tags_Image_Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "agentlans/DSULT-Core-ShareGPT-X",
+        "author": "agentlans",
+        "created_at": "2025-12-01 18:16:46+00:00",
+        "last_modified": "2025-12-01 23:35:17+00:00",
+        "downloads": 105,
+        "likes": 2,
+        "tags": [
+          "task_categories:text-generation",
+          "task_categories:text-classification",
+          "language:en",
+          "language:ja",
+          "language:es",
           "language:de",
           "language:fr",
+          "language:tr",
+          "language:zh",
+          "language:pt",
+          "language:ar",
+          "language:nl",
+          "language:ko",
+          "language:id",
           "language:it",
           "language:ru",
-          "language:ar",
-          "language:es",
+          "language:pl",
+          "language:fa",
+          "language:he",
           "language:th",
-          "size_categories:1K<n<10K",
-          "format:parquet",
-          "modality:image",
+          "language:cs",
+          "language:fi",
+          "language:uk",
+          "language:hi",
+          "license:cc0-1.0",
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:tabular",
           "modality:text",
           "library:datasets",
           "library:pandas",
           "library:mlcroissant",
           "library:polars",
           "region:us",
-          "ocr",
-          "text-rendering",
-          "multilingual",
-          "document-analysis"
+          "chatgpt",
+          "conversation",
+          "scrape"
         ],
-        "description": "\n\t\n\t\t\n\t\tNayanaBench Rendered Dataset\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nThis dataset contains 2D rendered text images for document analysis and OCR tasks across 22 languages.\nEach language split contains document images with text rendered in bounding boxes using authentic fonts.\n\n\t\n\t\t\n\t\tDataset Statistics\n\t\n\n\nTotal Samples: 4,400\nLanguages: 22\nSplits: 22 language-based splits\n\n\n\t\n\t\t\n\t\tLanguage Splits\n\t\n\n\n\t\n\t\t\nLanguage\nCode\nSamples\n\n\n\t\t\nEN\nen\n200\n\n\nHI\nhi\n200\n\n\nKN\nkn\n200\n\n\nTA\nta\n200\n\n\nTE\nte\n200… See the full description on the dataset page: https://huggingface.co/datasets/ranjanhr1/nayanabench-rendered.",
-        "url": "https://huggingface.co/datasets/ranjanhr1/nayanabench-rendered",
+        "description": "\n\t\n\t\t\n\t\tDSULT-Core/ShareGPT-X Filtered Dataset\n\t\n\n\nThis dataset is a curated subset of ShareGPT-X, which contains approximately 92,000 one-to-one conversations between humans and ChatGPT, collected from X.com (formerly Twitter). The corpus covers content from January 2024 through May 2025, built entirely from public \"share\" links posted by users on their timelines.\nThe file ChatGPT-Simple_ShareGPT_Full.json includes the longest sequences of alternating human and gpt messages within each… See the full description on the dataset page: https://huggingface.co/datasets/agentlans/DSULT-Core-ShareGPT-X.",
+        "url": "https://huggingface.co/datasets/agentlans/DSULT-Core-ShareGPT-X",
         "languages": [
           "en",
-          "hi",
-          "kn",
-          "ta",
-          "te",
-          "mr",
-          "pa",
-          "bn",
-          "or",
-          "ml",
-          "gu",
-          "sa",
           "ja",
-          "ko",
-          "zh",
+          "es",
           "de",
           "fr",
+          "tr",
+          "zh",
+          "pt",
+          "ar",
+          "nl",
+          "ko",
+          "id",
           "it",
           "ru",
-          "ar",
-          "es",
-          "th"
+          "pl",
+          "fa",
+          "he",
+          "th",
+          "cs",
+          "fi",
+          "uk",
+          "hi"
         ],
         "tasks": [
-          "image-to-text",
-          "object-detection"
+          "text-generation",
+          "text-classification"
         ],
         "size_categories": [
-          "1K<n<10K"
+          "10K<n<100K"
         ]
       },
       {
-        "id": "OpenLab-NLP/tiny-singleturn-chat-ko",
-        "author": "OpenLab-NLP",
-        "created_at": "2025-03-09 06:37:17+00:00",
-        "last_modified": "2025-11-28 02:39:14+00:00",
-        "downloads": 41,
+        "id": "shopkeeper/korean_wiki_content_only_120125",
+        "author": "shopkeeper",
+        "created_at": "2025-12-05 15:16:15+00:00",
+        "last_modified": "2025-12-05 15:21:53+00:00",
+        "downloads": 13,
         "likes": 0,
         "tags": [
-          "task_categories:question-answering",
+          "task_categories:text-generation",
+          "language:ko",
+          "license:mit",
+          "size_categories:1M<n<10M",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "Cleaned Korean Wiki text for 120125.\n",
+        "url": "https://huggingface.co/datasets/shopkeeper/korean_wiki_content_only_120125",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "text-generation"
+        ],
+        "size_categories": [
+          "1M<n<10M"
+        ]
+      },
+      {
+        "id": "KAI-KratosAI/Korean_User_Manuals_Dataset",
+        "author": "KAI-KratosAI",
+        "created_at": "2025-10-13 09:04:30+00:00",
+        "last_modified": "2025-10-13 09:05:21+00:00",
+        "downloads": 99,
+        "likes": 0,
+        "tags": [
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "modality:document",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "document",
+          "korean",
+          "user-manuals",
+          "instruction",
+          "product-guides",
+          "text-recognition",
+          "ocr",
+          "ai-research",
+          "computer-vision",
+          "multilingual"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean User Manuals Dataset\n\t\n\nThis dataset contains high-resolution images and PDFs of Korean user manuals and instruction guides for electronics, appliances, and consumer products. It is curated and anonymized to support AI research in OCR, document understanding, and multilingual text extraction.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask Categories:  \n\nDocument… See the full description on the dataset page: https://huggingface.co/datasets/KAI-KratosAI/Korean_User_Manuals_Dataset.",
+        "url": "https://huggingface.co/datasets/KAI-KratosAI/Korean_User_Manuals_Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "yuivnj/KoAlpaca-v1.1a",
+        "author": "yuivnj",
+        "created_at": "2025-12-06 08:18:21+00:00",
+        "last_modified": "2025-12-06 08:18:21+00:00",
+        "downloads": 4,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-generation",
+          "language:ko",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us",
+          "KoAlpaca"
+        ],
+        "description": "\n\t\n\t\t\n\t\tDataset Card for \"KoAlpaca-v1.1a\"\n\t\n\n\n\t\n\t\t\n\t\tProject Repo\n\t\n\n\nGithub Repo: Beomi/KoAlpaca\n\n\n\t\n\t\t\n\t\tHow to use\n\t\n\n>>> from datasets import load_dataset\n\n>>> ds = load_dataset(\"beomi/KoAlpaca-v1.1a\", split=\"train\")\n>>> ds\nDataset({\n    features: ['instruction', 'input', 'output'],\n    num_rows: 21155\n})\n\n>>> ds[0]\n{'instruction': '양파는 어떤 식물 부위인가요? 그리고 고구마는 뿌리인가요?',\n 'output': '양파는 잎이 아닌 식물의 줄기 부분입니다. 고구마는 식물의 뿌리 부분입니다. \\n\\n식물의 부위의 구분에 대해 궁금해하는 분이라면 분명 이 질문에 대한 답을 찾고 있을 것입니다. 양파는 잎이 아닌 줄기… See the full description on the dataset page: https://huggingface.co/datasets/yuivnj/KoAlpaca-v1.1a.",
+        "url": "https://huggingface.co/datasets/yuivnj/KoAlpaca-v1.1a",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "text-generation"
+        ],
+        "size_categories": [
+          "10K<n<100K"
+        ]
+      },
+      {
+        "id": "FISA-conclave/news-sentiment-dataset",
+        "author": "FISA-conclave",
+        "created_at": "2025-12-07 05:01:24+00:00",
+        "last_modified": "2025-12-07 05:01:33+00:00",
+        "downloads": 5,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-classification",
+          "language:ko",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us",
+          "sentiment-analysis",
+          "korean",
+          "finance",
+          "news"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean News Sentiment Analysis Dataset\n\t\n\n\n\t\n\t\t\n\t\t데이터셋 설명\n\t\n\n한국어 뉴스 기사에서 추출한 기업 관련 문장의 감성 분석 데이터셋입니다.\n\n\t\n\t\t\n\t\t데이터 통계\n\t\n\n\n총 샘플 수: 40,270개\nTrain: 32,216개 (80%)\nTest: 8,054개 (20%)\n\n\n\t\n\t\t\n\t\t레이블 분포\n\t\n\n\n\t\n\t\t\nLabel\nCount\nPercentage\n\n\n\t\t\nnegative\n3,503\n8.7%\n\n\nneutral\n20,715\n51.4%\n\n\npositive\n16,052\n39.9%\n\n\n\t\n\n\n\t\n\t\t\n\t\t데이터 구조\n\t\n\n{\n  'sentence': str,  # 뉴스 기사 문장\n  'label': str      # 감성 레이블 (negative, neutral, positive)\n}\n\n\n\t\n\t\t\n\t\t사용 예시\n\t\n\n\n\t\n\t\t\n\t\t데이터셋 로드\n\t\n\nfrom datasets import load_dataset\n\n#… See the full description on the dataset page: https://huggingface.co/datasets/FISA-conclave/news-sentiment-dataset.",
+        "url": "https://huggingface.co/datasets/FISA-conclave/news-sentiment-dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "text-classification"
+        ],
+        "size_categories": [
+          "10K<n<100K"
+        ]
+      },
+      {
+        "id": "meetween/mumospee_emilia",
+        "author": "meetween",
+        "created_at": "2024-11-14 10:52:55+00:00",
+        "last_modified": "2024-12-18 22:14:21+00:00",
+        "downloads": 1,
+        "likes": 0,
+        "tags": [
+          "language:fr",
+          "language:ko",
+          "language:ja",
+          "language:de",
+          "language:en",
+          "language:zh",
+          "license:cc-by-nc-4.0",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\tDataset Summary\n\t\n\nThis dataset is a modified version of the Emilia corpus, converted into parquet format to facilitate optimized I/O operations in high-performance and distributed computing environments. \nThe Emilia dataset is a comprehensive, multilingual dataset with the following features:\n\ncontaining over 101k hours of speech data;\ncovering six different languages: English (En), Chinese (Zh), German (De), French (Fr), Japanese (Ja), and Korean (Ko);\ncontaining diverse speech data… See the full description on the dataset page: https://huggingface.co/datasets/meetween/mumospee_emilia.",
+        "url": "https://huggingface.co/datasets/meetween/mumospee_emilia",
+        "languages": [
+          "fr",
+          "ko",
+          "ja",
+          "de",
+          "en",
+          "zh"
+        ],
+        "tasks": [],
+        "size_categories": []
+      },
+      {
+        "id": "KAI-KratosAI/Korean_Travel_Boards_Image_Dataset",
+        "author": "KAI-KratosAI",
+        "created_at": "2025-10-13 08:48:37+00:00",
+        "last_modified": "2025-10-13 08:49:13+00:00",
+        "downloads": 30,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-classification",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "image",
+          "travel",
+          "tourism",
+          "signboards",
+          "korean",
+          "public-information",
+          "ocr",
+          "text-recognition",
+          "ai-research",
+          "computer-vision",
+          "multilingual"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Travel Boards Image Dataset\n\t\n\nThis dataset contains high-resolution images of Korean travel and tourism boards, including city maps, attraction guides, directional signs, transportation boards, and public tourism information displays. It supports OCR, multilingual translation, and computer vision research in travel-tech applications.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io… See the full description on the dataset page: https://huggingface.co/datasets/KAI-KratosAI/Korean_Travel_Boards_Image_Dataset.",
+        "url": "https://huggingface.co/datasets/KAI-KratosAI/Korean_Travel_Boards_Image_Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "KAI-KratosAI/Korean_Product_Labels_Image_Dataset",
+        "author": "KAI-KratosAI",
+        "created_at": "2025-10-13 08:50:01+00:00",
+        "last_modified": "2025-10-13 08:50:37+00:00",
+        "downloads": 27,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-classification",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "image",
+          "korean",
+          "product-labels",
+          "packaging",
+          "text-recognition",
+          "ocr",
+          "ai-research",
+          "consumer-goods",
+          "computer-vision",
+          "retail",
+          "multilingual"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Product Labels Image Dataset\n\t\n\nThis dataset contains a diverse collection of high-resolution images of Korean product labels and packaging. The dataset spans categories such as food, cosmetics, beverages, and household items, designed to support OCR, product classification, and visual-language AI research.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask… See the full description on the dataset page: https://huggingface.co/datasets/KAI-KratosAI/Korean_Product_Labels_Image_Dataset.",
+        "url": "https://huggingface.co/datasets/KAI-KratosAI/Korean_Product_Labels_Image_Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "KAI-KratosAI/Korean-Billboards-Image-Dataset",
+        "author": "KAI-KratosAI",
+        "created_at": "2025-10-13 08:32:15+00:00",
+        "last_modified": "2025-10-13 08:33:23+00:00",
+        "downloads": 102,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-classification",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "image",
+          "billboard",
+          "advertisement",
+          "korean",
+          "outdoor-media",
+          "text-recognition",
+          "ocr",
+          "computer-vision",
+          "ai-research",
+          "marketing-analytics"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Billboards Image Dataset\n\t\n\nThis dataset contains high-quality images of Korean billboards, collected from diverse regions and media types including digital boards, street hoardings, transit ads, and building-mounted displays. It supports AI research in OCR, advertising analytics, and multimodal vision-language understanding.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported… See the full description on the dataset page: https://huggingface.co/datasets/KAI-KratosAI/Korean-Billboards-Image-Dataset.",
+        "url": "https://huggingface.co/datasets/KAI-KratosAI/Korean-Billboards-Image-Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "KAI-KratosAI/Korean_Receipts_Dataset",
+        "author": "KAI-KratosAI",
+        "created_at": "2025-10-13 08:56:17+00:00",
+        "last_modified": "2025-10-13 08:57:23+00:00",
+        "downloads": 161,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-classification",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "image",
+          "korean",
+          "receipts",
+          "retail",
+          "text-recognition",
+          "ocr",
+          "computer-vision",
+          "ai-research",
+          "multilingual",
+          "finance"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Receipts Dataset\n\t\n\nThis dataset contains high-resolution images of Korean retail receipts from supermarkets, restaurants, and stores. The dataset has been anonymized to remove personal information and is intended for AI research in OCR, document understanding, and financial analytics.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask Categories:  \n\nImage… See the full description on the dataset page: https://huggingface.co/datasets/KAI-KratosAI/Korean_Receipts_Dataset.",
+        "url": "https://huggingface.co/datasets/KAI-KratosAI/Korean_Receipts_Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "bolorjinbat/LFM2-ColBERT-350M",
+        "author": "bolorjinbat",
+        "created_at": "2025-12-05 07:27:18+00:00",
+        "last_modified": "2025-12-05 07:30:23+00:00",
+        "downloads": 22,
+        "likes": 0,
+        "tags": [
+          "language:en",
+          "language:ar",
+          "language:zh",
+          "language:fr",
+          "language:de",
+          "language:ja",
+          "language:ko",
+          "language:es",
+          "license:other",
+          "size_categories:n<1K",
+          "format:text",
+          "modality:text",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "liquid",
+          "lfm2",
+          "edge",
+          "ColBERT",
+          "PyLate",
+          "sentence-transformers",
+          "sentence-similarity",
+          "feature-extraction"
+        ],
+        "description": "\n\n  \n\n\n\n\n  Playground\n  \n    \n    \n  \n  \n    \n    \n  \n  \n    Playground\n    Playground\n  \n  \n    \n    \n  \n\n\n\n  Leap\n  \n    \n  \n  \n    \n    \n  \n  \n  \n\n\n\n\n\n\n\t\n\t\t\n\t\tLFM2-ColBERT-350M\n\t\n\nLFM2-ColBERT-350M is a late interaction retriever with excellent multilingual performance. It allows you to store documents in one language (for example, a product description in English) and retrieve them in many languages with high accuracy.\n\nLFM2-ColBERT-350M offers best-in-class accuracy across different… See the full description on the dataset page: https://huggingface.co/datasets/bolorjinbat/LFM2-ColBERT-350M.",
+        "url": "https://huggingface.co/datasets/bolorjinbat/LFM2-ColBERT-350M",
+        "languages": [
+          "en",
+          "ar",
+          "zh",
+          "fr",
+          "de",
+          "ja",
+          "ko",
+          "es"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "KAI-KratosAI/Korean_Real_Estate_Ads_Dataset",
+        "author": "KAI-KratosAI",
+        "created_at": "2025-10-13 09:01:02+00:00",
+        "last_modified": "2025-10-13 09:01:35+00:00",
+        "downloads": 119,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-classification",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "image",
+          "real-estate",
+          "advertisement",
+          "korean",
+          "property-listings",
+          "text-recognition",
+          "ocr",
+          "ai-research",
+          "computer-vision",
+          "multilingual"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Real Estate Ads Dataset\n\t\n\nThis dataset contains high-resolution images of Korean real estate advertisements, including online listings, printed flyers, and billboard ads for properties such as apartments, houses, and commercial spaces. It is designed to support AI research in OCR, visual understanding, and property analysis.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported… See the full description on the dataset page: https://huggingface.co/datasets/KAI-KratosAI/Korean_Real_Estate_Ads_Dataset.",
+        "url": "https://huggingface.co/datasets/KAI-KratosAI/Korean_Real_Estate_Ads_Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "LimYeri/kor-diary-emotion_v2",
+        "author": "LimYeri",
+        "created_at": "2025-12-03 13:15:38+00:00",
+        "last_modified": "2025-12-03 13:19:56+00:00",
+        "downloads": 10,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-classification",
           "language:ko",
           "license:mit",
           "size_categories:10K<n<100K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:mlcroissant",
+          "library:polars",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Daily-Emotion & Situation Dataset\n\t\n\n\n\t\n\t\t\n\t\t📌 Dataset Overview\n\t\n\n이 데이터셋은 한국어 감정 분류를 위해 제작된 텍스트 데이터셋으로,OpenAI API를 활용해 생성된 일기(Diary) 형식의 자연스럽고 일상적인 문장들로 구성되어 있습니다.총 29,968개의 문장을 포함하며, 각 샘플은 사용자의 일상 경험·상황·감정 흐름을 반영하도록 설계되었습니다.  \nThis is a large-scale Korean diary-style emotion classification dataset generated using OpenAI's GPT-4o-mini model.It contains 29,968 samples, each written in a natural diary format,capturing everyday situations and emotional nuances across 8 main… See the full description on the dataset page: https://huggingface.co/datasets/LimYeri/kor-diary-emotion_v2.",
+        "url": "https://huggingface.co/datasets/LimYeri/kor-diary-emotion_v2",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "text-classification"
+        ],
+        "size_categories": [
+          "10K<n<100K"
+        ]
+      },
+      {
+        "id": "strongminsu/ko-en-structured-translations",
+        "author": "strongminsu",
+        "created_at": "2025-12-05 10:16:37+00:00",
+        "last_modified": "2025-12-06 06:15:24+00:00",
+        "downloads": 29,
+        "likes": 1,
+        "tags": [
+          "task_categories:translation",
+          "language:ko",
+          "language:en",
+          "license:mit",
+          "size_categories:1K<n<10K",
           "format:csv",
           "modality:text",
           "library:datasets",
           "library:pandas",
           "library:mlcroissant",
           "library:polars",
-          "region:us"
-        ],
-        "description": "",
-        "url": "https://huggingface.co/datasets/OpenLab-NLP/tiny-singleturn-chat-ko",
-        "languages": [
-          "ko"
-        ],
-        "tasks": [
-          "question-answering"
-        ],
-        "size_categories": [
-          "10K<n<100K"
-        ]
-      },
-      {
-        "id": "OpenLab-NLP/tiny-instruct-ko",
-        "author": "OpenLab-NLP",
-        "created_at": "2025-10-10 09:00:46+00:00",
-        "last_modified": "2025-11-28 02:38:51+00:00",
-        "downloads": 132,
-        "likes": 0,
-        "tags": [
-          "task_categories:question-answering",
-          "task_categories:text-generation",
-          "language:ko",
-          "license:apache-2.0",
-          "size_categories:10K<n<100K",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
           "region:us",
-          "instruct",
-          "sft"
+          "translation",
+          "korean",
+          "english",
+          "parallel",
+          "seq2seq",
+          "transformer",
+          "education",
+          "nlp"
         ],
-        "description": "",
-        "url": "https://huggingface.co/datasets/OpenLab-NLP/tiny-instruct-ko",
-        "languages": [
-          "ko"
-        ],
-        "tasks": [
-          "question-answering",
-          "text-generation"
-        ],
-        "size_categories": [
-          "10K<n<100K"
-        ]
-      },
-      {
-        "id": "OpenLab-NLP/tiny-multiturn-chat-ko",
-        "author": "OpenLab-NLP",
-        "created_at": "2025-11-24 06:15:40+00:00",
-        "last_modified": "2025-11-28 02:37:55+00:00",
-        "downloads": 57,
-        "likes": 0,
-        "tags": [
-          "task_categories:question-answering",
-          "task_categories:text-generation",
-          "language:ko",
-          "license:apache-2.0",
-          "size_categories:1M<n<10M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us"
-        ],
-        "description": "",
-        "url": "https://huggingface.co/datasets/OpenLab-NLP/tiny-multiturn-chat-ko",
-        "languages": [
-          "ko"
-        ],
-        "tasks": [
-          "question-answering",
-          "text-generation"
-        ],
-        "size_categories": [
-          "1M<n<10M"
-        ]
-      },
-      {
-        "id": "almanach/halvest",
-        "author": "almanach",
-        "created_at": "2024-04-23 13:30:23+00:00",
-        "last_modified": "2024-07-31 09:56:58+00:00",
-        "downloads": 759,
-        "likes": 3,
-        "tags": [
-          "task_categories:text-generation",
-          "task_categories:fill-mask",
-          "task_ids:language-modeling",
-          "task_ids:masked-language-modeling",
-          "annotations_creators:no-annotation",
-          "multilinguality:multilingual",
-          "source_datasets:original",
-          "language:ar",
-          "language:az",
-          "language:bg",
-          "language:bo",
-          "language:br",
-          "language:bs",
-          "language:ca",
-          "language:co",
-          "language:cs",
-          "language:da",
-          "language:de",
-          "language:el",
-          "language:en",
-          "language:eo",
-          "language:es",
-          "language:et",
-          "language:eu",
-          "language:fa",
-          "language:fi",
-          "language:fr",
-          "language:gl",
-          "language:gn",
-          "language:he",
-          "language:hi",
-          "language:hr",
-          "language:hu",
-          "language:hy",
-          "language:id",
-          "language:ie",
-          "language:it",
-          "language:ja",
-          "language:kk",
-          "language:ko",
-          "language:lt",
-          "language:mk",
-          "language:mr",
-          "language:no",
-          "language:oc",
-          "language:pl",
-          "language:pt",
-          "language:ro",
-          "language:ru",
-          "language:sk",
-          "language:sl",
-          "language:sq",
-          "language:sr",
-          "language:sv",
-          "language:sw",
-          "language:ta",
-          "language:tet",
-          "language:th",
-          "language:tk",
-          "language:tl",
-          "language:tr",
-          "language:uk",
-          "language:vi",
-          "language:zh",
-          "size_categories:n<1K",
-          "arxiv:2407.20595",
-          "region:us",
-          "academia",
-          "research"
-        ],
-        "description": "\n     HALvest \n     Open Scientific Papers Harvested from HAL (Unfiltered) \n\n\n\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\n\n\t\n\t\t\n\t\toverview:\n\t\n\nThis is the unfiltered version of HALvest, comprising of fulltext from open papers found on Hyper Articles en Ligne (HAL) with extra fields for potential filtering. Our dump is mostly english/french but gather papers written in 56 languages across 13 domains.\nYou can download the dataset using Hugging Face datasets:\nfrom datasets import load_dataset\n\nds =… See the full description on the dataset page: https://huggingface.co/datasets/almanach/halvest.",
-        "url": "https://huggingface.co/datasets/almanach/halvest",
-        "languages": [
-          "ar",
-          "az",
-          "bg",
-          "bo",
-          "br",
-          "bs",
-          "ca",
-          "co",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "eo",
-          "es",
-          "et",
-          "eu",
-          "fa",
-          "fi",
-          "fr",
-          "gl",
-          "gn",
-          "he",
-          "hi",
-          "hr",
-          "hu",
-          "hy",
-          "id",
-          "ie",
-          "it",
-          "ja",
-          "kk",
-          "ko",
-          "lt",
-          "mk",
-          "mr",
-          "no",
-          "oc",
-          "pl",
-          "pt",
-          "ro",
-          "ru",
-          "sk",
-          "sl",
-          "sq",
-          "sr",
-          "sv",
-          "sw",
-          "ta",
-          "tet",
-          "th",
-          "tk",
-          "tl",
-          "tr",
-          "uk",
-          "vi",
-          "zh"
-        ],
-        "tasks": [
-          "text-generation",
-          "fill-mask"
-        ],
-        "size_categories": [
-          "n<1K"
-        ]
-      },
-      {
-        "id": "BSC-LT/m-personas",
-        "author": "BSC-LT",
-        "created_at": "2025-07-02 10:35:14+00:00",
-        "last_modified": "2025-09-30 12:44:16+00:00",
-        "downloads": 82,
-        "likes": 1,
-        "tags": [
-          "task_categories:question-answering",
-          "language:es",
-          "language:eu",
-          "language:ca",
-          "language:ar",
-          "language:en",
-          "language:fr",
-          "language:gl",
-          "language:id",
-          "language:ja",
-          "language:ko",
-          "language:pt",
-          "language:ru",
-          "language:sw",
-          "language:zh",
-          "language:de",
-          "license:apache-2.0",
-          "size_categories:100K<n<1M",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us"
-        ],
-        "description": "\n\t\n\t\t\n\t\tmPersonas: Multilingual Persona‑Driven Conversational Dataset\n\t\n\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\nmPersonas is a multilingual open-source dataset with high-quality persona descriptions synthetically generated by DeepSeek-V3–0324. It follows a persona-driven data synthesis methodology, similar to PersonaHub.\n\nInstances: 510,000\nTotal tokens: 173M  \n28M in personas  \n145M in conversations (105M in assistant turns)\n\n\nLanguages: 15\nLicense: Apache 2.0\n\n\n\t\n\t\t\n\t\n\t\n\t\tMethodology\n\t\n\nThis section… See the full description on the dataset page: https://huggingface.co/datasets/BSC-LT/m-personas.",
-        "url": "https://huggingface.co/datasets/BSC-LT/m-personas",
-        "languages": [
-          "es",
-          "eu",
-          "ca",
-          "ar",
-          "en",
-          "fr",
-          "gl",
-          "id",
-          "ja",
-          "ko",
-          "pt",
-          "ru",
-          "sw",
-          "zh",
-          "de"
-        ],
-        "tasks": [
-          "question-answering"
-        ],
-        "size_categories": [
-          "100K<n<1M"
-        ]
-      },
-      {
-        "id": "missvector/linux-commands",
-        "author": "missvector",
-        "created_at": "2025-11-26 16:43:22+00:00",
-        "last_modified": "2025-11-29 18:18:53+00:00",
-        "downloads": 34,
-        "likes": 0,
-        "tags": [
-          "task_categories:text-generation",
-          "language:ru",
-          "language:ar",
-          "language:en",
-          "language:zh",
-          "language:de",
-          "language:fr",
-          "language:es",
-          "language:pt",
-          "language:ja",
-          "language:ko",
-          "license:apache-2.0",
-          "size_categories:n<1K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us",
-          "linux",
-          "shell",
-          "commands",
-          "terminal",
-          "multilingual",
-          "development",
-          "system-administration"
-        ],
-        "description": "\n\t\n\t\t\n\t\tLinLM Dataset\n\t\n\nA curated synthetic dataset for Linux command inference\nNatural language description -> shell commands\nFeatures: \n\nSupports 10+ languages\nArch Linux commands recognition\nFine-tune LLM for development, system administration, file operations, Git, Docker, and more\n\n\n\t\n\t\t\n\t\tUsage\n\t\n\nfrom datasets import load_dataset\n\ndataset = load_dataset(\"missvector/linux-commands\")\n\ndef format_for_training(example):\n    return {\n        \"prompt\": f\"Convert to Linux command:… See the full description on the dataset page: https://huggingface.co/datasets/missvector/linux-commands.",
-        "url": "https://huggingface.co/datasets/missvector/linux-commands",
-        "languages": [
-          "ru",
-          "ar",
-          "en",
-          "zh",
-          "de",
-          "fr",
-          "es",
-          "pt",
-          "ja",
-          "ko"
-        ],
-        "tasks": [
-          "text-generation"
-        ],
-        "size_categories": [
-          "n<1K"
-        ]
-      },
-      {
-        "id": "OpenLab-NLP/corpus-ko-23m",
-        "author": "OpenLab-NLP",
-        "created_at": "2025-11-23 07:24:28+00:00",
-        "last_modified": "2025-11-28 02:36:43+00:00",
-        "downloads": 139,
-        "likes": 0,
-        "tags": [
-          "task_categories:text-generation",
-          "language:ko",
-          "license:apache-2.0",
-          "size_categories:10M<n<100M",
-          "format:text",
-          "modality:text",
-          "library:datasets",
-          "library:mlcroissant",
-          "region:us",
-          "corpus"
-        ],
-        "description": "",
-        "url": "https://huggingface.co/datasets/OpenLab-NLP/corpus-ko-23m",
-        "languages": [
-          "ko"
-        ],
-        "tasks": [
-          "text-generation"
-        ],
-        "size_categories": [
-          "10M<n<100M"
-        ]
-      },
-      {
-        "id": "OpenLab-NLP/ko-sft-14.7m",
-        "author": "OpenLab-NLP",
-        "created_at": "2025-09-04 11:06:15+00:00",
-        "last_modified": "2025-11-27 12:35:01+00:00",
-        "downloads": 118,
-        "likes": 0,
-        "tags": [
-          "task_categories:question-answering",
-          "task_categories:text-generation",
-          "language:ko",
-          "license:apache-2.0",
-          "size_categories:1M<n<10M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us",
-          "chat",
-          "qa",
-          "instruct"
-        ],
-        "description": "Total rows : 14727342\n",
-        "url": "https://huggingface.co/datasets/OpenLab-NLP/ko-sft-14.7m",
-        "languages": [
-          "ko"
-        ],
-        "tasks": [
-          "question-answering",
-          "text-generation"
-        ],
-        "size_categories": [
-          "1M<n<10M"
-        ]
-      },
-      {
-        "id": "OpenLab-NLP/corpus-ko-8.3m",
-        "author": "OpenLab-NLP",
-        "created_at": "2025-11-15 00:22:45+00:00",
-        "last_modified": "2025-11-28 02:38:19+00:00",
-        "downloads": 73,
-        "likes": 0,
-        "tags": [
-          "task_categories:text-generation",
-          "language:ko",
-          "license:apache-2.0",
-          "size_categories:1M<n<10M",
-          "format:text",
-          "modality:text",
-          "library:datasets",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "description": "",
-        "url": "https://huggingface.co/datasets/OpenLab-NLP/corpus-ko-8.3m",
-        "languages": [
-          "ko"
-        ],
-        "tasks": [
-          "text-generation"
-        ],
-        "size_categories": [
-          "1M<n<10M"
-        ]
-      },
-      {
-        "id": "OpenLab-NLP/ko2en-corpus-9.3m",
-        "author": "OpenLab-NLP",
-        "created_at": "2025-08-14 12:14:25+00:00",
-        "last_modified": "2025-11-28 02:37:17+00:00",
-        "downloads": 90,
-        "likes": 0,
-        "tags": [
-          "task_categories:translation",
-          "language:ko",
-          "language:en",
-          "license:apache-2.0",
-          "size_categories:1M<n<10M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us"
-        ],
-        "description": "",
-        "url": "https://huggingface.co/datasets/OpenLab-NLP/ko2en-corpus-9.3m",
+        "description": "\n\t\n\t\t\n\t\tKorean–English Multistyle Parallel Corpus\n\t\n\n한국어 사용자에게 익숙한 표현 기반의 다도메인·다문체 한–영 병렬 코퍼스\n\n\t\n\t\t\n\t\t소개(Introduction)\n\t\n\n저는 머신러닝, 인공지능 수업을 진행하는 강사입니다.Seq2Seq, Attention, Transformer 등 자연어처리(NLP) 수업을 진행하며한국 학습자에게 자연스럽고 익숙한 한–영 번역 데이터셋의 부족을 경험했습니다.  \n기존 공개 데이터셋은  \n\n도메인 다양성이 부족하거나  \n문체가 한국 사용자에게 자연스럽지 않거나  \n전반적으로 문장의 퀄리티가 매우 부족하여\n\n학습한 번역 모델의 실제 성능이 기대만큼 나오지 않는 문제가 있었습니다.\n이 문제를 해결하기 위해, 딥러닝 강사로서 langchain을 사용하여 직접 고품질 병렬 데이터를 자동으로 생성·정제하여 구성한 데이터셋입니다.  \n한국어 사용자에게 익숙한 표현을 중심으로 다양한 문체, 문장 구조를… See the full description on the dataset page: https://huggingface.co/datasets/strongminsu/ko-en-structured-translations.",
+        "url": "https://huggingface.co/datasets/strongminsu/ko-en-structured-translations",
         "languages": [
           "ko",
           "en"
@@ -800,185 +862,113 @@
           "translation"
         ],
         "size_categories": [
-          "1M<n<10M"
+          "1K<n<10K"
         ]
       },
       {
-        "id": "KyungsuLee/WARD-Webtoon-SFX-dataset",
-        "author": "KyungsuLee",
-        "created_at": "2025-11-30 12:41:15+00:00",
-        "last_modified": "2025-11-30 12:43:28+00:00",
-        "downloads": 0,
+        "id": "KAI-KratosAI/Korean_Handwritten_Notes_Dataset",
+        "author": "KAI-KratosAI",
+        "created_at": "2025-10-13 08:58:22+00:00",
+        "last_modified": "2025-10-13 08:59:45+00:00",
+        "downloads": 69,
         "likes": 0,
         "tags": [
+          "task_categories:image-classification",
           "language:ko",
-          "license:mit",
-          "size_categories:1K<n<10K",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
           "format:imagefolder",
           "modality:image",
           "library:datasets",
           "library:mlcroissant",
           "region:us",
-          "art"
+          "image",
+          "handwritten",
+          "korean",
+          "notes",
+          "text-recognition",
+          "ocr",
+          "document-understanding",
+          "ai-research",
+          "computer-vision"
         ],
-        "description": "",
-        "url": "https://huggingface.co/datasets/KyungsuLee/WARD-Webtoon-SFX-dataset",
+        "description": "\n\t\n\t\t\n\t\tKorean Handwritten Notes Dataset\n\t\n\nThis dataset contains high-resolution images of Korean handwritten notes, including personal notes, class notes, and informal writings. The dataset has been anonymized and curated to support AI research in handwriting recognition, OCR, and document understanding.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask Categories:  \n\nImage… See the full description on the dataset page: https://huggingface.co/datasets/KAI-KratosAI/Korean_Handwritten_Notes_Dataset.",
+        "url": "https://huggingface.co/datasets/KAI-KratosAI/Korean_Handwritten_Notes_Dataset",
         "languages": [
           "ko"
         ],
-        "tasks": [],
+        "tasks": [
+          "image-classification"
+        ],
         "size_categories": [
-          "1K<n<10K"
+          "n<1K"
         ]
       },
       {
-        "id": "agentlans/personal-information-prompts",
-        "author": "agentlans",
-        "created_at": "2025-11-30 05:14:21+00:00",
-        "last_modified": "2025-11-30 17:39:31+00:00",
-        "downloads": 5,
+        "id": "Cognitive-Lab/NayanaIR-CrossBench",
+        "author": "Cognitive-Lab",
+        "created_at": "2025-12-01 17:30:04+00:00",
+        "last_modified": "2025-12-07 07:39:53+00:00",
+        "downloads": 16,
         "likes": 0,
         "tags": [
-          "task_categories:text-classification",
-          "language:multilingual",
-          "language:af",
-          "language:ar",
-          "language:az",
-          "language:be",
-          "language:bg",
-          "language:bn",
-          "language:ca",
-          "language:cs",
-          "language:da",
-          "language:de",
-          "language:el",
           "language:en",
+          "language:bn",
+          "language:de",
           "language:es",
-          "language:et",
-          "language:fa",
-          "language:fi",
           "language:fr",
-          "language:gl",
-          "language:gu",
-          "language:he",
           "language:hi",
-          "language:hr",
-          "language:hu",
-          "language:hy",
-          "language:id",
           "language:it",
-          "language:ja",
-          "language:jv",
-          "language:ka",
-          "language:kk",
           "language:kn",
-          "language:ko",
-          "language:lt",
-          "language:lv",
           "language:mr",
-          "language:ms",
-          "language:ne",
-          "language:nl",
-          "language:no",
-          "language:pl",
-          "language:pt",
-          "language:ro",
-          "language:ru",
-          "language:sh",
-          "language:sk",
-          "language:sl",
-          "language:sr",
-          "language:su",
-          "language:sv",
+          "language:ml",
+          "language:or",
+          "language:pa",
+          "language:te",
           "language:ta",
+          "language:sa",
+          "language:gu",
           "language:th",
-          "language:tl",
-          "language:tr",
-          "language:uk",
-          "language:ur",
-          "language:uz",
-          "language:vi",
           "language:zh",
-          "license:cc-by-4.0",
+          "language:ja",
+          "language:ko",
           "size_categories:10K<n<100K",
-          "format:json",
+          "format:parquet",
+          "modality:image",
+          "modality:tabular",
           "modality:text",
           "library:datasets",
-          "library:pandas",
+          "library:dask",
           "library:mlcroissant",
           "library:polars",
-          "region:us",
-          "pii",
-          "privacy",
-          "prompts",
-          "wildchat"
+          "arxiv:2512.03514",
+          "region:us"
         ],
-        "description": "\n\t\n\t\t\n\t\tPersonal Information Prompts\n\t\n\nThis dataset contains multilingual prompts derived from the all_sample subset of the agentlans/allenai-WildChat-4.8M dataset. Each prompt features artificially inserted personally identifiable information (PII) generated randomly with the Faker Python package for various locales.\nEach rewritten prompt uses the google/gemma-3-12b-it model to incorporate the synthetic personal data.\nDataset fields for the two configurations: \n\n\t\n\t\n\t\n\t\tclassification… See the full description on the dataset page: https://huggingface.co/datasets/agentlans/personal-information-prompts.",
-        "url": "https://huggingface.co/datasets/agentlans/personal-information-prompts",
+        "description": "\n\t\n\t\t\n\t\tNayanaIR-CrossBench\n\t\n\n\n\n\n\nNayanaIR-CrossBench is a comprehensive multilingual multimodal document retrieval benchmark designed to evaluate cross-lingual visual search capabilities. It is part of the M3DR (Multilingual Multimodal Document Retrieval) framework.\nThis dataset challenges models to retrieve documents in any language given queries in any language, evaluating the ability to map diverse scripts and languages into a unified semantic space.\n\n\t\n\t\t\n\t\tDataset Details\n\t\n\n\nCurator:… See the full description on the dataset page: https://huggingface.co/datasets/Cognitive-Lab/NayanaIR-CrossBench.",
+        "url": "https://huggingface.co/datasets/Cognitive-Lab/NayanaIR-CrossBench",
         "languages": [
-          "multilingual",
-          "af",
-          "ar",
-          "az",
-          "be",
-          "bg",
-          "bn",
-          "ca",
-          "cs",
-          "da",
-          "de",
-          "el",
           "en",
+          "bn",
+          "de",
           "es",
-          "et",
-          "fa",
-          "fi",
           "fr",
-          "gl",
-          "gu",
-          "he",
           "hi",
-          "hr",
-          "hu",
-          "hy",
-          "id",
           "it",
-          "ja",
-          "jv",
-          "ka",
-          "kk",
           "kn",
-          "ko",
-          "lt",
-          "lv",
           "mr",
-          "ms",
-          "ne",
-          "nl",
-          "no",
-          "pl",
-          "pt",
-          "ro",
-          "ru",
-          "sh",
-          "sk",
-          "sl",
-          "sr",
-          "su",
-          "sv",
+          "ml",
+          "or",
+          "pa",
+          "te",
           "ta",
+          "sa",
+          "gu",
           "th",
-          "tl",
-          "tr",
-          "uk",
-          "ur",
-          "uz",
-          "vi",
-          "zh"
+          "zh",
+          "ja",
+          "ko"
         ],
-        "tasks": [
-          "text-classification"
-        ],
+        "tasks": [],
         "size_categories": [
           "10K<n<100K"
         ]
@@ -986,460 +976,506 @@
     ],
     "removed_datasets": [
       {
-        "id": "Yuchan5386/SFT",
-        "author": "Yuchan5386",
-        "created_at": "2025-09-04 11:06:15+00:00",
-        "last_modified": "2025-11-05 07:28:38+00:00",
-        "downloads": 72,
+        "id": "Kratos-AI/Korean_Menus_Image_Dataset",
+        "author": "Kratos-AI",
+        "created_at": "2025-10-13 08:51:26+00:00",
+        "last_modified": "2025-10-13 08:52:13+00:00",
+        "downloads": 139,
         "likes": 0,
         "tags": [
-          "task_categories:question-answering",
-          "task_categories:text-generation",
+          "task_categories:image-classification",
           "language:ko",
-          "license:apache-2.0",
-          "size_categories:1M<n<10M",
-          "format:json",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us",
-          "chat",
-          "qa",
-          "instruct"
-        ],
-        "description": "Total rows : 14727342\n",
-        "url": "https://huggingface.co/datasets/Yuchan5386/SFT",
-        "languages": [
-          "ko"
-        ],
-        "tasks": [
-          "question-answering",
-          "text-generation"
-        ],
-        "size_categories": [
-          "1M<n<10M"
-        ]
-      },
-      {
-        "id": "jsbeaudry/korean-leg",
-        "author": "jsbeaudry",
-        "created_at": "2025-09-22 01:02:17+00:00",
-        "last_modified": "2025-10-02 22:28:32+00:00",
-        "downloads": 58,
-        "likes": 0,
-        "tags": [
-          "task_categories:automatic-speech-recognition",
-          "task_categories:text-to-speech",
-          "language:ko",
-          "license:mit",
+          "license:cc-by-4.0",
           "size_categories:n<1K",
-          "format:json",
-          "modality:audio",
-          "modality:text",
+          "format:imagefolder",
+          "modality:image",
           "library:datasets",
-          "library:pandas",
           "library:mlcroissant",
-          "library:polars",
           "region:us",
-          "speech",
-          "audio",
+          "image",
           "korean",
-          "legal",
-          "synthetic",
+          "menus",
+          "restaurant",
+          "text-recognition",
+          "ocr",
+          "ai-research",
+          "computer-vision",
+          "food",
           "multilingual"
         ],
-        "description": "\n\t\n\t\t\n\t\tMulti-Domain Korean Speech Dataset\n\t\n\nThis dataset contains 5 audio recordings with corresponding text transcriptions across multiple languages and domains.\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nA comprehensive collection of audio files paired with text transcriptions, featuring both synthetic and natural speech across various domains. Suitable for automatic speech recognition (ASR), text-to-speech (TTS), and domain-specific speech processing tasks.\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\nEach entry… See the full description on the dataset page: https://huggingface.co/datasets/jsbeaudry/korean-leg.",
-        "url": "https://huggingface.co/datasets/jsbeaudry/korean-leg",
+        "description": "\n\t\n\t\t\n\t\tKorean Menus Image Dataset\n\t\n\nThis dataset contains high-resolution images of Korean restaurant menus, including traditional, fast-food, and café menus. It has been curated and anonymized to support AI research in OCR, menu understanding, multilingual translation, and food recommendation systems.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask Categories:  \n\nImage… See the full description on the dataset page: https://huggingface.co/datasets/Kratos-AI/Korean_Menus_Image_Dataset.",
+        "url": "https://huggingface.co/datasets/Kratos-AI/Korean_Menus_Image_Dataset",
         "languages": [
           "ko"
         ],
         "tasks": [
-          "automatic-speech-recognition",
-          "text-to-speech"
+          "image-classification"
         ],
         "size_categories": [
           "n<1K"
         ]
       },
       {
-        "id": "hell0ks/intel-orca-dpo-prompt-en-ko",
-        "author": "hell0ks",
-        "created_at": "2025-11-21 14:45:51+00:00",
-        "last_modified": "2025-11-21 14:48:18+00:00",
+        "id": "Kratos-AI/Korean_Warning_Labels_Dataset",
+        "author": "Kratos-AI",
+        "created_at": "2025-10-13 09:02:09+00:00",
+        "last_modified": "2025-10-13 09:02:44+00:00",
+        "downloads": 128,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-classification",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "image",
+          "warning-labels",
+          "korean",
+          "safety",
+          "hazard",
+          "signage",
+          "text-recognition",
+          "ocr",
+          "ai-research",
+          "computer-vision"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Warning Labels Dataset\n\t\n\nThis dataset contains high-resolution images of Korean warning and safety labels, including product hazard signs, electrical warnings, chemical safety labels, and public safety notices. It supports AI research in OCR, text detection, and safety compliance analysis.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask Categories:  \n\nImage… See the full description on the dataset page: https://huggingface.co/datasets/Kratos-AI/Korean_Warning_Labels_Dataset.",
+        "url": "https://huggingface.co/datasets/Kratos-AI/Korean_Warning_Labels_Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "Kratos-AI/Korean-Billboards-Image-Dataset",
+        "author": "Kratos-AI",
+        "created_at": "2025-10-13 08:32:15+00:00",
+        "last_modified": "2025-10-13 08:33:23+00:00",
+        "downloads": 110,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-classification",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "image",
+          "billboard",
+          "advertisement",
+          "korean",
+          "outdoor-media",
+          "text-recognition",
+          "ocr",
+          "computer-vision",
+          "ai-research",
+          "marketing-analytics"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Billboards Image Dataset\n\t\n\nThis dataset contains high-quality images of Korean billboards, collected from diverse regions and media types including digital boards, street hoardings, transit ads, and building-mounted displays. It supports AI research in OCR, advertising analytics, and multimodal vision-language understanding.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported… See the full description on the dataset page: https://huggingface.co/datasets/Kratos-AI/Korean-Billboards-Image-Dataset.",
+        "url": "https://huggingface.co/datasets/Kratos-AI/Korean-Billboards-Image-Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "Kratos-AI/Korean_Product_Labels_Image_Dataset",
+        "author": "Kratos-AI",
+        "created_at": "2025-10-13 08:50:01+00:00",
+        "last_modified": "2025-10-13 08:50:37+00:00",
+        "downloads": 24,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-classification",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "image",
+          "korean",
+          "product-labels",
+          "packaging",
+          "text-recognition",
+          "ocr",
+          "ai-research",
+          "consumer-goods",
+          "computer-vision",
+          "retail",
+          "multilingual"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Product Labels Image Dataset\n\t\n\nThis dataset contains a diverse collection of high-resolution images of Korean product labels and packaging. The dataset spans categories such as food, cosmetics, beverages, and household items, designed to support OCR, product classification, and visual-language AI research.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask… See the full description on the dataset page: https://huggingface.co/datasets/Kratos-AI/Korean_Product_Labels_Image_Dataset.",
+        "url": "https://huggingface.co/datasets/Kratos-AI/Korean_Product_Labels_Image_Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "Kratos-AI/Korean_Receipts_Dataset",
+        "author": "Kratos-AI",
+        "created_at": "2025-10-13 08:56:17+00:00",
+        "last_modified": "2025-10-13 08:57:23+00:00",
+        "downloads": 141,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-classification",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "image",
+          "korean",
+          "receipts",
+          "retail",
+          "text-recognition",
+          "ocr",
+          "computer-vision",
+          "ai-research",
+          "multilingual",
+          "finance"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Receipts Dataset\n\t\n\nThis dataset contains high-resolution images of Korean retail receipts from supermarkets, restaurants, and stores. The dataset has been anonymized to remove personal information and is intended for AI research in OCR, document understanding, and financial analytics.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask Categories:  \n\nImage… See the full description on the dataset page: https://huggingface.co/datasets/Kratos-AI/Korean_Receipts_Dataset.",
+        "url": "https://huggingface.co/datasets/Kratos-AI/Korean_Receipts_Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "samson-castalk/MSR-86K",
+        "author": "samson-castalk",
+        "created_at": "2025-06-12 07:48:36+00:00",
+        "last_modified": "2025-06-13 07:11:33+00:00",
         "downloads": 7,
-        "likes": 0,
+        "likes": 1,
         "tags": [
-          "language:en",
-          "language:ko",
-          "license:apache-2.0",
-          "size_categories:1K<n<10K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:mlcroissant",
-          "library:polars",
-          "region:us"
-        ],
-        "description": "2K subset of Intel/orca_dpo_pairs\n1K English + 1K Korean (translated with yanolja/YanoljaNEXT-Rosetta-27B-2511)\n",
-        "url": "https://huggingface.co/datasets/hell0ks/intel-orca-dpo-prompt-en-ko",
-        "languages": [
-          "en",
-          "ko"
-        ],
-        "tasks": [],
-        "size_categories": [
-          "1K<n<10K"
-        ]
-      },
-      {
-        "id": "eliceai/korean-translated-fineweb-edu-dedup",
-        "author": "eliceai",
-        "created_at": "2025-10-31 09:23:56+00:00",
-        "last_modified": "2025-11-03 05:24:15+00:00",
-        "downloads": 374,
-        "likes": 0,
-        "tags": [
-          "task_categories:translation",
-          "language:ko",
-          "license:mit",
-          "modality:text",
-          "region:us",
-          "text",
-          "translation",
-          "educational",
-          "fineweb"
-        ],
-        "description": "\n\t\n\t\t\n\t\tFineWeb-Edu Korean Translation\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nFineWeb-Edu Korean Translation is a translated subset of the HuggingFaceTB/smollm-corpus dataset, derived specifically from its FineWeb-Edu portion.This dataset provides a large-scale collection of Korean translations of high-quality educational English web text, suitable for training and evaluating Korean large language models on factual and educational domains.\nAll texts were automatically translated from English to… See the full description on the dataset page: https://huggingface.co/datasets/eliceai/korean-translated-fineweb-edu-dedup.",
-        "url": "https://huggingface.co/datasets/eliceai/korean-translated-fineweb-edu-dedup",
-        "languages": [
-          "ko"
-        ],
-        "tasks": [
-          "translation"
-        ],
-        "size_categories": []
-      },
-      {
-        "id": "eliceai/korean-webtext-edu",
-        "author": "eliceai",
-        "created_at": "2025-10-24 09:51:02+00:00",
-        "last_modified": "2025-11-02 09:20:11+00:00",
-        "downloads": 5,
-        "likes": 0,
-        "tags": [
-          "task_categories:text-classification",
-          "language:ko",
-          "license:mit",
-          "modality:text",
-          "arxiv:2406.17557",
-          "region:us",
-          "text",
-          "web-corpus",
-          "educational"
-        ],
-        "description": "\n\t\n\t\t\n\t\tKorean Webtext Edu\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nKorean-webtext-edu is a curated subset of the HAERAE-HUB/KOREAN-WEBTEXT dataset. The dataset was created by filtering the original 1.28 million documents based on their educational value.\nThis filtering process is inspired by the methodology used to create the HuggingFaceFW/fineweb-edu dataset. The goal is to provide a large-scale, high-quality corpus of Korean web text suitable for training models on educational, factual, and… See the full description on the dataset page: https://huggingface.co/datasets/eliceai/korean-webtext-edu.",
-        "url": "https://huggingface.co/datasets/eliceai/korean-webtext-edu",
-        "languages": [
-          "ko"
-        ],
-        "tasks": [
-          "text-classification"
-        ],
-        "size_categories": []
-      },
-      {
-        "id": "almanach/HALvest",
-        "author": "almanach",
-        "created_at": "2024-04-23 13:30:23+00:00",
-        "last_modified": "2024-07-31 09:56:58+00:00",
-        "downloads": 636,
-        "likes": 3,
-        "tags": [
-          "task_categories:text-generation",
-          "task_categories:fill-mask",
-          "task_ids:language-modeling",
-          "task_ids:masked-language-modeling",
-          "annotations_creators:no-annotation",
-          "multilinguality:multilingual",
-          "source_datasets:original",
-          "language:ar",
-          "language:az",
-          "language:bg",
-          "language:bo",
-          "language:br",
-          "language:bs",
-          "language:ca",
-          "language:co",
-          "language:cs",
-          "language:da",
-          "language:de",
-          "language:el",
-          "language:en",
-          "language:eo",
+          "task_categories:automatic-speech-recognition",
           "language:es",
-          "language:et",
-          "language:eu",
-          "language:fa",
-          "language:fi",
-          "language:fr",
-          "language:gl",
-          "language:gn",
-          "language:he",
-          "language:hi",
-          "language:hr",
-          "language:hu",
-          "language:hy",
-          "language:id",
-          "language:ie",
-          "language:it",
-          "language:ja",
-          "language:kk",
           "language:ko",
-          "language:lt",
-          "language:mk",
-          "language:mr",
-          "language:no",
-          "language:oc",
-          "language:pl",
-          "language:pt",
-          "language:ro",
-          "language:ru",
-          "language:sk",
-          "language:sl",
-          "language:sq",
-          "language:sr",
-          "language:sv",
-          "language:sw",
-          "language:ta",
-          "language:tet",
-          "language:th",
-          "language:tk",
-          "language:tl",
-          "language:tr",
-          "language:uk",
+          "language:en",
+          "language:fr",
+          "language:de",
+          "language:hi",
           "language:vi",
-          "language:zh",
-          "size_categories:100K<n<1M",
-          "format:json",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:mlcroissant",
-          "library:polars",
-          "arxiv:2407.20595",
-          "region:us",
-          "academia",
-          "research"
+          "language:it",
+          "language:nl",
+          "language:pt",
+          "language:th",
+          "language:ru",
+          "language:id",
+          "language:ja",
+          "language:ar",
+          "license:cc-by-nc-nd-4.0",
+          "arxiv:2406.18301",
+          "region:us"
         ],
-        "description": "\n     HALvest \n     Open Scientific Papers Harvested from HAL (Unfiltered) \n\n\n\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\n\n\t\n\t\t\n\t\toverview:\n\t\n\nThis is the unfiltered version of HALvest, comprising of fulltext from open papers found on Hyper Articles en Ligne (HAL) with extra fields for potential filtering. Our dump is mostly english/french but gather papers written in 56 languages across 13 domains.\nYou can download the dataset using Hugging Face datasets:\nfrom datasets import load_dataset\n\nds =… See the full description on the dataset page: https://huggingface.co/datasets/almanach/HALvest.",
-        "url": "https://huggingface.co/datasets/almanach/HALvest",
+        "description": "\n\t\n\t\t\n\t\tDataset Card for MSR-86K\n\t\n\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\nMSR-86K is an evolving, large-scale multilingual corpus for speech recognition research. The corpus is derived from publicly accessible videos on YouTube, comprising 15 languages and a total of 86,300 hours of transcribed ASR data. We believe that such a large-scale corpus will propel the research in multilingual speech algorithms. MSR-86K doesn't own the copyright of the audios, the copyright remains with the original owners of… See the full description on the dataset page: https://huggingface.co/datasets/samson-castalk/MSR-86K.",
+        "url": "https://huggingface.co/datasets/samson-castalk/MSR-86K",
         "languages": [
-          "ar",
-          "az",
-          "bg",
-          "bo",
-          "br",
-          "bs",
-          "ca",
-          "co",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "eo",
           "es",
-          "et",
-          "eu",
-          "fa",
-          "fi",
-          "fr",
-          "gl",
-          "gn",
-          "he",
-          "hi",
-          "hr",
-          "hu",
-          "hy",
-          "id",
-          "ie",
-          "it",
-          "ja",
-          "kk",
           "ko",
-          "lt",
-          "mk",
-          "mr",
-          "no",
-          "oc",
-          "pl",
-          "pt",
-          "ro",
-          "ru",
-          "sk",
-          "sl",
-          "sq",
-          "sr",
-          "sv",
-          "sw",
-          "ta",
-          "tet",
-          "th",
-          "tk",
-          "tl",
-          "tr",
-          "uk",
+          "en",
+          "fr",
+          "de",
+          "hi",
           "vi",
-          "zh"
+          "it",
+          "nl",
+          "pt",
+          "th",
+          "ru",
+          "id",
+          "ja",
+          "ar"
         ],
         "tasks": [
-          "text-generation",
-          "fill-mask"
+          "automatic-speech-recognition"
         ],
-        "size_categories": [
-          "100K<n<1M"
-        ]
+        "size_categories": []
       },
       {
-        "id": "ccw7463/jeju-tour-reasoning-dataset",
-        "author": "ccw7463",
-        "created_at": "2025-11-09 12:14:43+00:00",
-        "last_modified": "2025-11-09 12:14:56+00:00",
-        "downloads": 48,
+        "id": "Kratos-AI/Korean-Signs-Image-Dataset",
+        "author": "Kratos-AI",
+        "created_at": "2025-10-13 08:29:56+00:00",
+        "last_modified": "2025-10-13 08:31:17+00:00",
+        "downloads": 43,
         "likes": 0,
         "tags": [
-          "task_categories:question-answering",
-          "task_categories:text-generation",
+          "task_categories:image-classification",
           "language:ko",
-          "license:mit",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
           "library:datasets",
-          "library:dask",
           "library:mlcroissant",
           "region:us",
-          "tourism",
-          "jeju-island",
-          "reasoning",
-          "korean"
+          "image",
+          "korean",
+          "signboards",
+          "street-signs",
+          "scene-text",
+          "ocr",
+          "ai-research",
+          "multilingual",
+          "computer-vision"
         ],
-        "description": "\n\t\n\t\t\n\t\tJeju Tourism Reasoning Dataset\n\t\n\n제주도 관광 특화 Reasoning 데이터셋입니다. AI가 단계별 추론 과정을 통해 사용자의 질문에 답변하도록 학습하기 위한 데이터입니다.\n\n\t\n\t\t\n\t\t📊 Dataset Overview\n\t\n\n\nLanguage: Korean (한국어)\nDomain: Jeju Island Tourism (제주도 관광)\nTotal Samples: 3,000\nFormat: JSON\n\n\n\t\n\t\t\n\t\t📁 Files\n\t\n\n\n\t\n\t\t\nFile\nSamples\nAnalysis Length\nDescription\n\n\n\t\t\njeju_reasoning_low_1000.json\n1,000\n~1,000 chars\nSimple reasoning (3-4 steps)\n\n\njeju_reasoning_medium_1000.json\n1,000\n~1,500 chars\nMedium reasoning (5-6 steps)… See the full description on the dataset page: https://huggingface.co/datasets/ccw7463/jeju-tour-reasoning-dataset.",
-        "url": "https://huggingface.co/datasets/ccw7463/jeju-tour-reasoning-dataset",
+        "description": "\n\t\n\t\t\n\t\tKorean Signs Image Dataset\n\t\n\nThis dataset contains a diverse collection of high-resolution images of Korean street signs, shop boards, and public information signs. The dataset has been curated and anonymized to support research in multilingual OCR, text detection, and cultural-linguistic visual understanding.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask Categories:… See the full description on the dataset page: https://huggingface.co/datasets/Kratos-AI/Korean-Signs-Image-Dataset.",
+        "url": "https://huggingface.co/datasets/Kratos-AI/Korean-Signs-Image-Dataset",
         "languages": [
           "ko"
         ],
         "tasks": [
-          "question-answering",
-          "text-generation"
+          "image-classification"
         ],
         "size_categories": [
-          "1K<n<10K"
+          "n<1K"
         ]
       },
       {
-        "id": "Yuchan5386/MINDAI",
-        "author": "Yuchan5386",
-        "created_at": "2025-03-09 06:37:17+00:00",
-        "last_modified": "2025-05-06 04:26:19+00:00",
-        "downloads": 14,
+        "id": "Kratos-AI/Korean_User_Manuals_Dataset",
+        "author": "Kratos-AI",
+        "created_at": "2025-10-13 09:04:30+00:00",
+        "last_modified": "2025-10-13 09:05:21+00:00",
+        "downloads": 78,
         "likes": 0,
         "tags": [
           "language:ko",
-          "license:mit",
-          "size_categories:10K<n<100K",
-          "format:csv",
-          "modality:text",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "modality:document",
           "library:datasets",
-          "library:pandas",
           "library:mlcroissant",
-          "library:polars",
-          "region:us"
+          "region:us",
+          "document",
+          "korean",
+          "user-manuals",
+          "instruction",
+          "product-guides",
+          "text-recognition",
+          "ocr",
+          "ai-research",
+          "computer-vision",
+          "multilingual"
         ],
-        "description": "",
-        "url": "https://huggingface.co/datasets/Yuchan5386/MINDAI",
+        "description": "\n\t\n\t\t\n\t\tKorean User Manuals Dataset\n\t\n\nThis dataset contains high-resolution images and PDFs of Korean user manuals and instruction guides for electronics, appliances, and consumer products. It is curated and anonymized to support AI research in OCR, document understanding, and multilingual text extraction.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask Categories:  \n\nDocument… See the full description on the dataset page: https://huggingface.co/datasets/Kratos-AI/Korean_User_Manuals_Dataset.",
+        "url": "https://huggingface.co/datasets/Kratos-AI/Korean_User_Manuals_Dataset",
         "languages": [
           "ko"
         ],
         "tasks": [],
         "size_categories": [
-          "10K<n<100K"
+          "n<1K"
         ]
       },
       {
-        "id": "ccw7463/jeju-tour-tool-calling-dataset",
-        "author": "ccw7463",
-        "created_at": "2025-11-09 12:25:59+00:00",
-        "last_modified": "2025-11-09 12:26:03+00:00",
-        "downloads": 44,
+        "id": "Kratos-AI/Korean_Travel_Boards_Image_Dataset",
+        "author": "Kratos-AI",
+        "created_at": "2025-10-13 08:48:37+00:00",
+        "last_modified": "2025-10-13 08:49:13+00:00",
+        "downloads": 29,
         "likes": 0,
         "tags": [
-          "task_categories:question-answering",
-          "task_categories:text-generation",
+          "task_categories:image-classification",
           "language:ko",
-          "language:en",
-          "license:mit",
-          "size_categories:1K<n<10K",
-          "format:json",
-          "modality:text",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
           "library:datasets",
-          "library:pandas",
           "library:mlcroissant",
-          "library:polars",
           "region:us",
+          "image",
+          "travel",
           "tourism",
-          "jeju-island",
-          "tool-calling",
-          "function-calling",
-          "korean"
+          "signboards",
+          "korean",
+          "public-information",
+          "ocr",
+          "text-recognition",
+          "ai-research",
+          "computer-vision",
+          "multilingual"
         ],
-        "description": "\n\t\n\t\t\n\t\tJeju Tourism Tool Calling Dataset\n\t\n\n제주도 관광 특화 Tool Calling 데이터셋입니다. AI가 제주 관광 관련 도구(함수)를 호출하여 사용자의 질문에 답변하도록 학습하기 위한 데이터입니다.\n\n\t\n\t\t\n\t\t📊 Dataset Overview\n\t\n\n\nLanguage: Korean (한국어) + English (tool descriptions)\nDomain: Jeju Island Tourism (제주도 관광)\nTotal Samples: 1,000\nFormat: JSON (tools + messages)\nTools: 13 specialized functions for Jeju tourism\n\n\n\t\n\t\t\n\t\t🔧 Available Tools\n\t\n\n\n\t\n\t\t\n\t\t기본 정보 조회 (6개)\n\t\n\n\nsearch_attractions: 관광지 검색\nget_restaurant_info: 음식점 정보 조회\nget_accommodation_info:… See the full description on the dataset page: https://huggingface.co/datasets/ccw7463/jeju-tour-tool-calling-dataset.",
-        "url": "https://huggingface.co/datasets/ccw7463/jeju-tour-tool-calling-dataset",
+        "description": "\n\t\n\t\t\n\t\tKorean Travel Boards Image Dataset\n\t\n\nThis dataset contains high-resolution images of Korean travel and tourism boards, including city maps, attraction guides, directional signs, transportation boards, and public tourism information displays. It supports OCR, multilingual translation, and computer vision research in travel-tech applications.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io… See the full description on the dataset page: https://huggingface.co/datasets/Kratos-AI/Korean_Travel_Boards_Image_Dataset.",
+        "url": "https://huggingface.co/datasets/Kratos-AI/Korean_Travel_Boards_Image_Dataset",
         "languages": [
-          "ko",
-          "en"
+          "ko"
         ],
         "tasks": [
-          "question-answering",
-          "text-generation"
+          "image-classification"
         ],
         "size_categories": [
-          "1K<n<10K"
+          "n<1K"
+        ]
+      },
+      {
+        "id": "Kratos-AI/Korean_Price_Tags_Image_Dataset",
+        "author": "Kratos-AI",
+        "created_at": "2025-10-13 08:54:05+00:00",
+        "last_modified": "2025-10-13 08:55:09+00:00",
+        "downloads": 46,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-classification",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "image",
+          "korean",
+          "price-tags",
+          "retail",
+          "pricing",
+          "text-recognition",
+          "ocr",
+          "computer-vision",
+          "ai-research",
+          "multilingual"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Price Tags Image Dataset\n\t\n\nThis dataset contains high-resolution images of Korean price tags found in retail stores, supermarkets, and markets. It has been curated and anonymized to support AI research in OCR, pricing recognition, product detection, and retail analytics.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask Categories:  \n\nImage Classification  \nText… See the full description on the dataset page: https://huggingface.co/datasets/Kratos-AI/Korean_Price_Tags_Image_Dataset.",
+        "url": "https://huggingface.co/datasets/Kratos-AI/Korean_Price_Tags_Image_Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "Kratos-AI/Korean_Handwritten_Notes_Dataset",
+        "author": "Kratos-AI",
+        "created_at": "2025-10-13 08:58:22+00:00",
+        "last_modified": "2025-10-13 08:59:45+00:00",
+        "downloads": 53,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-classification",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "image",
+          "handwritten",
+          "korean",
+          "notes",
+          "text-recognition",
+          "ocr",
+          "document-understanding",
+          "ai-research",
+          "computer-vision"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Handwritten Notes Dataset\n\t\n\nThis dataset contains high-resolution images of Korean handwritten notes, including personal notes, class notes, and informal writings. The dataset has been anonymized and curated to support AI research in handwriting recognition, OCR, and document understanding.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask Categories:  \n\nImage… See the full description on the dataset page: https://huggingface.co/datasets/Kratos-AI/Korean_Handwritten_Notes_Dataset.",
+        "url": "https://huggingface.co/datasets/Kratos-AI/Korean_Handwritten_Notes_Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "Kratos-AI/Korean_Real_Estate_Ads_Dataset",
+        "author": "Kratos-AI",
+        "created_at": "2025-10-13 09:01:02+00:00",
+        "last_modified": "2025-10-13 09:01:35+00:00",
+        "downloads": 115,
+        "likes": 0,
+        "tags": [
+          "task_categories:image-classification",
+          "language:ko",
+          "license:cc-by-4.0",
+          "size_categories:n<1K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "image",
+          "real-estate",
+          "advertisement",
+          "korean",
+          "property-listings",
+          "text-recognition",
+          "ocr",
+          "ai-research",
+          "computer-vision",
+          "multilingual"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Real Estate Ads Dataset\n\t\n\nThis dataset contains high-resolution images of Korean real estate advertisements, including online listings, printed flyers, and billboard ads for properties such as apartments, houses, and commercial spaces. It is designed to support AI research in OCR, visual understanding, and property analysis.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported… See the full description on the dataset page: https://huggingface.co/datasets/Kratos-AI/Korean_Real_Estate_Ads_Dataset.",
+        "url": "https://huggingface.co/datasets/Kratos-AI/Korean_Real_Estate_Ads_Dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [
+          "image-classification"
+        ],
+        "size_categories": [
+          "n<1K"
         ]
       }
     ],
     "updated_datasets": [
-      {
-        "id": "Helsinki-NLP/tatoeba_mt",
-        "author": "Helsinki-NLP",
-        "url": "https://huggingface.co/datasets/Helsinki-NLP/tatoeba_mt",
-        "changes": {
-          "downloads": {
-            "previous": 3274,
-            "current": 27480,
-            "change": 24206
-          },
-          "likes": {
-            "previous": 61,
-            "current": 61,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
       {
         "id": "Shitao/MLDR",
         "author": "Shitao",
         "url": "https://huggingface.co/datasets/Shitao/MLDR",
         "changes": {
           "downloads": {
-            "previous": 10118,
-            "current": 17545,
-            "change": 7427
+            "previous": 17545,
+            "current": 27853,
+            "change": 10308
           },
           "likes": {
             "previous": 73,
@@ -1455,9 +1491,9 @@
         "url": "https://huggingface.co/datasets/csebuetnlp/xlsum",
         "changes": {
           "downloads": {
-            "previous": 8519,
-            "current": 14158,
-            "change": 5639
+            "previous": 14158,
+            "current": 24072,
+            "change": 9914
           },
           "likes": {
             "previous": 146,
@@ -1473,139 +1509,13 @@
         "url": "https://huggingface.co/datasets/wecover/OPUS_GlobalVoices",
         "changes": {
           "downloads": {
-            "previous": 26544,
-            "current": 28871,
-            "change": 2327
+            "previous": 28871,
+            "current": 36558,
+            "change": 7687
           },
           "likes": {
             "previous": 0,
             "current": 0,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "HuggingFaceFW/finepdfs-edu",
-        "author": "HuggingFaceFW",
-        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs-edu",
-        "changes": {
-          "downloads": {
-            "previous": 11311,
-            "current": 13438,
-            "change": 2127
-          },
-          "likes": {
-            "previous": 43,
-            "current": 48,
-            "change": 5
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "wecover/OPUS",
-        "author": "wecover",
-        "url": "https://huggingface.co/datasets/wecover/OPUS",
-        "changes": {
-          "downloads": {
-            "previous": 637,
-            "current": 2182,
-            "change": 1545
-          },
-          "likes": {
-            "previous": 0,
-            "current": 0,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "CohereLabs/Global-MMLU",
-        "author": "CohereLabs",
-        "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU",
-        "changes": {
-          "downloads": {
-            "previous": 12681,
-            "current": 14212,
-            "change": 1531
-          },
-          "likes": {
-            "previous": 140,
-            "current": 140,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "MBZUAI/Bactrian-X",
-        "author": "MBZUAI",
-        "url": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
-        "changes": {
-          "downloads": {
-            "previous": 1084,
-            "current": 2581,
-            "change": 1497
-          },
-          "likes": {
-            "previous": 121,
-            "current": 121,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "openai/MMMLU",
-        "author": "openai",
-        "url": "https://huggingface.co/datasets/openai/MMMLU",
-        "changes": {
-          "downloads": {
-            "previous": 11321,
-            "current": 12644,
-            "change": 1323
-          },
-          "likes": {
-            "previous": 509,
-            "current": 512,
-            "change": 3
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "sentence-transformers/parallel-sentences-tatoeba",
-        "author": "sentence-transformers",
-        "url": "https://huggingface.co/datasets/sentence-transformers/parallel-sentences-tatoeba",
-        "changes": {
-          "downloads": {
-            "previous": 1947,
-            "current": 3241,
-            "change": 1294
-          },
-          "likes": {
-            "previous": 0,
-            "current": 0,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "Fujitsu-FRE/MAPS_Verified",
-        "author": "Fujitsu-FRE",
-        "url": "https://huggingface.co/datasets/Fujitsu-FRE/MAPS_Verified",
-        "changes": {
-          "downloads": {
-            "previous": 1171,
-            "current": 2324,
-            "change": 1153
-          },
-          "likes": {
-            "previous": 2,
-            "current": 2,
             "change": 0
           },
           "description_changed": false
@@ -1617,9 +1527,9 @@
         "url": "https://huggingface.co/datasets/CohereLabs/include-base-44",
         "changes": {
           "downloads": {
-            "previous": 5503,
-            "current": 6498,
-            "change": 995
+            "previous": 6498,
+            "current": 11722,
+            "change": 5224
           },
           "likes": {
             "previous": 41,
@@ -1630,14 +1540,104 @@
         }
       },
       {
-        "id": "Bingsu/calibration",
-        "author": "Bingsu",
-        "url": "https://huggingface.co/datasets/Bingsu/calibration",
+        "id": "amphion/Emilia-Dataset",
+        "author": "amphion",
+        "url": "https://huggingface.co/datasets/amphion/Emilia-Dataset",
         "changes": {
           "downloads": {
-            "previous": 4838,
-            "current": 5754,
-            "change": 916
+            "previous": 85744,
+            "current": 89996,
+            "change": 4252
+          },
+          "likes": {
+            "previous": 402,
+            "current": 403,
+            "change": 1
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "AaronZ345/GTSinger",
+        "author": "AaronZ345",
+        "url": "https://huggingface.co/datasets/AaronZ345/GTSinger",
+        "changes": {
+          "downloads": {
+            "previous": 1735,
+            "current": 4797,
+            "change": 3062
+          },
+          "likes": {
+            "previous": 10,
+            "current": 10,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "HuggingFaceFW/finepdfs-edu",
+        "author": "HuggingFaceFW",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs-edu",
+        "changes": {
+          "downloads": {
+            "previous": 13438,
+            "current": 16226,
+            "change": 2788
+          },
+          "likes": {
+            "previous": 48,
+            "current": 50,
+            "change": 2
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "HAERAE-HUB/HAE_RAE_BENCH_1.1",
+        "author": "HAERAE-HUB",
+        "url": "https://huggingface.co/datasets/HAERAE-HUB/HAE_RAE_BENCH_1.1",
+        "changes": {
+          "downloads": {
+            "previous": 1725,
+            "current": 4341,
+            "change": 2616
+          },
+          "likes": {
+            "previous": 20,
+            "current": 20,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "HAERAE-HUB/KMMLU",
+        "author": "HAERAE-HUB",
+        "url": "https://huggingface.co/datasets/HAERAE-HUB/KMMLU",
+        "changes": {
+          "downloads": {
+            "previous": 10684,
+            "current": 13256,
+            "change": 2572
+          },
+          "likes": {
+            "previous": 94,
+            "current": 95,
+            "change": 1
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "wecover/OPUS",
+        "author": "wecover",
+        "url": "https://huggingface.co/datasets/wecover/OPUS",
+        "changes": {
+          "downloads": {
+            "previous": 2182,
+            "current": 4733,
+            "change": 2551
           },
           "likes": {
             "previous": 0,
@@ -1648,36 +1648,36 @@
         }
       },
       {
-        "id": "klue/klue",
-        "author": "klue",
-        "url": "https://huggingface.co/datasets/klue/klue",
+        "id": "Helsinki-NLP/opus-100",
+        "author": "Helsinki-NLP",
+        "url": "https://huggingface.co/datasets/Helsinki-NLP/opus-100",
         "changes": {
           "downloads": {
-            "previous": 4618,
-            "current": 5468,
-            "change": 850
+            "previous": 13606,
+            "current": 16047,
+            "change": 2441
           },
           "likes": {
-            "previous": 86,
-            "current": 86,
-            "change": 0
+            "previous": 213,
+            "current": 214,
+            "change": 1
           },
           "description_changed": false
         }
       },
       {
-        "id": "HAERAE-HUB/KMMLU-HARD",
-        "author": "HAERAE-HUB",
-        "url": "https://huggingface.co/datasets/HAERAE-HUB/KMMLU-HARD",
+        "id": "hac541309/open-lid-dataset",
+        "author": "hac541309",
+        "url": "https://huggingface.co/datasets/hac541309/open-lid-dataset",
         "changes": {
           "downloads": {
-            "previous": 633,
-            "current": 1470,
-            "change": 837
+            "previous": 761,
+            "current": 3199,
+            "change": 2438
           },
           "likes": {
-            "previous": 13,
-            "current": 13,
+            "previous": 4,
+            "current": 4,
             "change": 0
           },
           "description_changed": false
@@ -1689,9 +1689,9 @@
         "url": "https://huggingface.co/datasets/styletts2-community/multilingual-pl-bert",
         "changes": {
           "downloads": {
-            "previous": 882,
-            "current": 1694,
-            "change": 812
+            "previous": 1694,
+            "current": 3892,
+            "change": 2198
           },
           "likes": {
             "previous": 18,
@@ -1702,50 +1702,32 @@
         }
       },
       {
-        "id": "maywell/korean_textbooks",
-        "author": "maywell",
-        "url": "https://huggingface.co/datasets/maywell/korean_textbooks",
+        "id": "MBZUAI/Bactrian-X",
+        "author": "MBZUAI",
+        "url": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
         "changes": {
           "downloads": {
-            "previous": 1338,
-            "current": 2101,
-            "change": 763
+            "previous": 2581,
+            "current": 4742,
+            "change": 2161
           },
           "likes": {
-            "previous": 120,
-            "current": 120,
+            "previous": 121,
+            "current": 121,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "singletongue/cc100-documents",
-        "author": "singletongue",
-        "url": "https://huggingface.co/datasets/singletongue/cc100-documents",
+        "id": "taresco/xP3x_african_subset",
+        "author": "taresco",
+        "url": "https://huggingface.co/datasets/taresco/xP3x_african_subset",
         "changes": {
           "downloads": {
-            "previous": 937,
-            "current": 1657,
-            "change": 720
-          },
-          "likes": {
-            "previous": 1,
-            "current": 1,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "sentence-transformers/parallel-sentences-global-voices",
-        "author": "sentence-transformers",
-        "url": "https://huggingface.co/datasets/sentence-transformers/parallel-sentences-global-voices",
-        "changes": {
-          "downloads": {
-            "previous": 462,
-            "current": 1165,
-            "change": 703
+            "previous": 230,
+            "current": 2383,
+            "change": 2153
           },
           "likes": {
             "previous": 0,
@@ -1756,68 +1738,14 @@
         }
       },
       {
-        "id": "sentence-transformers/parallel-sentences-opus-100",
-        "author": "sentence-transformers",
-        "url": "https://huggingface.co/datasets/sentence-transformers/parallel-sentences-opus-100",
+        "id": "HAERAE-HUB/KMMLU-HARD",
+        "author": "HAERAE-HUB",
+        "url": "https://huggingface.co/datasets/HAERAE-HUB/KMMLU-HARD",
         "changes": {
           "downloads": {
-            "previous": 891,
-            "current": 1561,
-            "change": 670
-          },
-          "likes": {
-            "previous": 2,
-            "current": 2,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "clips/mqa",
-        "author": "clips",
-        "url": "https://huggingface.co/datasets/clips/mqa",
-        "changes": {
-          "downloads": {
-            "previous": 1075,
-            "current": 1710,
-            "change": 635
-          },
-          "likes": {
-            "previous": 55,
-            "current": 55,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "leduckhai/S-Chain",
-        "author": "leduckhai",
-        "url": "https://huggingface.co/datasets/leduckhai/S-Chain",
-        "changes": {
-          "downloads": {
-            "previous": 574,
-            "current": 1194,
-            "change": 620
-          },
-          "likes": {
-            "previous": 2,
-            "current": 3,
-            "change": 1
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "Babelscape/SREDFM",
-        "author": "Babelscape",
-        "url": "https://huggingface.co/datasets/Babelscape/SREDFM",
-        "changes": {
-          "downloads": {
-            "previous": 3480,
-            "current": 4075,
-            "change": 595
+            "previous": 1470,
+            "current": 3182,
+            "change": 1712
           },
           "likes": {
             "previous": 13,
@@ -1828,122 +1756,50 @@
         }
       },
       {
-        "id": "GEM/wiki_lingua",
-        "author": "GEM",
-        "url": "https://huggingface.co/datasets/GEM/wiki_lingua",
+        "id": "CohereLabs/Global-MMLU",
+        "author": "CohereLabs",
+        "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU",
         "changes": {
           "downloads": {
-            "previous": 5641,
-            "current": 6199,
-            "change": 558
+            "previous": 14212,
+            "current": 15910,
+            "change": 1698
           },
           "likes": {
-            "previous": 50,
-            "current": 50,
+            "previous": 140,
+            "current": 140,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "lcw99/cc100-ko-only",
-        "author": "lcw99",
-        "url": "https://huggingface.co/datasets/lcw99/cc100-ko-only",
+        "id": "klue/klue",
+        "author": "klue",
+        "url": "https://huggingface.co/datasets/klue/klue",
         "changes": {
           "downloads": {
-            "previous": 70,
-            "current": 624,
-            "change": 554
+            "previous": 5468,
+            "current": 7109,
+            "change": 1641
           },
           "likes": {
-            "previous": 5,
-            "current": 5,
+            "previous": 86,
+            "current": 86,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "simon3000/genshin-voice",
-        "author": "simon3000",
-        "url": "https://huggingface.co/datasets/simon3000/genshin-voice",
+        "id": "Fujitsu-FRE/MAPS_Verified",
+        "author": "Fujitsu-FRE",
+        "url": "https://huggingface.co/datasets/Fujitsu-FRE/MAPS_Verified",
         "changes": {
           "downloads": {
-            "previous": 5126,
-            "current": 5678,
-            "change": 552
-          },
-          "likes": {
-            "previous": 134,
-            "current": 134,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "macavaney/miracl-noauth",
-        "author": "macavaney",
-        "url": "https://huggingface.co/datasets/macavaney/miracl-noauth",
-        "changes": {
-          "downloads": {
-            "previous": 999,
-            "current": 1547,
-            "change": 548
-          },
-          "likes": {
-            "previous": 0,
-            "current": 0,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "pasinit/xlwic",
-        "author": "pasinit",
-        "url": "https://huggingface.co/datasets/pasinit/xlwic",
-        "changes": {
-          "downloads": {
-            "previous": 842,
-            "current": 1389,
-            "change": 547
-          },
-          "likes": {
-            "previous": 6,
-            "current": 6,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "akahana/mini-multilanguage",
-        "author": "akahana",
-        "url": "https://huggingface.co/datasets/akahana/mini-multilanguage",
-        "changes": {
-          "downloads": {
-            "previous": 27,
-            "current": 573,
-            "change": 546
-          },
-          "likes": {
-            "previous": 0,
-            "current": 0,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "OzoneAsai/calculation",
-        "author": "OzoneAsai",
-        "url": "https://huggingface.co/datasets/OzoneAsai/calculation",
-        "changes": {
-          "downloads": {
-            "previous": 139,
-            "current": 679,
-            "change": 540
+            "previous": 2324,
+            "current": 3800,
+            "change": 1476
           },
           "likes": {
             "previous": 2,
@@ -1954,162 +1810,36 @@
         }
       },
       {
-        "id": "sleeping-ai/Rdiffusion-audio",
-        "author": "sleeping-ai",
-        "url": "https://huggingface.co/datasets/sleeping-ai/Rdiffusion-audio",
+        "id": "facebook/2M-Belebele",
+        "author": "facebook",
+        "url": "https://huggingface.co/datasets/facebook/2M-Belebele",
         "changes": {
           "downloads": {
-            "previous": 135,
-            "current": 663,
-            "change": 528
+            "previous": 948,
+            "current": 2419,
+            "change": 1471
           },
           "likes": {
-            "previous": 0,
-            "current": 0,
+            "previous": 12,
+            "current": 12,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "Moo/korean-parallel-corpora",
-        "author": "Moo",
-        "url": "https://huggingface.co/datasets/Moo/korean-parallel-corpora",
+        "id": "LHF/escorpius-mr",
+        "author": "LHF",
+        "url": "https://huggingface.co/datasets/LHF/escorpius-mr",
         "changes": {
           "downloads": {
-            "previous": 309,
-            "current": 824,
-            "change": 515
+            "previous": 1548,
+            "current": 3006,
+            "change": 1458
           },
           "likes": {
-            "previous": 18,
-            "current": 20,
-            "change": 2
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "SamsungSDS-Research/SDS-KoPub-VDR-Benchmark",
-        "author": "SamsungSDS-Research",
-        "url": "https://huggingface.co/datasets/SamsungSDS-Research/SDS-KoPub-VDR-Benchmark",
-        "changes": {
-          "downloads": {
-            "previous": 300,
-            "current": 811,
-            "change": 511
-          },
-          "likes": {
-            "previous": 10,
-            "current": 11,
-            "change": 1
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "lmqg/qg_koquad",
-        "author": "lmqg",
-        "url": "https://huggingface.co/datasets/lmqg/qg_koquad",
-        "changes": {
-          "downloads": {
-            "previous": 83,
-            "current": 593,
-            "change": 510
-          },
-          "likes": {
-            "previous": 9,
-            "current": 9,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "IWSLT/iwslt2017",
-        "author": "IWSLT",
-        "url": "https://huggingface.co/datasets/IWSLT/iwslt2017",
-        "changes": {
-          "downloads": {
-            "previous": 4475,
-            "current": 4976,
-            "change": 501
-          },
-          "likes": {
-            "previous": 38,
-            "current": 38,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "catherinearnett/morphscore",
-        "author": "catherinearnett",
-        "url": "https://huggingface.co/datasets/catherinearnett/morphscore",
-        "changes": {
-          "downloads": {
-            "previous": 265,
-            "current": 758,
-            "change": 493
-          },
-          "likes": {
-            "previous": 3,
-            "current": 3,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "xhluca/publichealth-qa",
-        "author": "xhluca",
-        "url": "https://huggingface.co/datasets/xhluca/publichealth-qa",
-        "changes": {
-          "downloads": {
-            "previous": 1132,
-            "current": 1617,
-            "change": 485
-          },
-          "likes": {
-            "previous": 1,
-            "current": 1,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "AaronZ345/GTSinger",
-        "author": "AaronZ345",
-        "url": "https://huggingface.co/datasets/AaronZ345/GTSinger",
-        "changes": {
-          "downloads": {
-            "previous": 1257,
-            "current": 1735,
-            "change": 478
-          },
-          "likes": {
-            "previous": 10,
-            "current": 10,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "sentence-transformers/parallel-sentences-jw300",
-        "author": "sentence-transformers",
-        "url": "https://huggingface.co/datasets/sentence-transformers/parallel-sentences-jw300",
-        "changes": {
-          "downloads": {
-            "previous": 458,
-            "current": 931,
-            "change": 473
-          },
-          "likes": {
-            "previous": 6,
-            "current": 6,
+            "previous": 5,
+            "current": 5,
             "change": 0
           },
           "description_changed": false
@@ -2121,9 +1851,9 @@
         "url": "https://huggingface.co/datasets/community-datasets/tapaco",
         "changes": {
           "downloads": {
-            "previous": 8382,
-            "current": 8843,
-            "change": 461
+            "previous": 8843,
+            "current": 10293,
+            "change": 1450
           },
           "likes": {
             "previous": 47,
@@ -2134,36 +1864,108 @@
         }
       },
       {
-        "id": "khalidalt/tydiqa-goldp",
-        "author": "khalidalt",
-        "url": "https://huggingface.co/datasets/khalidalt/tydiqa-goldp",
+        "id": "clips/mqa",
+        "author": "clips",
+        "url": "https://huggingface.co/datasets/clips/mqa",
         "changes": {
           "downloads": {
-            "previous": 1127,
-            "current": 1566,
-            "change": 439
+            "previous": 1710,
+            "current": 3056,
+            "change": 1346
           },
           "likes": {
-            "previous": 11,
-            "current": 12,
-            "change": 1
+            "previous": 55,
+            "current": 55,
+            "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "FBK-MT/Speech-MASSIVE",
-        "author": "FBK-MT",
-        "url": "https://huggingface.co/datasets/FBK-MT/Speech-MASSIVE",
+        "id": "sentence-transformers/parallel-sentences-opus-100",
+        "author": "sentence-transformers",
+        "url": "https://huggingface.co/datasets/sentence-transformers/parallel-sentences-opus-100",
         "changes": {
           "downloads": {
-            "previous": 1295,
-            "current": 1727,
-            "change": 432
+            "previous": 1561,
+            "current": 2879,
+            "change": 1318
           },
           "likes": {
-            "previous": 46,
-            "current": 46,
+            "previous": 2,
+            "current": 2,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "facebook/belebele",
+        "author": "facebook",
+        "url": "https://huggingface.co/datasets/facebook/belebele",
+        "changes": {
+          "downloads": {
+            "previous": 11557,
+            "current": 12869,
+            "change": 1312
+          },
+          "likes": {
+            "previous": 119,
+            "current": 119,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "pasinit/xlwic",
+        "author": "pasinit",
+        "url": "https://huggingface.co/datasets/pasinit/xlwic",
+        "changes": {
+          "downloads": {
+            "previous": 1389,
+            "current": 2700,
+            "change": 1311
+          },
+          "likes": {
+            "previous": 6,
+            "current": 6,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "simon3000/genshin-voice",
+        "author": "simon3000",
+        "url": "https://huggingface.co/datasets/simon3000/genshin-voice",
+        "changes": {
+          "downloads": {
+            "previous": 5678,
+            "current": 6954,
+            "change": 1276
+          },
+          "likes": {
+            "previous": 134,
+            "current": 137,
+            "change": 3
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "stanford-oval/ccnews",
+        "author": "stanford-oval",
+        "url": "https://huggingface.co/datasets/stanford-oval/ccnews",
+        "changes": {
+          "downloads": {
+            "previous": 2600,
+            "current": 3853,
+            "change": 1253
+          },
+          "likes": {
+            "previous": 31,
+            "current": 31,
             "change": 0
           },
           "description_changed": false
@@ -2175,9 +1977,9 @@
         "url": "https://huggingface.co/datasets/Qwen/P-MMEval",
         "changes": {
           "downloads": {
-            "previous": 538,
-            "current": 968,
-            "change": 430
+            "previous": 968,
+            "current": 2204,
+            "change": 1236
           },
           "likes": {
             "previous": 14,
@@ -2188,90 +1990,90 @@
         }
       },
       {
-        "id": "PolyAI/minds14",
-        "author": "PolyAI",
-        "url": "https://huggingface.co/datasets/PolyAI/minds14",
+        "id": "GEM/wiki_lingua",
+        "author": "GEM",
+        "url": "https://huggingface.co/datasets/GEM/wiki_lingua",
         "changes": {
           "downloads": {
-            "previous": 7369,
-            "current": 7786,
-            "change": 417
+            "previous": 6199,
+            "current": 7408,
+            "change": 1209
           },
           "likes": {
-            "previous": 92,
-            "current": 93,
-            "change": 1
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "OpenAssistant/oasst2",
-        "author": "OpenAssistant",
-        "url": "https://huggingface.co/datasets/OpenAssistant/oasst2",
-        "changes": {
-          "downloads": {
-            "previous": 1759,
-            "current": 2165,
-            "change": 406
-          },
-          "likes": {
-            "previous": 276,
-            "current": 277,
-            "change": 1
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "skt/kobest_v1",
-        "author": "skt",
-        "url": "https://huggingface.co/datasets/skt/kobest_v1",
-        "changes": {
-          "downloads": {
-            "previous": 2235,
-            "current": 2627,
-            "change": 392
-          },
-          "likes": {
-            "previous": 52,
-            "current": 52,
+            "previous": 50,
+            "current": 50,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "yhavinga/ccmatrix",
-        "author": "yhavinga",
-        "url": "https://huggingface.co/datasets/yhavinga/ccmatrix",
+        "id": "OzoneAsai/calculation",
+        "author": "OzoneAsai",
+        "url": "https://huggingface.co/datasets/OzoneAsai/calculation",
         "changes": {
           "downloads": {
-            "previous": 19995,
-            "current": 20352,
-            "change": 357
+            "previous": 679,
+            "current": 1857,
+            "change": 1178
           },
           "likes": {
-            "previous": 24,
-            "current": 24,
+            "previous": 2,
+            "current": 2,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "jp1924/KrespSpeech",
-        "author": "jp1924",
-        "url": "https://huggingface.co/datasets/jp1924/KrespSpeech",
+        "id": "castorini/mr-tydi",
+        "author": "castorini",
+        "url": "https://huggingface.co/datasets/castorini/mr-tydi",
         "changes": {
           "downloads": {
-            "previous": 9,
-            "current": 363,
-            "change": 354
+            "previous": 1969,
+            "current": 3134,
+            "change": 1165
           },
           "likes": {
-            "previous": 3,
-            "current": 3,
+            "previous": 22,
+            "current": 22,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "taeminlee/Ko-StrategyQA",
+        "author": "taeminlee",
+        "url": "https://huggingface.co/datasets/taeminlee/Ko-StrategyQA",
+        "changes": {
+          "downloads": {
+            "previous": 14379,
+            "current": 15496,
+            "change": 1117
+          },
+          "likes": {
+            "previous": 19,
+            "current": 19,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "aiana94/polynews-parallel",
+        "author": "aiana94",
+        "url": "https://huggingface.co/datasets/aiana94/polynews-parallel",
+        "changes": {
+          "downloads": {
+            "previous": 570,
+            "current": 1637,
+            "change": 1067
+          },
+          "likes": {
+            "previous": 13,
+            "current": 13,
             "change": 0
           },
           "description_changed": false
@@ -2283,9 +2085,9 @@
         "url": "https://huggingface.co/datasets/wdcqc/starcraft-remastered-melee-maps",
         "changes": {
           "downloads": {
-            "previous": 1163,
-            "current": 1517,
-            "change": 354
+            "previous": 1517,
+            "current": 2578,
+            "change": 1061
           },
           "likes": {
             "previous": 2,
@@ -2296,14 +2098,68 @@
         }
       },
       {
-        "id": "sappho192/Tatoeba-Challenge-jpn-kor",
-        "author": "sappho192",
-        "url": "https://huggingface.co/datasets/sappho192/Tatoeba-Challenge-jpn-kor",
+        "id": "miracl/miracl-corpus",
+        "author": "miracl",
+        "url": "https://huggingface.co/datasets/miracl/miracl-corpus",
         "changes": {
           "downloads": {
-            "previous": 291,
-            "current": 639,
-            "change": 348
+            "previous": 3494,
+            "current": 4538,
+            "change": 1044
+          },
+          "likes": {
+            "previous": 49,
+            "current": 49,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "maywell/korean_textbooks",
+        "author": "maywell",
+        "url": "https://huggingface.co/datasets/maywell/korean_textbooks",
+        "changes": {
+          "downloads": {
+            "previous": 2101,
+            "current": 3140,
+            "change": 1039
+          },
+          "likes": {
+            "previous": 120,
+            "current": 120,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "google/wmt24pp",
+        "author": "google",
+        "url": "https://huggingface.co/datasets/google/wmt24pp",
+        "changes": {
+          "downloads": {
+            "previous": 4258,
+            "current": 5297,
+            "change": 1039
+          },
+          "likes": {
+            "previous": 70,
+            "current": 71,
+            "change": 1
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "TTA01/AssurAI",
+        "author": "TTA01",
+        "url": "https://huggingface.co/datasets/TTA01/AssurAI",
+        "changes": {
+          "downloads": {
+            "previous": 98,
+            "current": 1125,
+            "change": 1027
           },
           "likes": {
             "previous": 0,
@@ -2312,15 +2168,213 @@
           },
           "description_changed": false
         }
+      },
+      {
+        "id": "khalidalt/tydiqa-goldp",
+        "author": "khalidalt",
+        "url": "https://huggingface.co/datasets/khalidalt/tydiqa-goldp",
+        "changes": {
+          "downloads": {
+            "previous": 1566,
+            "current": 2593,
+            "change": 1027
+          },
+          "likes": {
+            "previous": 12,
+            "current": 12,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "Soyoung/HistRED",
+        "author": "Soyoung",
+        "url": "https://huggingface.co/datasets/Soyoung/HistRED",
+        "changes": {
+          "downloads": {
+            "previous": 454,
+            "current": 1480,
+            "change": 1026
+          },
+          "likes": {
+            "previous": 3,
+            "current": 3,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "lcw99/cc100-ko-only",
+        "author": "lcw99",
+        "url": "https://huggingface.co/datasets/lcw99/cc100-ko-only",
+        "changes": {
+          "downloads": {
+            "previous": 624,
+            "current": 1627,
+            "change": 1003
+          },
+          "likes": {
+            "previous": 5,
+            "current": 5,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "sleeping-ai/Rdiffusion-audio",
+        "author": "sleeping-ai",
+        "url": "https://huggingface.co/datasets/sleeping-ai/Rdiffusion-audio",
+        "changes": {
+          "downloads": {
+            "previous": 663,
+            "current": 1656,
+            "change": 993
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "OpenAssistant/oasst1",
+        "author": "OpenAssistant",
+        "url": "https://huggingface.co/datasets/OpenAssistant/oasst1",
+        "changes": {
+          "downloads": {
+            "previous": 7574,
+            "current": 8492,
+            "change": 918
+          },
+          "likes": {
+            "previous": 1447,
+            "current": 1448,
+            "change": 1
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "arsaporta/symile-m3",
+        "author": "arsaporta",
+        "url": "https://huggingface.co/datasets/arsaporta/symile-m3",
+        "changes": {
+          "downloads": {
+            "previous": 5740,
+            "current": 6650,
+            "change": 910
+          },
+          "likes": {
+            "previous": 6,
+            "current": 6,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "Viet-Mistral/CulturaY",
+        "author": "Viet-Mistral",
+        "url": "https://huggingface.co/datasets/Viet-Mistral/CulturaY",
+        "changes": {
+          "downloads": {
+            "previous": 3772,
+            "current": 4673,
+            "change": 901
+          },
+          "likes": {
+            "previous": 35,
+            "current": 35,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "macavaney/miracl-noauth",
+        "author": "macavaney",
+        "url": "https://huggingface.co/datasets/macavaney/miracl-noauth",
+        "changes": {
+          "downloads": {
+            "previous": 1547,
+            "current": 2447,
+            "change": 900
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "juletxara/tydiqa_xtreme",
+        "author": "juletxara",
+        "url": "https://huggingface.co/datasets/juletxara/tydiqa_xtreme",
+        "changes": {
+          "downloads": {
+            "previous": 360,
+            "current": 1250,
+            "change": 890
+          },
+          "likes": {
+            "previous": 1,
+            "current": 1,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "google/svq",
+        "author": "google",
+        "url": "https://huggingface.co/datasets/google/svq",
+        "changes": {
+          "downloads": {
+            "previous": 2929,
+            "current": 3800,
+            "change": 871
+          },
+          "likes": {
+            "previous": 32,
+            "current": 32,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "sentence-transformers/parallel-sentences-jw300",
+        "author": "sentence-transformers",
+        "url": "https://huggingface.co/datasets/sentence-transformers/parallel-sentences-jw300",
+        "changes": {
+          "downloads": {
+            "previous": 931,
+            "current": 1796,
+            "change": 865
+          },
+          "likes": {
+            "previous": 6,
+            "current": 7,
+            "change": 1
+          },
+          "description_changed": false
+        }
       }
     ],
-    "unchanged_count": 69
+    "unchanged_count": 53
   },
   "summary": {
-    "new_count": 18,
-    "removed_count": 9,
+    "new_count": 23,
+    "removed_count": 12,
     "updated_count": 50,
-    "unchanged_count": 69,
-    "net_change": 9
+    "unchanged_count": 53,
+    "net_change": 11
   }
 }
