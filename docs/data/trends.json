@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-15T01:22:07.702177",
+  "generated_at": "2025-12-22T01:23:20.303831",
   "trends": {
     "dates": [
       "20251012",
@@ -10,7 +10,8 @@
       "20251124",
       "20251201",
       "20251208",
-      "20251215"
+      "20251215",
+      "20251222"
     ],
     "total_datasets": [
       1326,
@@ -21,7 +22,8 @@
       1389,
       1398,
       1409,
-      1429
+      1429,
+      1448
     ],
     "total_downloads": [
       890871,
@@ -32,7 +34,8 @@
       786611,
       789682,
       911221,
-      888546
+      888546,
+      1013682
     ],
     "total_likes": [
       10761,
@@ -43,7 +46,8 @@
       11125,
       11176,
       11210,
-      11274
+      11274,
+      11335
     ],
     "multilingual_count": [
       585,
@@ -54,13 +58,14 @@
       611,
       617,
       623,
-      630
+      630,
+      645
     ],
-    "growth_rate": 7.77,
+    "growth_rate": 9.2,
     "latest_stats": {
-      "total_datasets": 1429,
-      "total_downloads": 888546,
-      "total_likes": 11274,
+      "total_datasets": 1448,
+      "total_downloads": 1013682,
+      "total_likes": 11335,
       "top_authors": {
         "nmixx-fin": 37,
         "nayohan": 31,
@@ -74,21 +79,21 @@
         "Nexdata": 12
       },
       "top_tasks": {
-        "text-generation": 320,
-        "question-answering": 198,
-        "text-classification": 179,
-        "translation": 123,
+        "text-generation": 325,
+        "question-answering": 199,
+        "text-classification": 182,
+        "translation": 130,
         "feature-extraction": 48,
+        "automatic-speech-recognition": 44,
         "summarization": 44,
-        "automatic-speech-recognition": 40,
+        "token-classification": 36,
         "visual-question-answering": 36,
-        "token-classification": 35,
-        "text-retrieval": 34
+        "text-retrieval": 33
       },
-      "multilingual_count": 630
+      "multilingual_count": 645
     },
     "first_date": "20251012",
-    "last_date": "20251215",
-    "total_weeks": 9
+    "last_date": "20251222",
+    "total_weeks": 10
   }
 }
