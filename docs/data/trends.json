@@ -1,8 +1,9 @@
 {
-  "generated_at": "2025-12-22T01:23:20.303831",
+  "generated_at": "2025-12-29T01:26:03.314900",
   "trends": {
     "dates": [
       "20251012",
+      "20251027",
       "20251028",
       "20251107",
       "20251110",
@@ -11,10 +12,12 @@
       "20251201",
       "20251208",
       "20251215",
-      "20251222"
+      "20251222",
+      "20251229"
     ],
     "total_datasets": [
       1326,
+      1352,
       1354,
       1367,
       1369,
@@ -23,10 +26,12 @@
       1398,
       1409,
       1429,
-      1448
+      1448,
+      1457
     ],
     "total_downloads": [
       890871,
+      750933,
       763446,
       787921,
       806512,
@@ -35,10 +40,12 @@
       789682,
       911221,
       888546,
-      1013682
+      1013682,
+      1000005
     ],
     "total_likes": [
       10761,
+      10858,
       10869,
       10953,
       10971,
@@ -47,10 +54,12 @@
       11176,
       11210,
       11274,
-      11335
+      11335,
+      11384
     ],
     "multilingual_count": [
       585,
+      594,
       594,
       600,
       601,
@@ -59,13 +68,14 @@
       617,
       623,
       630,
-      645
+      645,
+      651
     ],
-    "growth_rate": 9.2,
+    "growth_rate": 9.88,
     "latest_stats": {
-      "total_datasets": 1448,
-      "total_downloads": 1013682,
-      "total_likes": 11335,
+      "total_datasets": 1457,
+      "total_downloads": 1000005,
+      "total_likes": 11384,
       "top_authors": {
         "nmixx-fin": 37,
         "nayohan": 31,
@@ -76,24 +86,24 @@
         "jp1924": 18,
         "youjunhyeok": 17,
         "KETI-AIR": 14,
-        "Nexdata": 12
+        "agentlans": 13
       },
       "top_tasks": {
-        "text-generation": 325,
-        "question-answering": 199,
-        "text-classification": 182,
-        "translation": 130,
-        "feature-extraction": 48,
+        "text-generation": 327,
+        "question-answering": 200,
+        "text-classification": 183,
+        "translation": 131,
+        "feature-extraction": 49,
         "automatic-speech-recognition": 44,
-        "summarization": 44,
-        "token-classification": 36,
-        "visual-question-answering": 36,
+        "summarization": 43,
+        "token-classification": 37,
+        "visual-question-answering": 37,
         "text-retrieval": 33
       },
-      "multilingual_count": 645
+      "multilingual_count": 651
     },
     "first_date": "20251012",
-    "last_date": "20251222",
-    "total_weeks": 10
+    "last_date": "20251229",
+    "total_weeks": 12
   }
 }
