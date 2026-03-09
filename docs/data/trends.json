@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02T01:49:23.221211",
+  "generated_at": "2026-03-09T01:51:02.124597",
   "trends": {
     "dates": [
       "20251012",
@@ -22,7 +22,8 @@
       "20260209",
       "20260216",
       "20260223",
-      "20260302"
+      "20260302",
+      "20260309"
     ],
     "total_datasets": [
       1326,
@@ -45,7 +46,8 @@
       1591,
       1606,
       1620,
-      1636
+      1636,
+      1656
     ],
     "total_downloads": [
       890871,
@@ -68,7 +70,8 @@
       679572,
       695888,
       796316,
-      851902
+      851902,
+      863695
     ],
     "total_likes": [
       10761,
@@ -91,7 +94,8 @@
       11797,
       11905,
       12336,
-      12436
+      12436,
+      12488
     ],
     "multilingual_count": [
       585,
@@ -114,13 +118,14 @@
       731,
       743,
       751,
-      764
+      764,
+      777
     ],
-    "growth_rate": 23.38,
+    "growth_rate": 24.89,
     "latest_stats": {
-      "total_datasets": 1636,
-      "total_downloads": 851902,
-      "total_likes": 12436,
+      "total_datasets": 1656,
+      "total_downloads": 863695,
+      "total_likes": 12488,
       "top_authors": {
         "nmixx-fin": 37,
         "nayohan": 31,
@@ -134,21 +139,21 @@
         "KETI-AIR": 14
       },
       "top_tasks": {
-        "text-generation": 390,
+        "text-generation": 396,
         "question-answering": 234,
-        "text-classification": 214,
+        "text-classification": 217,
         "translation": 142,
-        "automatic-speech-recognition": 61,
-        "feature-extraction": 50,
-        "summarization": 48,
+        "automatic-speech-recognition": 62,
+        "feature-extraction": 52,
+        "summarization": 49,
         "token-classification": 43,
-        "visual-question-answering": 41,
-        "text-retrieval": 40
+        "text-retrieval": 41,
+        "visual-question-answering": 41
       },
-      "multilingual_count": 764
+      "multilingual_count": 777
     },
     "first_date": "20251012",
-    "last_date": "20260302",
-    "total_weeks": 21
+    "last_date": "20260309",
+    "total_weeks": 22
   }
 }
