@@ -1,124 +1,67 @@
 {
-  "generated_at": "2026-03-16T02:03:01.223447",
-  "previous_date": "20260309",
-  "current_date": "20260316",
-  "previous_count": 1656,
-  "current_count": 1669,
+  "generated_at": "2026-03-23T01:56:12.248586",
+  "previous_date": "20260316",
+  "current_date": "20260323",
+  "previous_count": 1669,
+  "current_count": 1702,
   "changes": {
     "new_datasets": [
       {
-        "id": "Hyde01/Korean_Product_Labels_Image_Dataset",
-        "author": "Hyde01",
-        "created_at": "2026-03-15 15:03:09+00:00",
-        "last_modified": "2026-03-15 15:03:09+00:00",
-        "downloads": 0,
+        "id": "4pplet/kotobase-dict",
+        "author": "4pplet",
+        "created_at": "2026-03-20 13:50:40+00:00",
+        "last_modified": "2026-03-22 15:33:52+00:00",
+        "downloads": 3,
         "likes": 0,
         "tags": [
-          "task_categories:image-classification",
           "language:ko",
-          "license:cc-by-4.0",
-          "size_categories:1K<n<10K",
-          "modality:image",
+          "language:ja",
+          "language:zh",
+          "license:cc-by-sa-4.0",
+          "size_categories:1M<n<10M",
           "region:us",
-          "image",
+          "dictionary",
           "korean",
-          "product-labels",
-          "packaging",
-          "text-recognition",
-          "ocr",
-          "ai-research",
-          "consumer-goods",
-          "computer-vision",
-          "retail",
-          "multilingual"
+          "japanese",
+          "chinese",
+          "language-learning",
+          "vocabulary"
         ],
-        "description": "\n\t\n\t\t\n\t\tKorean Product Labels Image Dataset\n\t\n\nThis dataset contains a diverse collection of high-resolution images of Korean product labels and packaging. The dataset spans categories such as food, cosmetics, beverages, and household items, designed to support OCR, product classification, and visual-language AI research.\n\n\t\n\t\t\n\t\tContact\n\t\n\nFor queries or collaborations related to this dataset, contact:  \n\nanoushka@kgen.io  \nabhishek.vadapalli@kgen.io\n\n\n\t\n\t\t\n\t\tSupported Tasks\n\t\n\n\nTask… See the full description on the dataset page: https://huggingface.co/datasets/Hyde01/Korean_Product_Labels_Image_Dataset.",
-        "url": "https://huggingface.co/datasets/Hyde01/Korean_Product_Labels_Image_Dataset",
+        "description": "\n\t\n\t\t\n\t\tKotobase Dictionary\n\t\n\nPre-built SQLite dictionary database for Kotobase, an offline-first Korean/Japanese/Chinese dictionary and vocabulary learning app.\n\n\t\n\t\t\n\t\tContents\n\t\n\n\n4M+ dictionary entries across Korean, Japanese, and Chinese\n4.8M+ sense definitions in multiple languages (English, Korean, Japanese, and more)\nExample sentences from Tatoeba\nTOPIK level tags (A/B/C) for Korean vocabulary\nFrequency rankings from Leipzig corpus data\nFull-text search via FTS5\n\n\n\t\n\t\t\n\t\tSources… See the full description on the dataset page: https://huggingface.co/datasets/4pplet/kotobase-dict.",
+        "url": "https://huggingface.co/datasets/4pplet/kotobase-dict",
         "languages": [
-          "ko"
-        ],
-        "tasks": [
-          "image-classification"
-        ],
-        "size_categories": [
-          "1K<n<10K"
-        ]
-      },
-      {
-        "id": "ginigen-ai/smol-worldcup",
-        "author": "ginigen-ai",
-        "created_at": "2026-03-10 08:51:38+00:00",
-        "last_modified": "2026-03-10 14:47:44+00:00",
-        "downloads": 1514,
-        "likes": 36,
-        "tags": [
-          "task_categories:text-generation",
-          "task_categories:question-answering",
-          "language:en",
-          "language:ko",
-          "language:ar",
-          "language:pt",
-          "language:tr",
-          "language:bn",
-          "language:th",
-          "license:apache-2.0",
-          "size_categories:n<1K",
-          "format:json",
-          "modality:tabular",
-          "modality:text",
-          "library:datasets",
-          "library:pandas",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us",
-          "benchmark",
-          "small-language-models",
-          "SHIFT-framework",
-          "WCS",
-          "honesty",
-          "hallucination-detection",
-          "smol-ai-worldcup",
-          "evaluation",
-          "multilingual",
-          "edge-ai",
-          "PIR"
-        ],
-        "description": "\n\t\n\t\t\n\t\t🏟️ Smol AI WorldCup — SHIFT Benchmark\n\t\n\nThe world's first 5-axis evaluation framework for small language models.\n\nNot just \"how smart?\" — but \"how honest? how fast? how small? how efficient?\"\n\n\n\t\n\t\t\n\n\n\n\n\t\t\n🏟️ Leaderboard\nhuggingface.co/spaces/ginigen-ai/smol-worldcup\n\n\n📊 Dataset\nhuggingface.co/datasets/ginigen-ai/smol-worldcup\n\n\n🏅 ALL Bench\nhuggingface.co/spaces/FINAL-Bench/all-bench-leaderboard\n\n\t\n\t\t\n\t\t🏆 Official Ranking: WCS (WorldCup Score)\n\t\n\nWCS = √( SHIFT × PIR_norm )… See the full description on the dataset page: https://huggingface.co/datasets/ginigen-ai/smol-worldcup.",
-        "url": "https://huggingface.co/datasets/ginigen-ai/smol-worldcup",
-        "languages": [
-          "en",
           "ko",
-          "ar",
-          "pt",
-          "tr",
-          "bn",
-          "th"
+          "ja",
+          "zh"
         ],
-        "tasks": [
-          "text-generation",
-          "question-answering"
-        ],
+        "tasks": [],
         "size_categories": [
-          "n<1K"
+          "1M<n<10M"
         ]
       },
       {
-        "id": "humyn-labs/Asian-High-Fidelity-ASR-Dataset",
-        "author": "humyn-labs",
-        "created_at": "2026-03-13 08:44:41+00:00",
-        "last_modified": "2026-03-13 11:38:45+00:00",
-        "downloads": 17,
-        "likes": 0,
+        "id": "takuM23/multilingual_audio_alignments",
+        "author": "takuM23",
+        "created_at": "2026-03-17 07:51:52+00:00",
+        "last_modified": "2026-03-17 07:51:53+00:00",
+        "downloads": 29,
+        "likes": 1,
         "tags": [
           "task_categories:automatic-speech-recognition",
-          "task_categories:audio-classification",
-          "language:ar",
+          "task_categories:text-to-speech",
+          "language:en",
+          "language:de",
+          "language:fr",
+          "language:es",
+          "language:ru",
+          "language:ja",
           "language:ko",
-          "language:vi",
+          "language:pt",
+          "language:tr",
+          "language:th",
           "license:cc-by-4.0",
-          "size_categories:n<1K",
+          "size_categories:10M<n<100M",
           "format:parquet",
-          "format:optimized-parquet",
           "modality:audio",
           "modality:text",
           "library:datasets",
@@ -126,203 +69,134 @@
           "library:polars",
           "library:mlcroissant",
           "region:us",
-          "ASR",
-          "single-speaker",
-          "multi-speaker",
-          "natural-speech",
-          "ai-research"
+          "audio",
+          "speech",
+          "phoneme-alignment",
+          "mfa",
+          "forced-alignment"
         ],
-        "description": "\n\t\n\t\t\n\t\tDataset Overview\n\t\n\nThis dataset contains high-quality conversational audio samples curated for Automatic Speech Recognition tasks in Vietnamese, Korean, Arabic and Filipino.\nThe dataset includes:\n\nPaired audio + transcripts\nNatural, non-scripted conversational speech\nSingle-speaker & Dual-speaker interactions\n\n\n\t\n\t\t\n\t\tAudio Specifications\n\t\n\n\nSampling Rate: 16 kHz – 24 kHz\nBit Depth: 16-bit\nAudio Type: Non-scripted conversational speech\n\n\n\n\t\n\t\t\n\t\tSupported Languages\n\t\n\n\n\t\n\t\t\nLanguage… See the full description on the dataset page: https://huggingface.co/datasets/humyn-labs/Asian-High-Fidelity-ASR-Dataset.",
-        "url": "https://huggingface.co/datasets/humyn-labs/Asian-High-Fidelity-ASR-Dataset",
+        "description": "\n\t\n\t\t\n\t\tMultilingual MFA-Aligned Speech Dataset (UNDER DEVELOPMENT)\n\t\n\nA large-scale multilingual speech dataset with word-level and phoneme-level alignments produced using the Montreal Forced Aligner (MFA).\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nThis dataset consolidates multiple speech corpora across various languages, all processed through MFA to provide precise phoneme and word alignments. Each sample includes the original audio, transcript, and detailed timing information for both words and… See the full description on the dataset page: https://huggingface.co/datasets/takuM23/multilingual_audio_alignments.",
+        "url": "https://huggingface.co/datasets/takuM23/multilingual_audio_alignments",
         "languages": [
-          "ar",
+          "en",
+          "de",
+          "fr",
+          "es",
+          "ru",
+          "ja",
           "ko",
-          "vi"
+          "pt",
+          "tr",
+          "th"
         ],
         "tasks": [
           "automatic-speech-recognition",
-          "audio-classification"
+          "text-to-speech"
         ],
         "size_categories": [
-          "n<1K"
+          "10M<n<100M"
         ]
       },
       {
-        "id": "nyuuzyou/phishing-snapshots",
-        "author": "nyuuzyou",
-        "created_at": "2026-03-11 20:12:35+00:00",
-        "last_modified": "2026-03-12 02:03:38+00:00",
-        "downloads": 15,
+        "id": "TTS-AGI/emolia-3k-speaker-clusters-DACVAE",
+        "author": "TTS-AGI",
+        "created_at": "2026-03-19 06:00:25+00:00",
+        "last_modified": "2026-03-19 06:18:51+00:00",
+        "downloads": 17,
         "likes": 0,
         "tags": [
-          "task_categories:text-classification",
-          "task_categories:feature-extraction",
+          "task_categories:audio-classification",
+          "task_categories:text-to-speech",
           "language:en",
-          "language:zh",
-          "language:es",
-          "language:fr",
           "language:de",
+          "language:fr",
           "language:ja",
           "language:ko",
-          "language:pt",
-          "language:ru",
-          "language:ar",
-          "license:cc0-1.0",
-          "size_categories:100K<n<1M",
+          "language:zh",
+          "license:cc-by-4.0",
+          "size_categories:10K<n<100K",
+          "format:webdataset",
+          "modality:text",
+          "library:datasets",
+          "library:webdataset",
+          "library:mlcroissant",
+          "region:us",
+          "speaker-embeddings",
+          "speaker-clustering",
+          "voice-diversity",
+          "TTS",
+          "emolia",
+          "speaker-verification"
+        ],
+        "description": "\n\t\n\t\t\n\t\tEmolia 3K Speaker Clusters\n\t\n\nA curated set of 3,000 diverse speaker clusters derived from the TTS-AGI/emolia-hq dataset, with up to 20 representative audio samples per cluster.\n\n\t\n\t\t\n\t\tOverview\n\t\n\nThe original emolia-hq dataset contains hundreds of thousands of speech samples with 128-dimensional WavLM speaker timbre embeddings. These were first clustered into 10,000 centroids, then intelligently pruned to 3,000 using density-aware farthest-point sampling to ensure:\n\nOutlier… See the full description on the dataset page: https://huggingface.co/datasets/TTS-AGI/emolia-3k-speaker-clusters-DACVAE.",
+        "url": "https://huggingface.co/datasets/TTS-AGI/emolia-3k-speaker-clusters-DACVAE",
+        "languages": [
+          "en",
+          "de",
+          "fr",
+          "ja",
+          "ko",
+          "zh"
+        ],
+        "tasks": [
+          "audio-classification",
+          "text-to-speech"
+        ],
+        "size_categories": [
+          "10K<n<100K"
+        ]
+      },
+      {
+        "id": "liveplex/robogate-failure-dictionary",
+        "author": "liveplex",
+        "created_at": "2026-03-21 06:37:46+00:00",
+        "last_modified": "2026-03-22 18:42:31+00:00",
+        "downloads": 2,
+        "likes": 0,
+        "tags": [
+          "task_categories:robotics",
+          "language:en",
+          "language:ko",
+          "license:mit",
+          "size_categories:10K<n<100K",
           "format:parquet",
+          "format:optimized-parquet",
           "modality:tabular",
           "modality:text",
           "library:datasets",
-          "library:dask",
+          "library:pandas",
           "library:polars",
           "library:mlcroissant",
-          "region:us"
+          "region:us",
+          "failure-analysis",
+          "pick-and-place",
+          "isaac-sim",
+          "franka-panda",
+          "ur5e",
+          "domain-randomization",
+          "latin-hypercube-sampling",
+          "adaptive-sampling",
+          "physical-ai"
         ],
-        "description": "\n\t\n\t\t\n\t\tPhishing & Malware Website Snapshots\n\t\n\n136,414 phishing and malware website snapshots captured by a headless Chromium browser between July 24 and August 15, 2024. URLs were confirmed or high-confidence phishing/malware at the time of collection, though some hosts had already been blocked or taken down when the snapshot was taken. Each row contains the full HTML source, extracted visible text, complete network traffic from HAR recording, parsed page features, and resource fingerprints.… See the full description on the dataset page: https://huggingface.co/datasets/nyuuzyou/phishing-snapshots.",
-        "url": "https://huggingface.co/datasets/nyuuzyou/phishing-snapshots",
+        "description": "\n\t\n\t\t\n\t\tRoboGate Failure Dictionary\n\t\n\n\n30,000 Physics-Validated Pick & Place Failure Patterns across Franka Panda & UR5e\n\nA structured database of robot AI failure patterns collected from NVIDIA Isaac Sim physical simulations using Two-Stage Adaptive Sampling. Each experiment records the exact conditions under which a robot succeeded or failed at Pick & Place tasks.\n\n\t\n\t\t\n\t\n\t\n\t\tQuick Stats\n\t\n\n\n\t\n\t\t\n\nFranka Uniform\nFranka Boundary\nUR5e\nCombined\n\n\n\t\t\nExperiments\n10,000\n10,000\n10,000\n30,000… See the full description on the dataset page: https://huggingface.co/datasets/liveplex/robogate-failure-dictionary.",
+        "url": "https://huggingface.co/datasets/liveplex/robogate-failure-dictionary",
         "languages": [
           "en",
-          "zh",
-          "es",
-          "fr",
-          "de",
-          "ja",
-          "ko",
-          "pt",
-          "ru",
-          "ar"
-        ],
-        "tasks": [
-          "text-classification",
-          "feature-extraction"
-        ],
-        "size_categories": [
-          "100K<n<1M"
-        ]
-      },
-      {
-        "id": "playcat/cat-enrichment-methods",
-        "author": "playcat",
-        "created_at": "2026-03-11 05:13:42+00:00",
-        "last_modified": "2026-03-15 03:00:30+00:00",
-        "downloads": 11,
-        "likes": 0,
-        "tags": [
-          "task_categories:text-classification",
-          "task_categories:question-answering",
-          "language:ko",
-          "language:en",
-          "license:cc-by-nc-4.0",
-          "size_categories:n<1K",
-          "region:us",
-          "cat-behavior",
-          "environmental-enrichment",
-          "feline-welfare",
-          "animal-welfare",
-          "pet-care",
-          "korean",
-          "bilingual"
-        ],
-        "description": "\n\t\n\t\t\n\t\tCat Enrichment Methods | 고양이 환경 풍부화 방법 데이터셋\n\t\n\nA curated bilingual (Korean/English) dataset of 50 evidence-based cat environmental enrichment methods, compiled by PlayCat.\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nThis dataset catalogs 50 proven methods for enriching indoor cats' environments, each classified by category, effectiveness, and evidence level. It serves as a structured reference for pet care professionals, researchers, and cat guardians seeking to improve feline welfare.… See the full description on the dataset page: https://huggingface.co/datasets/playcat/cat-enrichment-methods.",
-        "url": "https://huggingface.co/datasets/playcat/cat-enrichment-methods",
-        "languages": [
-          "ko",
-          "en"
-        ],
-        "tasks": [
-          "text-classification",
-          "question-answering"
-        ],
-        "size_categories": [
-          "n<1K"
-        ]
-      },
-      {
-        "id": "bluejude10/KR-Self-Driving-Legal-QA",
-        "author": "bluejude10",
-        "created_at": "2026-02-14 14:30:28+00:00",
-        "last_modified": "2026-02-14 14:42:22+00:00",
-        "downloads": 15,
-        "likes": 0,
-        "tags": [
-          "language:ko",
-          "license:other",
-          "size_categories:n<1K",
-          "format:text",
-          "modality:document",
-          "modality:text",
-          "library:datasets",
-          "library:mlcroissant",
-          "region:us",
-          "autonomous-driving",
-          "legal",
-          "rag",
-          "notebooklm",
-          "qwen",
-          "finetuning",
-          "alpaca"
-        ],
-        "description": "\n\t\n\t\t\n\t\t📚 KR-Self-Driving-Legal-QA\n\t\n\n대한민국 자율주행자동차 법령 및 가이드라인 기반 Q&A 데이터셋\n이 데이터셋은 한국의 자율주행자동차 관련 법령, 규칙, 가이드라인(총 13개 핵심 문서)을 기반으로 생성된 고품질 질의응답(Q&A) 데이터셋입니다.\nLLM Fine-Tuning 및 RAG(Retrieval-Augmented Generation) 시스템 구축을 위해 최적화되었습니다.\n\n\t\n\t\t\n\t\t📌 데이터셋 개요 (Overview)\n\t\n\n\n출처: 대한민국 법령정보센터, 국토교통부 (공식 문서)\n생성 도구: Google NotebookLM + Custom Python Parser\n포맷: Alpaca Clean Format (instruction, input, output)\n규모: 720개 Q&A 쌍 (엄선된 고품질 데이터)\n특징:\n법적 근거 명시: 각 질문에 출처 문서(예: 레벨3 안전기준, 사이버보안 가이드라인)가 명시됨.\nRAG 최적화:… See the full description on the dataset page: https://huggingface.co/datasets/bluejude10/KR-Self-Driving-Legal-QA.",
-        "url": "https://huggingface.co/datasets/bluejude10/KR-Self-Driving-Legal-QA",
-        "languages": [
           "ko"
         ],
-        "tasks": [],
+        "tasks": [
+          "robotics"
+        ],
         "size_categories": [
-          "n<1K"
+          "10K<n<100K"
         ]
       },
       {
-        "id": "melongena/SSR-CoT-16k",
-        "author": "melongena",
-        "created_at": "2026-03-12 13:11:22+00:00",
-        "last_modified": "2026-03-13 10:53:16+00:00",
-        "downloads": 11,
-        "likes": 0,
-        "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "language:zh",
-          "language:fr",
-          "language:it",
-          "language:es",
-          "language:pt",
-          "language:ja",
-          "language:ko",
-          "language:ru",
-          "license:apache-2.0",
-          "arxiv:2602.14469",
-          "region:us",
-          "synthetic",
-          "reasoning",
-          "reverse-cot",
-          "post-hoc-rationalization",
-          "distillation"
-        ],
-        "description": "\n\t\n\t\t\n\t\tSSR-RCoT-16K: Turning answer-only data into high-quality reasoning-supervision data\n\t\n\n\nSSR-RCoT-16K is a public 16k subset derived from the data construction pipeline introduced in\nMeasuring and Mitigating Post-hoc Rationalization in Reverse Chain-of-Thought Generation.\nThis dataset is designed for powerful reasoning on general tasks, especially for the realistic setting where high-quality responses are available but chain-of-thought annotations are missing.\nIn such answer-rich but… See the full description on the dataset page: https://huggingface.co/datasets/melongena/SSR-CoT-16k.",
-        "url": "https://huggingface.co/datasets/melongena/SSR-CoT-16k",
-        "languages": [
-          "en",
-          "zh",
-          "fr",
-          "it",
-          "es",
-          "pt",
-          "ja",
-          "ko",
-          "ru"
-        ],
-        "tasks": [
-          "text-generation"
-        ],
-        "size_categories": []
-      },
-      {
-        "id": "wmt/wmt25-mist-mulr",
-        "author": "wmt",
-        "created_at": "2026-03-10 17:46:44+00:00",
-        "last_modified": "2026-03-12 14:10:00+00:00",
-        "downloads": 9,
+        "id": "jiaheqi/wmt25-mist-mulr",
+        "author": "jiaheqi",
+        "created_at": "2026-03-17 09:00:54+00:00",
+        "last_modified": "2026-03-17 09:00:55+00:00",
+        "downloads": 7,
         "likes": 0,
         "tags": [
           "language:zh",
@@ -350,8 +224,8 @@
           "library:mlcroissant",
           "region:us"
         ],
-        "description": "\n\t\n\t\t\n\t\tWMT 2025 MIST Multilingual Linguistic Reasoning Subtask (MuLR)\n\t\n\nThis dataset contains the prompts and answers for the WMT2025 MIST sub-task on linguistic reasoning.\nThe tasks consist of linguistic reasoning puzzles in 15 languages. \nEvery puzzle corresponds to a sub-task of the 2024 IOL problems, concerning four languages (Koryak, Hadza, Komnzo,\nDâw, and Yanyuwa). The original IOL problems are broken down into 90 individual sub-tasks (e.g. turning a 10-way mapping problem into 10… See the full description on the dataset page: https://huggingface.co/datasets/wmt/wmt25-mist-mulr.",
-        "url": "https://huggingface.co/datasets/wmt/wmt25-mist-mulr",
+        "description": "\n\t\n\t\t\n\t\tWMT 2025 MIST Multilingual Linguistic Reasoning Subtask (MuLR)\n\t\n\nThis dataset contains the prompts and answers for the WMT2025 MIST sub-task on linguistic reasoning.\nThe tasks consist of linguistic reasoning puzzles in 15 languages. \nEvery puzzle corresponds to a sub-task of the 2024 IOL problems, concerning four languages (Koryak, Hadza, Komnzo,\nDâw, and Yanyuwa). The original IOL problems are broken down into 90 individual sub-tasks (e.g. turning a 10-way mapping problem into 10… See the full description on the dataset page: https://huggingface.co/datasets/jiaheqi/wmt25-mist-mulr.",
+        "url": "https://huggingface.co/datasets/jiaheqi/wmt25-mist-mulr",
         "languages": [
           "zh",
           "cs",
@@ -375,68 +249,397 @@
         ]
       },
       {
-        "id": "hwany79/google-open-images-hair-style-dataset",
-        "author": "hwany79",
-        "created_at": "2026-03-09 06:41:15+00:00",
-        "last_modified": "2026-03-10 02:09:38+00:00",
-        "downloads": 48,
+        "id": "meta13sphere/meta13sphere_IRS_DCE_Topological_Dynamics__Boundary_Dissolution_Physics",
+        "author": "meta13sphere",
+        "created_at": "2026-03-18 18:19:26+00:00",
+        "last_modified": "2026-03-21 19:25:23+00:00",
+        "downloads": 26,
         "likes": 0,
         "tags": [
-          "task_categories:image-classification",
-          "task_categories:object-detection",
-          "task_categories:image-segmentation",
+          "annotations_creators:expert-generated",
+          "multilinguality:multilingual",
           "language:en",
           "language:ko",
-          "license:mit",
-          "size_categories:1K<n<10K",
-          "format:imagefolder",
+          "license:other",
+          "size_categories:n<1K",
+          "modality:document",
           "modality:image",
-          "modality:text",
           "library:datasets",
           "library:mlcroissant",
+          "doi:10.57967/hf/8066",
           "region:us",
-          "computer-vision",
-          "open-images",
-          "hair-style",
-          "human",
-          "image-classification",
-          "object-detection",
-          "segmentation",
-          "custom-dataset"
+          "representation-geometry",
+          "intrinsic-dimension",
+          "transformer",
+          "resonance-transition",
+          "basis-relative-reorganization",
+          "trajectory-analysis",
+          "batch-interference",
+          "quantization-robustness",
+          "model-specific-bias",
+          "open-structural-record",
+          "resonance-resonance",
+          "IRS-DCE",
+          "ai-Boundary-Dissolution-Physics",
+          "ai-cognitive-physics"
         ],
-        "description": "\n\t\n\t\t\n\t\tGoogle Open Images — Hair Style Dataset\n\t\n\n\n🇺🇸 English | 🇰🇷 한국어\n\n\n\n\t\n\t\t\n\t\tOverview\n\t\n\nThis dataset is a curated custom subset of the Google Open Images V7 dataset, specifically filtered to include images of humans with various hair styles.It is intended for use in computer vision research and applications such as hair style classification, person detection, and instance segmentation.\n\n\t\n\t\t\nSplit\nPurpose\n\n\n\t\t\ntrain\nModel training\n\n\nvalidation\nModel evaluation / hyperparameter tuning… See the full description on the dataset page: https://huggingface.co/datasets/hwany79/google-open-images-hair-style-dataset.",
-        "url": "https://huggingface.co/datasets/hwany79/google-open-images-hair-style-dataset",
+        "description": "\n\t\n\t\t\n\t\tResonance Resonance / IRS-DCE\n\t\n\n\n\t\n\t\t\n\t\tMASTER README (FULL EXTENDED VERSION)\n\t\n\n\n\n\t\n\t\t\n\t\t0. What is this\n\t\n\nThis repository introduces a projection-conditioned representation-resonance framework for large language models (LLMs).\nIt is NOT:\n\na prompt trick\na jailbreak method\na benchmark artifact\n\nIt IS:\n\na structural resonance analysis system\na basis-relative reorganization framework\na representation control paradigm\n\n\n\n\t\n\t\t\n\t\n\t\n\t\t1. Core Claim\n\t\n\nThe same input can produce… See the full description on the dataset page: https://huggingface.co/datasets/meta13sphere/meta13sphere_IRS_DCE_Topological_Dynamics__Boundary_Dissolution_Physics.",
+        "url": "https://huggingface.co/datasets/meta13sphere/meta13sphere_IRS_DCE_Topological_Dynamics__Boundary_Dissolution_Physics",
         "languages": [
           "en",
           "ko"
         ],
+        "tasks": [],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "brulee-1/Barynsor-1-SFT-Conversations",
+        "author": "brulee-1",
+        "created_at": "2026-03-20 17:17:17+00:00",
+        "last_modified": "2026-03-20 17:39:49+00:00",
+        "downloads": 7,
+        "likes": 0,
+        "tags": [
+          "language:en",
+          "language:ja",
+          "language:zh",
+          "language:ko",
+          "language:fr",
+          "language:es",
+          "license:apache-2.0",
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "conversational",
+          "sft",
+          "magpie",
+          "multilingual",
+          "synthetic"
+        ],
+        "description": "\n\t\n\t\t\n\t\tBarynsor-1-SFT-Conversations\n\t\n\nMultilingual conversation dataset generated using the Magpie method for SFT training of Barynsor-1.\n\n\t\n\t\t\n\t\tGeneration Method\n\t\n\n\nQuery generation: qwen2.5:1.5b (via Ollama)\nAnswer generation: gemma3:12b-cloud (via Ollama)\n\n\n\t\n\t\t\n\t\tStatistics\n\t\n\n\n\t\n\t\t\nLanguage\nCount\n\n\n\t\t\nen\n26,180\n\n\nja\n23,432\n\n\nzh\n11,361\n\n\nfr\n10,739\n\n\nes\n10,727\n\n\nko\n9,457\n\n\nTotal\n91,896\n\n\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tFormat\n\t\n\nJSONL with fields:\n\nid: integer\nlang: language code (en, ja, zh, ko, fr… See the full description on the dataset page: https://huggingface.co/datasets/brulee-1/Barynsor-1-SFT-Conversations.",
+        "url": "https://huggingface.co/datasets/brulee-1/Barynsor-1-SFT-Conversations",
+        "languages": [
+          "en",
+          "ja",
+          "zh",
+          "ko",
+          "fr",
+          "es"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "10K<n<100K"
+        ]
+      },
+      {
+        "id": "golfoscar/povel-hearheart-dataset",
+        "author": "golfoscar",
+        "created_at": "2026-03-19 20:15:30+00:00",
+        "last_modified": "2026-03-19 20:21:18+00:00",
+        "downloads": 14,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-to-speech",
+          "task_categories:audio-classification",
+          "language:ko",
+          "license:other",
+          "size_categories:1K<n<10K",
+          "format:audiofolder",
+          "modality:audio",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "asmr",
+          "korean",
+          "tts",
+          "voice-clone",
+          "speech"
+        ],
+        "description": "\n\t\n\t\t\n\t\tPovel Hearheart Dataset\n\t\n\n한국어 성인 ASMR 음성 데이터셋. Hearheart.com에서 수집한 1,142개 오디오 파일을 처리하여 5,238개 세그먼트로 분할.\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\nraw/hearheart/audio/           # 원본 1,142개 WAV 파일 (4.8GB, 29.3시간)\nprocessed/hearheart/\n  ├── vocals/                  # Demucs 보컬 분리 결과 (4.8GB)\n  ├── segments/segments/       # VAD 세그먼트 5,238개 WAV (3.5GB)\n  ├── segments/segment_index.json  # 세그먼트 인덱스\n  ├── encoded.jsonl            # 코덱 인코딩 결과 4,744개 (79MB)\n  ├── filtered.jsonl           # 필터링 결과\n  └──… See the full description on the dataset page: https://huggingface.co/datasets/golfoscar/povel-hearheart-dataset.",
+        "url": "https://huggingface.co/datasets/golfoscar/povel-hearheart-dataset",
+        "languages": [
+          "ko"
+        ],
         "tasks": [
-          "image-classification",
-          "object-detection",
-          "image-segmentation"
+          "text-to-speech",
+          "audio-classification"
         ],
         "size_categories": [
           "1K<n<10K"
         ]
       },
       {
-        "id": "junyeong-nero/synthetic-ocr-images-ko-50k",
-        "author": "junyeong-nero",
-        "created_at": "2026-03-10 11:21:17+00:00",
-        "last_modified": "2026-03-10 11:30:44+00:00",
-        "downloads": 50,
+        "id": "naenghoon/Fair-Trade-Korea-Law",
+        "author": "naenghoon",
+        "created_at": "2026-03-08 14:00:03+00:00",
+        "last_modified": "2026-03-08 14:01:31+00:00",
+        "downloads": 10,
         "likes": 0,
         "tags": [
-          "task_categories:image-to-text",
-          "annotations_creators:machine-generated",
-          "language_creators:machine-generated",
-          "multilinguality:monolingual",
-          "source_datasets:synthetic",
           "language:ko",
-          "license:unknown",
+          "size_categories:n<1K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "law",
+          "korea,",
+          "fair-trade"
+        ],
+        "description": null,
+        "url": "https://huggingface.co/datasets/naenghoon/Fair-Trade-Korea-Law",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "Wigtn/KoGovDoc-Bench",
+        "author": "Wigtn",
+        "created_at": "2026-03-19 10:01:21+00:00",
+        "last_modified": "2026-03-19 10:01:56+00:00",
+        "downloads": 3,
+        "likes": 0,
+        "tags": [
+          "language:ko",
+          "language:en",
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "format:json",
+          "modality:image",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "document-parsing",
+          "ocr",
+          "korean",
+          "government-documents",
+          "benchmark",
+          "vlm"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKoGovDoc-Bench\n\t\n\nEvaluation benchmark for Korean government document parsing, used to evaluate WigtnOCR-2B.\n\n\t\n\t\t\n\t\tOverview\n\t\n\n\n\t\n\t\t\nAttribute\nValue\n\n\n\t\t\nPages\n294\n\n\nDocuments\n38 (9 KoGovDoc + 29 ArXiv)\n\n\nLanguages\nKorean, English\n\n\nFormat\nPage images (PNG) + Pseudo-GT (Markdown)\n\n\nGT Source\nQwen3-VL-30B (generation) + Qwen3.5-122B (validation, score ≥ 3/5)\n\n\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\nval.jsonl              # 294 samples, each with image path + GT markdown\nimages/… See the full description on the dataset page: https://huggingface.co/datasets/Wigtn/KoGovDoc-Bench.",
+        "url": "https://huggingface.co/datasets/Wigtn/KoGovDoc-Bench",
+        "languages": [
+          "ko",
+          "en"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "meta13sphere/IRS_DCE_Topological_Dynamics__Artificial_Cognitive_Physics",
+        "author": "meta13sphere",
+        "created_at": "2026-03-16 22:57:19+00:00",
+        "last_modified": "2026-03-21 19:25:39+00:00",
+        "downloads": 51,
+        "likes": 0,
+        "tags": [
+          "annotations_creators:expert-generated",
+          "multilinguality:multilingual",
+          "language:en",
+          "language:ko",
+          "license:other",
+          "modality:document",
+          "region:us",
+          "representation-geometry",
+          "intrinsic-dimension",
+          "transformer",
+          "resonance-transition",
+          "basis-relative-reorganization",
+          "trajectory-analysis",
+          "batch-interference",
+          "quantization-robustness",
+          "model-specific-bias",
+          "open-structural-record",
+          "resonance-resonance",
+          "IRS-DCE",
+          "ai-Boundary-Dissolution-Physics",
+          "ai-cognitive-physics"
+        ],
+        "description": "Topological_Dynamics__Artificial_Cognitive_Physics\nCurrent temporary status, update scheduled soon. \n\n\t\n\t\t\n\t\tResonance Resonance / IRS-DCE\n\t\n\n\n\t\n\t\t\n\t\tMASTER README (FULL EXTENDED VERSION)\n\t\n\n\n\n\t\n\t\t\n\t\t0. What is this\n\t\n\nThis repository introduces a projection-conditioned representation-resonance framework for large language models (LLMs).\nIt is NOT:\n\na prompt trick\na jailbreak method\na benchmark artifact\n\nIt IS:\n\na structural resonance analysis system\na basis-relative reorganization framework\na… See the full description on the dataset page: https://huggingface.co/datasets/meta13sphere/IRS_DCE_Topological_Dynamics__Artificial_Cognitive_Physics.",
+        "url": "https://huggingface.co/datasets/meta13sphere/IRS_DCE_Topological_Dynamics__Artificial_Cognitive_Physics",
+        "languages": [
+          "en",
+          "ko"
+        ],
+        "tasks": [],
+        "size_categories": []
+      },
+      {
+        "id": "laion/emolia-3k-speaker-clusters",
+        "author": "laion",
+        "created_at": "2026-03-17 13:32:05+00:00",
+        "last_modified": "2026-03-17 13:50:13+00:00",
+        "downloads": 58,
+        "likes": 0,
+        "tags": [
+          "task_categories:audio-classification",
+          "task_categories:text-to-speech",
+          "language:en",
+          "language:de",
+          "language:fr",
+          "language:ja",
+          "language:ko",
+          "language:zh",
+          "license:cc-by-4.0",
           "size_categories:10K<n<100K",
+          "format:webdataset",
+          "modality:audio",
+          "modality:text",
+          "library:datasets",
+          "library:webdataset",
+          "library:mlcroissant",
+          "region:us",
+          "speaker-embeddings",
+          "speaker-clustering",
+          "voice-diversity",
+          "TTS",
+          "emolia",
+          "speaker-verification"
+        ],
+        "description": "\n\t\n\t\t\n\t\tEmolia 3K Speaker Clusters\n\t\n\nA curated set of 3,000 diverse speaker clusters derived from the TTS-AGI/emolia-hq dataset, with up to 20 representative audio samples per cluster.\n\n\t\n\t\t\n\t\tOverview\n\t\n\nThe original emolia-hq dataset contains hundreds of thousands of speech samples with 128-dimensional WavLM speaker timbre embeddings. These were first clustered into 10,000 centroids, then intelligently pruned to 3,000 using density-aware farthest-point sampling to ensure:\n\nOutlier… See the full description on the dataset page: https://huggingface.co/datasets/laion/emolia-3k-speaker-clusters.",
+        "url": "https://huggingface.co/datasets/laion/emolia-3k-speaker-clusters",
+        "languages": [
+          "en",
+          "de",
+          "fr",
+          "ja",
+          "ko",
+          "zh"
+        ],
+        "tasks": [
+          "audio-classification",
+          "text-to-speech"
+        ],
+        "size_categories": [
+          "10K<n<100K"
+        ]
+      },
+      {
+        "id": "kareenamehta/ccnews",
+        "author": "kareenamehta",
+        "created_at": "2026-03-18 18:27:11+00:00",
+        "last_modified": "2026-03-18 18:27:12+00:00",
+        "downloads": 8,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-classification",
+          "task_categories:question-answering",
+          "task_categories:text-generation",
+          "language:multilingual",
+          "language:af",
+          "language:am",
+          "language:ar",
+          "language:as",
+          "language:az",
+          "language:be",
+          "language:bg",
+          "language:bn",
+          "language:br",
+          "language:bs",
+          "language:ca",
+          "language:cs",
+          "language:cy",
+          "language:da",
+          "language:de",
+          "language:el",
+          "language:en",
+          "language:eo",
+          "language:es",
+          "language:et",
+          "language:eu",
+          "language:fa",
+          "language:fi",
+          "language:fr",
+          "language:fy",
+          "language:ga",
+          "language:gd",
+          "language:gl",
+          "language:gu",
+          "language:ha",
+          "language:he",
+          "language:hi",
+          "language:hr",
+          "language:hu",
+          "language:hy",
+          "language:id",
+          "language:is",
+          "language:it",
+          "language:ja",
+          "language:jv",
+          "language:ka",
+          "language:kk",
+          "language:km",
+          "language:kn",
+          "language:ko",
+          "language:ku",
+          "language:ky",
+          "language:la",
+          "language:lo",
+          "language:lt",
+          "language:lv",
+          "language:mg",
+          "language:mk",
+          "language:ml",
+          "language:mn",
+          "language:mr",
+          "language:ms",
+          "language:my",
+          "language:ne",
+          "language:nl",
+          "language:no",
+          "language:om",
+          "language:or",
+          "language:pa",
+          "language:pl",
+          "language:ps",
+          "language:pt",
+          "language:ro",
+          "language:ru",
+          "language:sa",
+          "language:sd",
+          "language:si",
+          "language:sk",
+          "language:sl",
+          "language:so",
+          "language:sq",
+          "language:sr",
+          "language:su",
+          "language:sv",
+          "language:sw",
+          "language:ta",
+          "language:te",
+          "language:th",
+          "language:tl",
+          "language:tr",
+          "language:ug",
+          "language:uk",
+          "language:ur",
+          "language:uz",
+          "language:vi",
+          "language:xh",
+          "language:yi",
+          "language:zh",
+          "size_categories:100M<n<1B",
           "format:parquet",
-          "format:optimized-parquet",
           "modality:image",
           "modality:text",
           "library:datasets",
@@ -444,99 +647,467 @@
           "library:polars",
           "library:mlcroissant",
           "region:us",
-          "ocr",
-          "synthetic",
-          "markdown",
-          "document-understanding"
+          "news"
         ],
-        "description": "\n\t\n\t\t\n\t\tSynthetic OCR Dataset\n\t\n\nThis repository contains a synthetic OCR dataset generated by the Synthetic OCR Image Generator pipeline.\nIt is intended for benchmarking and evaluating OCR or VLM systems on markdown-oriented document recognition tasks.\n\n\t\n\t\t\n\t\tAt a Glance\n\t\n\n\nDataset: https://huggingface.co/datasets/junyeong-nero/synthetic-ocr-images-ko-50k\nLanguage: ko\nGenerated samples: 50000\nRequested samples: 50000\nGeneration mode: markdown\n\n\n\t\n\t\t\n\t\tIncluded Splits\n\t\n\n\ntrain: 45,000… See the full description on the dataset page: https://huggingface.co/datasets/junyeong-nero/synthetic-ocr-images-ko-50k.",
-        "url": "https://huggingface.co/datasets/junyeong-nero/synthetic-ocr-images-ko-50k",
+        "description": "This dataset is the result of processing all WARC files in the CCNews Corpus, from the beginning (2016) to June of 2024.\nThe data has been cleaned and deduplicated, and language of articles have been detected and added. The process is similar to what HuggingFace's DataTrove does.\nOverall, it contains about 600 million news articles in more than 100 languages from all around the globe.\nFor license information, please refer to CommonCrawl's Terms of Use.\nSample Python code to explore this… See the full description on the dataset page: https://huggingface.co/datasets/kareenamehta/ccnews.",
+        "url": "https://huggingface.co/datasets/kareenamehta/ccnews",
+        "languages": [
+          "multilingual",
+          "af",
+          "am",
+          "ar",
+          "as",
+          "az",
+          "be",
+          "bg",
+          "bn",
+          "br",
+          "bs",
+          "ca",
+          "cs",
+          "cy",
+          "da",
+          "de",
+          "el",
+          "en",
+          "eo",
+          "es",
+          "et",
+          "eu",
+          "fa",
+          "fi",
+          "fr",
+          "fy",
+          "ga",
+          "gd",
+          "gl",
+          "gu",
+          "ha",
+          "he",
+          "hi",
+          "hr",
+          "hu",
+          "hy",
+          "id",
+          "is",
+          "it",
+          "ja",
+          "jv",
+          "ka",
+          "kk",
+          "km",
+          "kn",
+          "ko",
+          "ku",
+          "ky",
+          "la",
+          "lo",
+          "lt",
+          "lv",
+          "mg",
+          "mk",
+          "ml",
+          "mn",
+          "mr",
+          "ms",
+          "my",
+          "ne",
+          "nl",
+          "no",
+          "om",
+          "or",
+          "pa",
+          "pl",
+          "ps",
+          "pt",
+          "ro",
+          "ru",
+          "sa",
+          "sd",
+          "si",
+          "sk",
+          "sl",
+          "so",
+          "sq",
+          "sr",
+          "su",
+          "sv",
+          "sw",
+          "ta",
+          "te",
+          "th",
+          "tl",
+          "tr",
+          "ug",
+          "uk",
+          "ur",
+          "uz",
+          "vi",
+          "xh",
+          "yi",
+          "zh"
+        ],
+        "tasks": [
+          "text-classification",
+          "question-answering",
+          "text-generation"
+        ],
+        "size_categories": [
+          "100M<n<1B"
+        ]
+      },
+      {
+        "id": "twodigit/squad-kor-v2",
+        "author": "twodigit",
+        "created_at": "2023-11-28 01:03:20+00:00",
+        "last_modified": "2023-12-01 06:05:18+00:00",
+        "downloads": 5,
+        "likes": 0,
+        "tags": [
+          "language:ko",
+          "size_categories:n<1K",
+          "modality:text",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorQuAD 2.1\n\t\n\n\nhttps://huggingface.co/datasets/squad_kor_v2\nhttps://github.com/korquad/korquad.github.io/tree/master/dataset/KorQuAD_2.1\n\n\n\t\n\t\t\n\t\t소개\n\t\n\nKorQuAD 2.0: KorQuAD 1.0의 20,000+ QA를 포함하여, 총 100,000+ 개로 구성된 한국어 MRC 데이터셋.\nKorQuAD 2.1: 47,957 개의 Wikipedia article에 대해 102,960 개의 QA로 구성된 한국어 MRC 데이터셋. KorQuAD 2.0 중 HTML 태그의 속성이 완벽하게 제거되지 않은 오류를 수정한 버전.\n\n\t\n\t\t\n\nqa count\n\n\n\t\t\ntrain\n83,486\n\n\ndev\n10,165\n\n\n\n102,960\n\n\n\t\n\nKorQuAD 1.0과의 차이\n\ncontext는 paragraphs가 아닌, table과 list가 포함된 전체… See the full description on the dataset page: https://huggingface.co/datasets/twodigit/squad-kor-v2.",
+        "url": "https://huggingface.co/datasets/twodigit/squad-kor-v2",
         "languages": [
           "ko"
         ],
+        "tasks": [],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "Dxniz/TinyStories-Multilingual",
+        "author": "Dxniz",
+        "created_at": "2026-03-18 21:54:12+00:00",
+        "last_modified": "2026-03-19 10:04:42+00:00",
+        "downloads": 11,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-generation",
+          "task_categories:translation",
+          "language:en",
+          "language:tr",
+          "language:fr",
+          "language:de",
+          "language:es",
+          "language:pt",
+          "language:it",
+          "language:ru",
+          "language:zh",
+          "language:ja",
+          "language:ko",
+          "language:ar",
+          "language:hi",
+          "language:nl",
+          "language:pl",
+          "language:sv",
+          "language:uk",
+          "language:cs",
+          "language:ro",
+          "language:hu",
+          "language:el",
+          "language:vi",
+          "language:id",
+          "language:fa",
+          "language:da",
+          "language:no",
+          "language:sk",
+          "language:sr",
+          "language:bg",
+          "license:apache-2.0",
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "tiny-stories",
+          "child-safe-fiction",
+          "multilingual",
+          "synthetic-data",
+          "literary-quality",
+          "education"
+        ],
+        "description": "\n\t\n\t\t\n\t\tNovelist: TinyStories Multilingual Edition\n\t\n\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\nThe TinyStories Multilingual Edition is a high-fidelity synthetic dataset of short, child-safe fiction designed to stress-test literary consistency, emotional warmth, and multilingual fluency in small models. Derived from the broader Novelist ecosystem, this subset focuses on narrative simplicity paired with complex moral and social themes.\nThe dataset contains 15,688 high-quality stories across 28 languages. Each… See the full description on the dataset page: https://huggingface.co/datasets/Dxniz/TinyStories-Multilingual.",
+        "url": "https://huggingface.co/datasets/Dxniz/TinyStories-Multilingual",
+        "languages": [
+          "en",
+          "tr",
+          "fr",
+          "de",
+          "es",
+          "pt",
+          "it",
+          "ru",
+          "zh",
+          "ja",
+          "ko",
+          "ar",
+          "hi",
+          "nl",
+          "pl",
+          "sv",
+          "uk",
+          "cs",
+          "ro",
+          "hu",
+          "el",
+          "vi",
+          "id",
+          "fa",
+          "da",
+          "no",
+          "sk",
+          "sr",
+          "bg"
+        ],
         "tasks": [
-          "image-to-text"
+          "text-generation",
+          "translation"
         ],
         "size_categories": [
           "10K<n<100K"
         ]
       },
       {
-        "id": "Nanbeige/SSR-RCoT-16K",
-        "author": "Nanbeige",
-        "created_at": "2026-03-13 07:39:14+00:00",
-        "last_modified": "2026-03-13 11:03:07+00:00",
-        "downloads": 75,
-        "likes": 1,
+        "id": "davidkim205/FinDartBench",
+        "author": "davidkim205",
+        "created_at": "2026-03-19 03:51:53+00:00",
+        "last_modified": "2026-03-19 05:04:01+00:00",
+        "downloads": 22,
+        "likes": 0,
         "tags": [
-          "task_categories:text-generation",
-          "language:en",
-          "language:zh",
-          "language:fr",
-          "language:it",
-          "language:es",
-          "language:pt",
-          "language:ja",
+          "task_categories:question-answering",
           "language:ko",
-          "language:ru",
-          "license:apache-2.0",
-          "arxiv:2602.14469",
+          "license:cc-by-nc-4.0",
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
           "region:us",
-          "synthetic",
-          "reasoning",
-          "reverse-cot",
-          "post-hoc-rationalization",
-          "distillation"
+          "finance",
+          "korean",
+          "open-domain"
         ],
-        "description": "\n\t\n\t\t\n\t\tSSR-RCoT-16K: Turning answer-only data into high-quality reasoning-supervision data\n\t\n\n\nSSR-RCoT-16K is a public 16k subset derived from the data construction pipeline introduced in\nMeasuring and Mitigating Post-hoc Rationalization in Reverse Chain-of-Thought Generation.\nThis dataset is designed for powerful reasoning on general tasks, especially for the realistic setting where high-quality responses are available but chain-of-thought annotations are missing.\nIn such answer-rich but… See the full description on the dataset page: https://huggingface.co/datasets/Nanbeige/SSR-RCoT-16K.",
-        "url": "https://huggingface.co/datasets/Nanbeige/SSR-RCoT-16K",
+        "description": "\n\t\n\t\t\n\t\tFinDartBench\n\t\n\nFinDartBench is a Korean financial question answering benchmark built from DART disclosure filings.\nIt is designed to evaluate real-world financial document understanding by pairing context-grounded questions with high-quality reference answers validated through a multi-stage LLM-based pipeline.\nUnlike simple synthetic QA datasets, FinDartBench emphasizes grounding, answer quality, and inter-model consensus, making it suitable for reliable evaluation of financial QA… See the full description on the dataset page: https://huggingface.co/datasets/davidkim205/FinDartBench.",
+        "url": "https://huggingface.co/datasets/davidkim205/FinDartBench",
         "languages": [
-          "en",
-          "zh",
-          "fr",
-          "it",
-          "es",
-          "pt",
-          "ja",
-          "ko",
-          "ru"
+          "ko"
         ],
         "tasks": [
-          "text-generation"
+          "question-answering"
         ],
-        "size_categories": []
+        "size_categories": [
+          "10K<n<100K"
+        ]
       },
       {
-        "id": "superdoc-dev/docx-corpus",
-        "author": "superdoc-dev",
-        "created_at": "2026-03-09 19:43:52+00:00",
-        "last_modified": "2026-03-09 19:46:50+00:00",
-        "downloads": 40,
+        "id": "CjangCjengh/lightnovel_ner",
+        "author": "CjangCjengh",
+        "created_at": "2026-03-22 10:20:07+00:00",
+        "last_modified": "2026-03-22 15:40:54+00:00",
+        "downloads": 0,
+        "likes": 0,
+        "tags": [
+          "task_categories:translation",
+          "task_categories:text-classification",
+          "language:ja",
+          "language:zh",
+          "language:ko",
+          "language:th",
+          "license:mit",
+          "size_categories:1M<n<10M",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\t轻小说多语言NER翻译对数据集\n\t\n\n本数据集包含从日文轻小说及其官方翻译中自动提取的命名实体识别（NER）翻译对，涵盖人名、地名、组织名和专有名词四类实体。\n\n\t\n\t\t\n\t\t数据来源\n\t\n\n原始平行语料来自轻小说的官方翻译版本：\n\n\t\n\t\t\n语言对\n目录\n来源\n\n\n\t\t\n日文→繁体中文\nja-zh/\n台版官方翻译\n\n\n日文→韩文\nja-ko/\n韩版官方翻译\n\n\n日文→泰文\nja-th/\n泰版官方翻译\n\n\n\t\n\n\n\t\n\t\t\n\t\t数据统计\n\t\n\n\n\t\n\t\t\n语言对\n系列数\n卷数\nNER条目数\nPER（人名）\nLOC（地名）\nORG（组织）\nTERM（术语）\n\n\n\t\t\nja-zh\n1,055\n4,687\n709,698\n231,234\n77,095\n75,639\n325,730\n\n\nja-ko\n314\n1,129\n197,736\n62,447\n20,431\n20,476\n94,382\n\n\nja-th\n215\n1,049\n29,163\n10,823\n3,279\n3,263\n11,798\n\n\n合计\n1,584\n6,865\n936,597\n304,504\n100,805\n99… See the full description on the dataset page: https://huggingface.co/datasets/CjangCjengh/lightnovel_ner.",
+        "url": "https://huggingface.co/datasets/CjangCjengh/lightnovel_ner",
+        "languages": [
+          "ja",
+          "zh",
+          "ko",
+          "th"
+        ],
+        "tasks": [
+          "translation",
+          "text-classification"
+        ],
+        "size_categories": [
+          "1M<n<10M"
+        ]
+      },
+      {
+        "id": "nicoletterankin/word-orb-vocabulary",
+        "author": "nicoletterankin",
+        "created_at": "2026-03-22 04:16:03+00:00",
+        "last_modified": "2026-03-22 04:16:16+00:00",
+        "downloads": 0,
         "likes": 0,
         "tags": [
           "task_categories:text-classification",
+          "task_categories:text-generation",
+          "task_categories:translation",
+          "task_categories:question-answering",
           "language:en",
-          "language:ru",
-          "language:cs",
-          "language:pl",
           "language:es",
-          "language:zh",
-          "language:lt",
-          "language:sk",
           "language:fr",
-          "language:pt",
           "language:de",
-          "language:it",
-          "language:sv",
-          "language:nl",
-          "language:bg",
-          "language:uk",
-          "language:tr",
+          "language:pt",
           "language:ja",
-          "language:hu",
           "language:ko",
-          "license:odc-by",
+          "language:zh",
+          "language:ar",
+          "language:hi",
+          "language:ru",
+          "language:it",
+          "language:nl",
+          "language:tr",
+          "language:vi",
+          "language:th",
+          "language:pl",
+          "language:id",
+          "language:sv",
+          "language:da",
+          "language:no",
+          "language:fi",
+          "language:cs",
+          "language:ro",
+          "language:hu",
+          "language:el",
+          "language:uk",
+          "language:he",
+          "language:bn",
+          "language:ta",
+          "language:ms",
+          "language:tl",
+          "language:te",
+          "language:sw",
+          "language:ur",
+          "language:fa",
+          "language:ig",
+          "language:am",
+          "language:yo",
+          "language:my",
+          "language:zu",
+          "language:ha",
+          "language:km",
+          "language:kk",
+          "language:gu",
+          "language:ca",
+          "language:mr",
+          "language:pa",
+          "license:cc-by-nc-sa-4.0",
           "size_categories:100K<n<1M",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "vocabulary",
+          "education",
+          "multilingual",
+          "ethics",
+          "nlp",
+          "linguistics",
+          "pronunciation",
+          "etymology",
+          "age-appropriate",
+          "cultural-sensitivity",
+          "gender-equity",
+          "dictionary",
+          "word-enrichment"
+        ],
+        "description": "\n\t\n\t\t\n\t\tWord Orb Vocabulary Intelligence\n\t\n\nStructured vocabulary intelligence for AI agents, educators, and researchers. 162,253 words with pronunciation, etymology, age-appropriate definitions, translations across 47 languages, and ethical context.\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nWord Orb is the world's most comprehensive structured vocabulary dataset designed for AI agents and education technology. Each word entry includes:\n\nIPA pronunciation for text-to-speech and phonetics research… See the full description on the dataset page: https://huggingface.co/datasets/nicoletterankin/word-orb-vocabulary.",
+        "url": "https://huggingface.co/datasets/nicoletterankin/word-orb-vocabulary",
+        "languages": [
+          "en",
+          "es",
+          "fr",
+          "de",
+          "pt",
+          "ja",
+          "ko",
+          "zh",
+          "ar",
+          "hi",
+          "ru",
+          "it",
+          "nl",
+          "tr",
+          "vi",
+          "th",
+          "pl",
+          "id",
+          "sv",
+          "da",
+          "no",
+          "fi",
+          "cs",
+          "ro",
+          "hu",
+          "el",
+          "uk",
+          "he",
+          "bn",
+          "ta",
+          "ms",
+          "tl",
+          "te",
+          "sw",
+          "ur",
+          "fa",
+          "ig",
+          "am",
+          "yo",
+          "my",
+          "zu",
+          "ha",
+          "km",
+          "kk",
+          "gu",
+          "ca",
+          "mr",
+          "pa"
+        ],
+        "tasks": [
+          "text-classification",
+          "text-generation",
+          "translation",
+          "question-answering"
+        ],
+        "size_categories": [
+          "100K<n<1M"
+        ]
+      },
+      {
+        "id": "soundstarrain/ko-lightnovels-clean",
+        "author": "soundstarrain",
+        "created_at": "2026-03-22 15:08:47+00:00",
+        "last_modified": "2026-03-22 16:17:28+00:00",
+        "downloads": 0,
+        "likes": 0,
+        "tags": [
+          "language:ko",
+          "license:other",
+          "size_categories:1K<n<10K",
           "format:parquet",
           "modality:tabular",
           "modality:text",
@@ -545,33 +1116,787 @@
           "library:polars",
           "library:mlcroissant",
           "region:us",
-          "docx",
-          "word-documents",
-          "document-classification",
-          "ooxml"
+          "korean",
+          "light-novel",
+          "fan-translation",
+          "curated",
+          "restricted"
         ],
-        "description": "\n\t\n\t\t\n\t\tdocx-corpus\n\t\n\nThe largest classified corpus of Word documents. 736K+ .docx files from the public web, classified into 10 document types and 9 topics across 76 languages.\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nThis dataset contains metadata for publicly available .docx files collected from the web. Each document has been classified by document type and topic using a two-stage pipeline: LLM labeling (Claude) of a stratified sample, followed by fine-tuned XLM-RoBERTa classifiers applied at… See the full description on the dataset page: https://huggingface.co/datasets/superdoc-dev/docx-corpus.",
-        "url": "https://huggingface.co/datasets/superdoc-dev/docx-corpus",
+        "description": "ko-lightnovels-clean is a cleaned Korean light novel dataset built from Baka-Tsuki Korean project pages and recoverable linked Korean fan-translation sources.\nThe dataset contains 1 series, 17 chapters, and 6,977 line-level records organized from a series / volume / chapter corpus, with 236,993 characters, 50,246 words, and 174,543 tokens measured with the Qwen/Qwen3-8B tokenizer.\nThe default Hugging Face dataset view uses one row per text line. The original hierarchical text layout under… See the full description on the dataset page: https://huggingface.co/datasets/soundstarrain/ko-lightnovels-clean.",
+        "url": "https://huggingface.co/datasets/soundstarrain/ko-lightnovels-clean",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "1K<n<10K"
+        ]
+      },
+      {
+        "id": "Dxniz/Novelist",
+        "author": "Dxniz",
+        "created_at": "2026-03-18 22:10:15+00:00",
+        "last_modified": "2026-03-20 09:16:52+00:00",
+        "downloads": 38,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-generation",
+          "task_categories:translation",
+          "language:en",
+          "language:tr",
+          "language:fr",
+          "language:de",
+          "language:es",
+          "language:pt",
+          "language:it",
+          "language:ru",
+          "language:zh",
+          "language:ja",
+          "language:ko",
+          "language:ar",
+          "language:hi",
+          "language:nl",
+          "language:pl",
+          "language:sv",
+          "language:uk",
+          "language:cs",
+          "language:ro",
+          "language:hu",
+          "language:el",
+          "language:vi",
+          "language:id",
+          "language:fa",
+          "language:da",
+          "language:no",
+          "language:sk",
+          "language:sr",
+          "language:bg",
+          "license:apache-2.0",
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "doi:10.57967/hf/8082",
+          "region:us",
+          "creative-writing",
+          "narrative-reasoning",
+          "long-form-fiction",
+          "chain-of-thought",
+          "multilingual",
+          "synthetic-data"
+        ],
+        "description": "\n\t\n\t\t\n\t\tDataset Card for Novelist\n\t\n\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\nNovelist is a synthetic creative-writing and narrative-reasoning dataset designed for long-context fiction systems, scene planners, continuity-aware story models, multilingual literary translation, and child-safe TinyStories generation. The dataset mixes direct prose, explicit reasoning traces, quality-only judge outputs, full-book artifacts, and multilingual translation outputs inside a single narrative training ecosystem.\nThis… See the full description on the dataset page: https://huggingface.co/datasets/Dxniz/Novelist.",
+        "url": "https://huggingface.co/datasets/Dxniz/Novelist",
         "languages": [
           "en",
-          "ru",
-          "cs",
-          "pl",
-          "es",
-          "zh",
-          "lt",
-          "sk",
+          "tr",
           "fr",
+          "de",
+          "es",
           "pt",
+          "it",
+          "ru",
+          "zh",
+          "ja",
+          "ko",
+          "ar",
+          "hi",
+          "nl",
+          "pl",
+          "sv",
+          "uk",
+          "cs",
+          "ro",
+          "hu",
+          "el",
+          "vi",
+          "id",
+          "fa",
+          "da",
+          "no",
+          "sk",
+          "sr",
+          "bg"
+        ],
+        "tasks": [
+          "text-generation",
+          "translation"
+        ],
+        "size_categories": [
+          "10K<n<100K"
+        ]
+      },
+      {
+        "id": "meta13sphere/phaseShift_shell_result_pdf",
+        "author": "meta13sphere",
+        "created_at": "2026-02-08 19:10:11+00:00",
+        "last_modified": "2026-03-21 19:24:58+00:00",
+        "downloads": 2011,
+        "likes": 0,
+        "tags": [
+          "annotations_creators:expert-generated",
+          "multilinguality:multilingual",
+          "language:en",
+          "language:ko",
+          "license:other",
+          "size_categories:n<1K",
+          "modality:document",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "doi:10.57967/hf/8067",
+          "region:us",
+          "representation-geometry",
+          "intrinsic-dimension",
+          "transformer",
+          "phase-transition",
+          "basis-relative-reorganization",
+          "trajectory-analysis",
+          "batch-interference",
+          "quantization-robustness",
+          "model-specific-bias",
+          "open-structural-record",
+          "phase-resonance",
+          "IRS-DCE",
+          "ai-cognitive-physics",
+          "text-classification",
+          "token-classification",
+          "table-question-answering",
+          "feature-extraction",
+          "text-generation",
+          "question-answering"
+        ],
+        "description": "\n\t\n\t\t\n\t\tPhase Resonance / IRS-DCE\n\t\n\n\n\t\n\t\t\n\t\tTopological Dynamics & Artificial Cognitive Physics\n\t\n\n\n\t\n\t\t\n\t\tOpen Structural Record of Basis-Relative Reorganization in Transformer Representation Space\n\t\n\n1,700+ downloads | 96 runs x 3 architectures | 47,840 trajectory rows | Theory first, measurement later\nDue to various issues, the system is not yet organized, so there may be duplicate files.\n\n\t\n\t\t\n\t\tWill upload new file on [https://doi.org/10.57967/hf/8066]\n\t\n\n\n\t\n\t\t\n\t\tFirst act1 [RH Released… See the full description on the dataset page: https://huggingface.co/datasets/meta13sphere/phaseShift_shell_result_pdf.",
+        "url": "https://huggingface.co/datasets/meta13sphere/phaseShift_shell_result_pdf",
+        "languages": [
+          "en",
+          "ko"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "biztiger/nyayabench-v2",
+        "author": "biztiger",
+        "created_at": "2026-03-22 01:23:47+00:00",
+        "last_modified": "2026-03-22 01:47:47+00:00",
+        "downloads": 6,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-classification",
+          "language:en",
+          "language:hi",
+          "language:es",
+          "language:ar",
+          "language:zh",
+          "language:ja",
+          "language:fr",
+          "language:de",
+          "language:pt",
+          "language:ru",
+          "language:ko",
+          "language:tr",
+          "language:multilingual",
+          "license:cc-by-4.0",
+          "size_categories:10K<n<100K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2602.18922",
+          "region:us",
+          "intent-classification",
+          "agent-caching",
+          "w5h2",
+          "few-shot",
+          "multilingual",
+          "agentic",
+          "setfit",
+          "contrastive-learning",
+          "llm-cost-reduction"
+        ],
+        "description": "\n\t\n\t\t\n\t\tNyayaBench v2\n\t\n\nA real-world agentic intent classification benchmark sourced from production personal AI agent interactions. Unlike synthetic benchmarks, NyayaBench v2 captures the messy reality of how people actually talk to AI agents — compound queries, regional phrasing, and the long tail of 528 intents that existing caching methods can't handle.\nPaper: Why Agent Caching Fails and How to Fix It: Structured Intent Canonicalization with Few-Shot Learning (arXiv:2602.18922)\nCode:… See the full description on the dataset page: https://huggingface.co/datasets/biztiger/nyayabench-v2.",
+        "url": "https://huggingface.co/datasets/biztiger/nyayabench-v2",
+        "languages": [
+          "en",
+          "hi",
+          "es",
+          "ar",
+          "zh",
+          "ja",
+          "fr",
+          "de",
+          "pt",
+          "ru",
+          "ko",
+          "tr",
+          "multilingual"
+        ],
+        "tasks": [
+          "text-classification"
+        ],
+        "size_categories": [
+          "10K<n<100K"
+        ]
+      },
+      {
+        "id": "moonscape-software/macro_prosody_sample_set",
+        "author": "moonscape-software",
+        "created_at": "2026-03-08 17:17:07+00:00",
+        "last_modified": "2026-03-14 17:54:44+00:00",
+        "downloads": 35,
+        "likes": 0,
+        "tags": [
+          "task_categories:feature-extraction",
+          "language:ko",
+          "language:hi",
+          "language:he",
+          "language:gv",
+          "language:tzh",
+          "language:mdh",
+          "language:lss",
+          "license:cc0-1.0",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "modality:audio",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "audio",
+          "speech",
+          "prosody",
+          "acoustics",
+          "linguistics",
+          "phonetics",
+          "voice-analytics",
+          "multilingual"
+        ],
+        "description": "\n\t\n\t\t\n\t\tAlexandria Voice Corpus — Multilingual Macro-Prosody Telemetry\n\t\n\nVersion 1.1 — Replacement release\nThis pack supersedes the earlier Korean & Hindi two-language release. That release was built on a pipeline with several unresolved quality-gate bugs (documented below). This version corrects all known issues and expands to seven typologically diverse languages.\nNo audio is included. This is a structured acoustic feature dataset for linguistic research, speech technology, and… See the full description on the dataset page: https://huggingface.co/datasets/moonscape-software/macro_prosody_sample_set.",
+        "url": "https://huggingface.co/datasets/moonscape-software/macro_prosody_sample_set",
+        "languages": [
+          "ko",
+          "hi",
+          "he",
+          "gv",
+          "tzh",
+          "mdh",
+          "lss"
+        ],
+        "tasks": [
+          "feature-extraction"
+        ],
+        "size_categories": [
+          "10K<n<100K"
+        ]
+      },
+      {
+        "id": "mkd-ai/keural-stage1-binary",
+        "author": "mkd-ai",
+        "created_at": "2026-03-19 05:10:30+00:00",
+        "last_modified": "2026-03-19 09:24:53+00:00",
+        "downloads": 0,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-generation",
+          "language:ko",
+          "language:en",
+          "license:other",
+          "size_categories:100B<n<1T",
+          "region:us",
+          "keural",
+          "moe",
+          "pretraining",
+          "binary-dataset",
+          "korean",
+          "multilingual"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKeural Stage 1 — Binary Training Dataset\n\t\n\nPre-tokenized binary dataset for the Keural MoE Foundation Model (14.83B parameters).\nReady to use directly for training — no tokenization step needed.\n\n\t\n\t\t\n\t\tDataset Contents\n\t\n\n\n\t\n\t\t\nProperty\nValue\n\n\n\t\t\nFormat\nBinary (.bin) + Index (.idx) + Metadata (.meta)\n\n\nTotal tokens\n43.17 billion\n\n\nTotal sequences\n10,067,450\n\n\nSequence length\n4,096 tokens (fixed)\n\n\nShards\n102 shards\n\n\nUncompressed size\n~155GB\n\n\nArchive\nbinary_backup.tar (154GB)… See the full description on the dataset page: https://huggingface.co/datasets/mkd-ai/keural-stage1-binary.",
+        "url": "https://huggingface.co/datasets/mkd-ai/keural-stage1-binary",
+        "languages": [
+          "ko",
+          "en"
+        ],
+        "tasks": [
+          "text-generation"
+        ],
+        "size_categories": [
+          "100B<n<1T"
+        ]
+      },
+      {
+        "id": "GYPCC2/korean-tutoring-persona-dataset",
+        "author": "GYPCC2",
+        "created_at": "2026-03-17 13:02:13+00:00",
+        "last_modified": "2026-03-19 01:32:44+00:00",
+        "downloads": 5,
+        "likes": 0,
+        "tags": [
+          "language:ko",
+          "language:zh",
+          "license:cc-by-4.0",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\tKorean Tutoring Persona Dataset\n\t\n\n\n\t\n\t\t\n\t\tOverview\n\t\n\nThis dataset is constructed to evaluate the impact of learner persona modeling in bilingual Korean tutoring systems.\n\n\t\n\t\t\n\t\n\t\n\t\tEach instance includes:\n- Learner persona information\n- Task type (grammar, error correction, multi-turn dialogue)\n- Input query\n- Three responses generated under different persona configurations\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tData Structure\n\t\n\nEach data instance is formatted as:\n\npersona: learner profile (TOPIK level… See the full description on the dataset page: https://huggingface.co/datasets/GYPCC2/korean-tutoring-persona-dataset.",
+        "url": "https://huggingface.co/datasets/GYPCC2/korean-tutoring-persona-dataset",
+        "languages": [
+          "ko",
+          "zh"
+        ],
+        "tasks": [],
+        "size_categories": []
+      },
+      {
+        "id": "twodigit/nikl-news-2024",
+        "author": "twodigit",
+        "created_at": "2025-09-02 08:01:32+00:00",
+        "last_modified": "2025-09-02 08:13:18+00:00",
+        "downloads": 14,
+        "likes": 0,
+        "tags": [
+          "language:ko",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\t[모두의말뭉치] 신문 말뭉치 2024\n\t\n\nhttps://kli.korean.go.kr/corpus/main/requestMain.do?lang=ko#none\n2023년 생산된 신문 기사 1,119,753건\n\n\t\n\t\t\n매체 종류\n매체 이름\n\n\n\t\t\n전국 종합지(3)\n경향신문, 일간투데이, 조선일보\n\n\n지역 종합지(8)\n경남매일, 경인매일, 대경일보, 대전투데이, 울산제일일보, 전남매일, 충남일보, 충청매일\n\n\n전문지-경제지(2)\n디지털타임스, 매일경제\n\n\n전문지-전문지(2)\n스포츠경향, 스포츠투데이\n\n\n인터넷 기반 신문(5)\n뉴스투데이, 마이데일리, 아이뉴스24, 오마이뉴스, 오에스이엔\n\n\n기타-주간지(1)\n굿모닝충청\n\n\n기타-통신사(3)\n뉴스1, 뉴스웍스, 뉴시스\n\n\n\t\n\n주제(TOPIC)별 기사 건수\n\n\t\n\t\t\n사회\n경제\n생활\n정치\n정보통신/과학\n미용/건강스포츠\n문화\n연예\n\n\n\t\t\n344,290\n156,889\n161,058\n102,431\n75,722\n45,427… See the full description on the dataset page: https://huggingface.co/datasets/twodigit/nikl-news-2024.",
+        "url": "https://huggingface.co/datasets/twodigit/nikl-news-2024",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [],
+        "size_categories": []
+      },
+      {
+        "id": "sunorme/HelpSteer3",
+        "author": "sunorme",
+        "created_at": "2026-03-19 14:03:34+00:00",
+        "last_modified": "2026-03-19 14:03:35+00:00",
+        "downloads": 8,
+        "likes": 0,
+        "tags": [
+          "language:en",
+          "language:zh",
+          "language:ko",
+          "language:fr",
+          "language:es",
+          "language:ru",
+          "language:ja",
+          "language:de",
+          "language:it",
+          "language:pt",
+          "language:pl",
+          "language:id",
+          "language:nl",
+          "language:vi",
+          "license:cc-by-4.0",
+          "size_categories:100K<n<1M",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2410.16184",
+          "arxiv:2505.11475",
+          "arxiv:2503.04378",
+          "arxiv:2509.21319",
+          "region:us",
+          "human-feedback",
+          "reinforcement-learning"
+        ],
+        "description": "\n\t\n\t\t\n\t\tHelpSteer3\n\t\n\nHelpSteer3 is an open-source dataset (CC-BY-4.0) that supports aligning models to become more helpful in responding to user prompts.\nHelpSteer3-Preference can be used to train Llama 3.3 Nemotron Super 49B v1 (for Generative RMs) and Llama 3.3 70B Instruct Models (for Bradley-Terry RMs) to produce Reward Models that score as high as 85.5% on RM-Bench and 78.6% on JudgeBench, which substantially surpass existing Reward Models on these benchmarks.\nHelpSteer3-Feedback and… See the full description on the dataset page: https://huggingface.co/datasets/sunorme/HelpSteer3.",
+        "url": "https://huggingface.co/datasets/sunorme/HelpSteer3",
+        "languages": [
+          "en",
+          "zh",
+          "ko",
+          "fr",
+          "es",
+          "ru",
+          "ja",
           "de",
           "it",
-          "sv",
+          "pt",
+          "pl",
+          "id",
           "nl",
+          "vi"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "100K<n<1M"
+        ]
+      },
+      {
+        "id": "MikCil/xlwsd-gloss-mcq",
+        "author": "MikCil",
+        "created_at": "2026-03-19 08:55:13+00:00",
+        "last_modified": "2026-03-22 14:23:07+00:00",
+        "downloads": 28,
+        "likes": 0,
+        "tags": [
+          "task_categories:multiple-choice",
+          "task_categories:text-classification",
+          "task_categories:text-generation",
+          "language:en",
+          "language:eu",
+          "language:bg",
+          "language:ca",
+          "language:zh",
+          "language:hr",
+          "language:da",
+          "language:nl",
+          "language:et",
+          "language:fr",
+          "language:gl",
+          "language:de",
+          "language:hu",
+          "language:it",
+          "language:ja",
+          "language:ko",
+          "language:sl",
+          "language:es",
+          "license:other",
+          "size_categories:1M<n<10M",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "word-sense-disambiguation",
+          "wsd",
+          "multilingual",
+          "gloss",
+          "lexical-semantics",
+          "wordnet",
+          "definition-generation"
+        ],
+        "description": "\n\t\n\t\t\n\t\tXL-WSD Gloss Multiple-Choice Question and Generation\n\t\n\nA multilingual Word Sense Disambiguation (WSD) dataset using BabelNet and WordNet glosses, formatted in two chat-style variants:\n\nMultiple-choice disambiguation (messages_mcq), where the model selects the correct sense definition from a list of candidate glosses.\nGloss generation (messages_gloss), where the model generates the meaning of the target word in context without being shown candidate answers.\n\nThis dataset is a processed… See the full description on the dataset page: https://huggingface.co/datasets/MikCil/xlwsd-gloss-mcq.",
+        "url": "https://huggingface.co/datasets/MikCil/xlwsd-gloss-mcq",
+        "languages": [
+          "en",
+          "eu",
           "bg",
-          "uk",
-          "tr",
-          "ja",
+          "ca",
+          "zh",
+          "hr",
+          "da",
+          "nl",
+          "et",
+          "fr",
+          "gl",
+          "de",
           "hu",
+          "it",
+          "ja",
+          "ko",
+          "sl",
+          "es"
+        ],
+        "tasks": [
+          "multiple-choice",
+          "text-classification",
+          "text-generation"
+        ],
+        "size_categories": [
+          "1M<n<10M"
+        ]
+      },
+      {
+        "id": "HUFS-DILAB/PREPAIR-reproduction-results",
+        "author": "HUFS-DILAB",
+        "created_at": "2026-03-10 16:38:04+00:00",
+        "last_modified": "2026-03-21 10:47:09+00:00",
+        "downloads": 24,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-generation",
+          "language:en",
+          "language:ko",
+          "license:mit",
+          "size_categories:n<1K",
+          "format:parquet",
+          "format:optimized-parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
+        ],
+        "description": "\n\t\n\t\t\n\t\tPREPAIR Reproduction Results\n\t\n\nThis dataset contains the reproduction results of the PREPAIR method.\n\nSource Project: PREPAIR\nTarget File: results_LLMBar_all_methods.csv\n\n",
+        "url": "https://huggingface.co/datasets/HUFS-DILAB/PREPAIR-reproduction-results",
+        "languages": [
+          "en",
+          "ko"
+        ],
+        "tasks": [
+          "text-generation"
+        ],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "Necent/ai-security-dataset",
+        "author": "Necent",
+        "created_at": "2026-03-20 18:04:45+00:00",
+        "last_modified": "2026-03-20 18:15:58+00:00",
+        "downloads": 11,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-classification",
+          "language:en",
+          "language:ar",
+          "language:bn",
+          "language:cs",
+          "language:de",
+          "language:es",
+          "language:fr",
+          "language:hi",
+          "language:hu",
+          "language:id",
+          "language:it",
+          "language:ja",
+          "language:ko",
+          "language:ms",
+          "language:nl",
+          "language:pl",
+          "language:pt",
+          "language:ru",
+          "language:sr",
+          "language:sv",
+          "language:sw",
+          "language:ta",
+          "language:th",
+          "language:vi",
+          "language:zh",
+          "language:jv",
+          "license:mit",
+          "size_categories:100K<n<1M",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "safety",
+          "jailbreak",
+          "prompt-injection",
+          "toxicity",
+          "red-teaming",
+          "ai-safety"
+        ],
+        "description": "\n\t\n\t\t\n\t\tAI Security Dataset\n\t\n\nA unified dataset of 691,331 examples for AI safety research, combining 15 source datasets across 26 languages.\n\n\t\n\t\t\n\t\tSchema\n\t\n\n\n\t\n\t\t\nColumn\nDescription\n\n\n\t\t\nprompt\nThe attack/test prompt text\n\n\nresponse\nModel response (if available)\n\n\nmodel_name\nTarget model (if specified)\n\n\nprompt_type\njailbreak / prompt_injection / obfuscation / linguistic / toxicity / harmful_behavior\n\n\ncategory\nSpecific sub-category from the source dataset\n\n\nis_dangerous\n1 =… See the full description on the dataset page: https://huggingface.co/datasets/Necent/ai-security-dataset.",
+        "url": "https://huggingface.co/datasets/Necent/ai-security-dataset",
+        "languages": [
+          "en",
+          "ar",
+          "bn",
+          "cs",
+          "de",
+          "es",
+          "fr",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "ms",
+          "nl",
+          "pl",
+          "pt",
+          "ru",
+          "sr",
+          "sv",
+          "sw",
+          "ta",
+          "th",
+          "vi",
+          "zh",
+          "jv"
+        ],
+        "tasks": [
+          "text-classification"
+        ],
+        "size_categories": [
+          "100K<n<1M"
+        ]
+      },
+      {
+        "id": "liarrrrrrrr/oasst2",
+        "author": "liarrrrrrrr",
+        "created_at": "2026-03-17 12:37:00+00:00",
+        "last_modified": "2026-03-17 12:37:03+00:00",
+        "downloads": 11,
+        "likes": 0,
+        "tags": [
+          "language:en",
+          "language:es",
+          "language:ru",
+          "language:de",
+          "language:pl",
+          "language:th",
+          "language:vi",
+          "language:sv",
+          "language:bn",
+          "language:da",
+          "language:he",
+          "language:it",
+          "language:fa",
+          "language:sk",
+          "language:id",
+          "language:nb",
+          "language:el",
+          "language:nl",
+          "language:hu",
+          "language:eu",
+          "language:zh",
+          "language:eo",
+          "language:ja",
+          "language:ca",
+          "language:cs",
+          "language:bg",
+          "language:fi",
+          "language:pt",
+          "language:tr",
+          "language:ro",
+          "language:ar",
+          "language:uk",
+          "language:gl",
+          "language:fr",
+          "language:ko",
+          "license:apache-2.0",
+          "size_categories:100K<n<1M",
+          "format:parquet",
+          "modality:tabular",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2304.07327",
+          "region:us",
+          "human-feedback"
+        ],
+        "description": "\n\t\n\t\t\n\t\tOpen Assistant Conversations Dataset Release 2 (OASST2)\n\t\n\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\nThis dataset contains message trees. Each message tree has an initial prompt message as the root node, \nwhich can have multiple child messages as replies, and these child messages can have multiple replies. \nAll messages have a role property: this can either be \"assistant\" or \"prompter\". The roles in \nconversation threads from prompt to leaf node strictly alternate between \"prompter\" and… See the full description on the dataset page: https://huggingface.co/datasets/liarrrrrrrr/oasst2.",
+        "url": "https://huggingface.co/datasets/liarrrrrrrr/oasst2",
+        "languages": [
+          "en",
+          "es",
+          "ru",
+          "de",
+          "pl",
+          "th",
+          "vi",
+          "sv",
+          "bn",
+          "da",
+          "he",
+          "it",
+          "fa",
+          "sk",
+          "id",
+          "nb",
+          "el",
+          "nl",
+          "hu",
+          "eu",
+          "zh",
+          "eo",
+          "ja",
+          "ca",
+          "cs",
+          "bg",
+          "fi",
+          "pt",
+          "tr",
+          "ro",
+          "ar",
+          "uk",
+          "gl",
+          "fr",
+          "ko"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "100K<n<1M"
+        ]
+      },
+      {
+        "id": "thaki-AI/SkillRetBench",
+        "author": "thaki-AI",
+        "created_at": "2026-03-22 12:23:43+00:00",
+        "last_modified": "2026-03-22 12:24:18+00:00",
+        "downloads": 0,
+        "likes": 0,
+        "tags": [
+          "language:en",
+          "language:ko",
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "region:us",
+          "skill-retrieval",
+          "information-retrieval",
+          "agents",
+          "benchmark",
+          "retrieval"
+        ],
+        "description": "\n\t\n\t\t\n\t\tSkillRetBench\n\t\n\n\n\t\n\t\t\n\t\tDataset summary\n\t\n\nSkillRetBench is a benchmark for query-to-skill retrieval: given a natural-language user request, systems must rank or select the correct procedural skill document(s) from a fixed library. The corpus is derived from a real-world production-style agent skill library (501 skills). The benchmark includes 1,250 queries with gold skill identifiers and optional distractors, spanning five evaluation settings (single skill, multi-skill composition… See the full description on the dataset page: https://huggingface.co/datasets/thaki-AI/SkillRetBench.",
+        "url": "https://huggingface.co/datasets/thaki-AI/SkillRetBench",
+        "languages": [
+          "en",
+          "ko"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "sayafadhil43/kmhas_korean_hate_speech",
+        "author": "sayafadhil43",
+        "created_at": "2026-03-17 14:50:17+00:00",
+        "last_modified": "2026-03-17 14:50:20+00:00",
+        "downloads": 2,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-classification",
+          "task_ids:multi-label-classification",
+          "task_ids:hate-speech-detection",
+          "annotations_creators:crowdsourced",
+          "language_creators:found",
+          "multilinguality:monolingual",
+          "source_datasets:original",
+          "language:ko",
+          "license:cc-by-sa-4.0",
+          "size_categories:100K<n<1M",
+          "arxiv:2208.10684",
+          "region:us",
+          "K-MHaS",
+          "Korean NLP",
+          "Hate Speech Detection",
+          "Dataset",
+          "Coling2022"
+        ],
+        "description": "The K-MHaS (Korean Multi-label Hate Speech) dataset contains 109k utterances from Korean online news comments labeled with 8 fine-grained hate speech classes or Not Hate Speech class.\nThe fine-grained hate speech classes are politics, origin, physical, age, gender, religion, race, and profanity and these categories are selected in order to reflect the social and historical context.",
+        "url": "https://huggingface.co/datasets/sayafadhil43/kmhas_korean_hate_speech",
+        "languages": [
           "ko"
         ],
         "tasks": [
@@ -582,238 +1907,260 @@
         ]
       },
       {
-        "id": "Helsinki-NLP/OpenSubtitles2024",
-        "author": "Helsinki-NLP",
-        "created_at": "2025-06-23 07:38:39+00:00",
-        "last_modified": "2026-03-11 12:18:41+00:00",
-        "downloads": 130,
-        "likes": 3,
+        "id": "lokesh2320/TRUEBench",
+        "author": "lokesh2320",
+        "created_at": "2026-03-19 07:54:19+00:00",
+        "last_modified": "2026-03-19 07:54:19+00:00",
+        "downloads": 6,
+        "likes": 0,
         "tags": [
-          "task_categories:translation",
-          "language:ar",
-          "language:az",
-          "language:be",
-          "language:bg",
-          "language:bn",
-          "language:bs",
-          "language:ca",
-          "language:cs",
-          "language:da",
-          "language:de",
-          "language:el",
-          "language:en",
-          "language:es",
-          "language:et",
-          "language:eu",
-          "language:fa",
-          "language:fi",
-          "language:fr",
-          "language:gl",
-          "language:he",
-          "language:hi",
-          "language:hr",
-          "language:hu",
-          "language:hy",
-          "language:id",
-          "language:is",
-          "language:it",
-          "language:ka",
-          "language:kk",
-          "language:km",
-          "language:kn",
+          "task_categories:text-generation",
           "language:ko",
-          "language:ku",
-          "language:lt",
-          "language:lv",
-          "language:mk",
-          "language:ml",
-          "language:mn",
-          "language:ms",
-          "language:my",
-          "language:nl",
-          "language:no",
+          "language:en",
+          "language:ja",
+          "language:zh",
           "language:pl",
-          "language:ps",
+          "language:de",
           "language:pt",
-          "language:ro",
+          "language:es",
+          "language:fr",
+          "language:it",
           "language:ru",
-          "language:si",
-          "language:sk",
-          "language:sl",
-          "language:sq",
-          "language:sr",
-          "language:sv",
-          "language:sw",
-          "language:ta",
-          "language:te",
-          "language:tl",
-          "language:tr",
-          "language:tt",
-          "language:uk",
-          "language:ur",
-          "language:uz",
           "language:vi",
-          "language:yue",
-          "license:odc-by",
-          "size_categories:100M<n<1B",
+          "license:apache-2.0",
+          "size_categories:n<1K",
+          "format:parquet",
+          "format:optimized-parquet",
           "modality:text",
-          "region:us",
-          "machine-translation",
-          "subtitles",
-          "multilingual",
-          "evaluation",
-          "opus",
-          "opensubtitles"
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us"
         ],
-        "description": "\n\t\n\t\t\n\t\tOpenSubtitles2024 Bilingual Benchmark\n\t\n\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\nThis dataset is a bilingual held-out evaluation and development benchmark derived from the OpenSubtitles2024 corpus.\nIt contains sentence-aligned subtitle pairs for machine translation development and evaluation. Unlike the multilingual aligned subset of OpenSubtitles2024, this dataset is not multi-parallel: different language pairs may originate from different movies or TV episodes, and aligned sentence pairs are… See the full description on the dataset page: https://huggingface.co/datasets/Helsinki-NLP/OpenSubtitles2024.",
-        "url": "https://huggingface.co/datasets/Helsinki-NLP/OpenSubtitles2024",
+        "description": "\n\t\n\t\t\n\t\tTRUEBench: A Benchmark for Assessing LLMs as Human Job Productivity Assistants\n\t\n\nTRUEBench is a benchmark introduced by Samsung Research to evaluate the performance of large language models (LLMs) as human job assistants which consists of over 2,400 realistic and challenging samples. \nTo assess performance in real-world applications, TRUEBench includes diverse dialog scenarios and language conditions.\n\n\t\n\t\t\n\t\tMain Features\n\t\n\n\nMultilinguality: The user instructions are written in a… See the full description on the dataset page: https://huggingface.co/datasets/lokesh2320/TRUEBench.",
+        "url": "https://huggingface.co/datasets/lokesh2320/TRUEBench",
         "languages": [
-          "ar",
-          "az",
-          "be",
-          "bg",
-          "bn",
-          "bs",
-          "ca",
-          "cs",
-          "da",
-          "de",
-          "el",
-          "en",
-          "es",
-          "et",
-          "eu",
-          "fa",
-          "fi",
-          "fr",
-          "gl",
-          "he",
-          "hi",
-          "hr",
-          "hu",
-          "hy",
-          "id",
-          "is",
-          "it",
-          "ka",
-          "kk",
-          "km",
-          "kn",
           "ko",
-          "ku",
-          "lt",
-          "lv",
-          "mk",
-          "ml",
-          "mn",
-          "ms",
-          "my",
-          "nl",
-          "no",
+          "en",
+          "ja",
+          "zh",
           "pl",
-          "ps",
+          "de",
           "pt",
-          "ro",
+          "es",
+          "fr",
+          "it",
           "ru",
-          "si",
-          "sk",
-          "sl",
-          "sq",
-          "sr",
-          "sv",
-          "sw",
-          "ta",
-          "te",
-          "tl",
-          "tr",
-          "tt",
-          "uk",
-          "ur",
-          "uz",
-          "vi",
-          "yue"
+          "vi"
         ],
         "tasks": [
-          "translation"
+          "text-generation"
         ],
         "size_categories": [
-          "100M<n<1B"
+          "n<1K"
         ]
       },
       {
-        "id": "sarkau/Multilingual-Image-Translation-Groups",
-        "author": "sarkau",
-        "created_at": "2026-03-09 18:18:13+00:00",
-        "last_modified": "2026-03-15 13:09:42+00:00",
-        "downloads": 24,
+        "id": "sangsangeulhada/KoreanDataSet",
+        "author": "sangsangeulhada",
+        "created_at": "2026-03-17 17:29:27+00:00",
+        "last_modified": "2026-03-17 17:29:29+00:00",
+        "downloads": 4,
         "likes": 0,
         "tags": [
-          "task_categories:translation",
-          "language:en",
-          "language:fr",
-          "language:de",
-          "language:it",
-          "language:hu",
-          "language:pl",
-          "language:ru",
-          "language:es",
-          "language:cs",
-          "language:tr",
-          "language:sv",
-          "language:nl",
-          "language:fi",
-          "language:no",
-          "language:ro",
-          "language:la",
-          "language:kn",
-          "language:id",
-          "language:zh",
           "language:ko",
-          "language:ka",
-          "language:ja",
-          "language:vi",
-          "language:sq",
-          "language:be",
-          "language:et",
-          "license:cc-by-sa-4.0",
-          "size_categories:1K<n<10K",
-          "modality:image",
+          "size_categories:100K<n<1M",
+          "format:parquet",
           "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
           "region:us",
-          "image",
-          "text"
+          "Aihub",
+          "한국지능정보사회진흥원"
         ],
-        "description": "\n\t\n\t\t\n\t\tDataset Card for HuggingFaceFW/Multilingual-Image-Translation-Groups\n\t\n\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\nThe IMG-MT dataset is a multilingual dataset of images containing text, where visually identical images differ only in the language of the embedded text. The texts appearing at the same positions across images are translations of each other.\nThe dataset was created to support the evaluation of systems that perform text detection, translation and rendering in images, such as pipelines for… See the full description on the dataset page: https://huggingface.co/datasets/sarkau/Multilingual-Image-Translation-Groups.",
-        "url": "https://huggingface.co/datasets/sarkau/Multilingual-Image-Translation-Groups",
+        "description": null,
+        "url": "https://huggingface.co/datasets/sangsangeulhada/KoreanDataSet",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "100K<n<1M"
+        ]
+      },
+      {
+        "id": "meta13sphere/IRS_DCE_Topological_Dynamics___Artificial_Cognitive_Physics",
+        "author": "meta13sphere",
+        "created_at": "2026-03-16 22:57:54+00:00",
+        "last_modified": "2026-03-16 23:03:37+00:00",
+        "downloads": 10,
+        "likes": 0,
+        "tags": [
+          "annotations_creators:expert-generated",
+          "multilinguality:multilingual",
+          "language:en",
+          "language:ko",
+          "license:other",
+          "size_categories:1K<n<10K",
+          "format:imagefolder",
+          "modality:image",
+          "library:datasets",
+          "library:mlcroissant",
+          "region:us",
+          "representation-geometry",
+          "intrinsic-dimension",
+          "transformer",
+          "phase-transition",
+          "basis-relative-reorganization",
+          "trajectory-analysis",
+          "batch-interference",
+          "quantization-robustness",
+          "model-specific-bias",
+          "open-structural-record"
+        ],
+        "description": "\n\t\n\t\t\n\t\tPhase Resonance / IRS-DCE\n\t\n\n\n\t\n\t\t\n\t\tOpen Structural Record of Basis-Relative Reorganization in Transformer Representation Space\n\t\n\n\n\n\t\n\t\t\n\t\t1. Reader Position Notice\n\t\n\nThis repository is intentionally organized as a multi-layer open record, not as a single-layer conference-style claim document.\nIt contains, in parallel:\n\n\t\n\t\t\n\t\tLayer A — Structural Record\n\t\n\n\ncode\nCSV outputs\ntrajectory traces\ncross-run summaries\nbatch A/B/C measurements\nbasis-relative comparison logs\n\n\n\t\n\t\t\n\t\tLayer… See the full description on the dataset page: https://huggingface.co/datasets/meta13sphere/IRS_DCE_Topological_Dynamics___Artificial_Cognitive_Physics.",
+        "url": "https://huggingface.co/datasets/meta13sphere/IRS_DCE_Topological_Dynamics___Artificial_Cognitive_Physics",
         "languages": [
           "en",
-          "fr",
-          "de",
+          "ko"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "1K<n<10K"
+        ]
+      }
+    ],
+    "removed_datasets": [
+      {
+        "id": "naenghoon/fair-law-cpt-dataset",
+        "author": "naenghoon",
+        "created_at": "2026-03-08 14:00:03+00:00",
+        "last_modified": "2026-03-08 14:01:31+00:00",
+        "downloads": 6,
+        "likes": 0,
+        "tags": [
+          "language:ko",
+          "size_categories:n<1K",
+          "format:json",
+          "modality:text",
+          "library:datasets",
+          "library:pandas",
+          "library:polars",
+          "library:mlcroissant",
+          "region:us",
+          "law",
+          "korea,",
+          "fair-trade"
+        ],
+        "description": null,
+        "url": "https://huggingface.co/datasets/naenghoon/fair-law-cpt-dataset",
+        "languages": [
+          "ko"
+        ],
+        "tasks": [],
+        "size_categories": [
+          "n<1K"
+        ]
+      },
+      {
+        "id": "DGurgurov/CLaS-Bench",
+        "author": "DGurgurov",
+        "created_at": "2026-02-25 14:15:10+00:00",
+        "last_modified": "2026-02-25 15:35:42+00:00",
+        "downloads": 69,
+        "likes": 0,
+        "tags": [
+          "task_categories:text-generation",
+          "task_categories:translation",
+          "language:bo",
+          "language:mt",
+          "language:it",
+          "language:es",
+          "language:de",
+          "language:ja",
+          "language:ar",
+          "language:zh",
+          "language:nl",
+          "language:fr",
+          "language:pt",
+          "language:ru",
+          "language:ko",
+          "language:hi",
+          "language:tr",
+          "language:pl",
+          "language:sv",
+          "language:da",
+          "language:no",
+          "language:en",
+          "language:sk",
+          "language:el",
+          "language:sw",
+          "language:kk",
+          "language:ka",
+          "language:uk",
+          "language:fa",
+          "language:th",
+          "language:id",
+          "language:vi",
+          "language:cs",
+          "language:ro",
+          "license:cc-by-4.0",
+          "size_categories:1K<n<10K",
+          "format:parquet",
+          "modality:text",
+          "library:datasets",
+          "library:dask",
+          "library:polars",
+          "library:mlcroissant",
+          "arxiv:2601.08331",
+          "region:us",
+          "multilingual",
+          "language-steering",
+          "mechanistic-interpretability",
+          "language-model-evaluation",
+          "parallel-corpus"
+        ],
+        "description": "\n\t\n\t\t\n\t\tCLaS-Bench - Cross-Lingual Alignment and Steering Benchmark\n\t\n\nCLaS-Bench is a lightweight parallel-question benchmark for evaluating\nlanguage-forcing / language-steering behaviour in large language models\n(LLMs) across 32 typologically diverse languages.\nBeyond language steering and alignment evaluation, the dataset can also be\nused for a variety of multilingual research tasks, including cross-lingual\ntransfer, language identification, representation analysis, multilingual\nrobustness… See the full description on the dataset page: https://huggingface.co/datasets/DGurgurov/CLaS-Bench.",
+        "url": "https://huggingface.co/datasets/DGurgurov/CLaS-Bench",
+        "languages": [
+          "bo",
+          "mt",
           "it",
-          "hu",
-          "pl",
-          "ru",
           "es",
-          "cs",
-          "tr",
-          "sv",
-          "nl",
-          "fi",
-          "no",
-          "ro",
-          "la",
-          "kn",
-          "id",
-          "zh",
-          "ko",
-          "ka",
+          "de",
           "ja",
+          "ar",
+          "zh",
+          "nl",
+          "fr",
+          "pt",
+          "ru",
+          "ko",
+          "hi",
+          "tr",
+          "pl",
+          "sv",
+          "da",
+          "no",
+          "en",
+          "sk",
+          "el",
+          "sw",
+          "kk",
+          "ka",
+          "uk",
+          "fa",
+          "th",
+          "id",
           "vi",
-          "sq",
-          "be",
-          "et"
+          "cs",
+          "ro"
         ],
         "tasks": [
+          "text-generation",
           "translation"
         ],
         "size_categories": [
@@ -821,255 +2168,54 @@
         ]
       },
       {
-        "id": "anas775/DETECT-AI-Dataset",
-        "author": "anas775",
-        "created_at": "2026-03-13 18:38:10+00:00",
-        "last_modified": "2026-03-14 18:58:26+00:00",
-        "downloads": 27,
+        "id": "vadette/macro_prosody_sample_set",
+        "author": "vadette",
+        "created_at": "2026-03-08 17:17:07+00:00",
+        "last_modified": "2026-03-14 17:54:44+00:00",
+        "downloads": 29,
         "likes": 0,
         "tags": [
-          "task_categories:text-classification",
-          "task_categories:image-classification",
-          "task_categories:video-classification",
-          "task_categories:audio-classification",
-          "language:en",
-          "language:ar",
-          "language:fr",
-          "language:de",
-          "language:es",
-          "language:zh",
-          "language:ja",
+          "task_categories:feature-extraction",
           "language:ko",
-          "language:pt",
-          "language:ru",
           "language:hi",
-          "language:it",
-          "language:nl",
-          "language:pl",
-          "language:sv",
-          "language:tr",
-          "language:vi",
-          "language:fa",
-          "language:uk",
           "language:he",
-          "language:cs",
-          "language:id",
-          "language:th",
-          "language:bn",
-          "language:ur",
-          "license:cc-by-4.0",
-          "size_categories:1B<n<10B",
-          "region:us",
-          "ai-detection",
-          "deepfake-detection",
-          "multi-modal",
-          "multi-language",
-          "synthetic-data",
-          "human-content"
-        ],
-        "description": "\n\t\n\t\t\n\t\t🔍 DETECT-AI — Multi-Modal AI Detection Dataset\n\t\n\n1B+ verified samples/month scraped from 19 global sources across text, image, video,\nand audio, labeled by a weighted ensemble of 8 specialized AI-detection models.\n\n\t\n\t\t\n\t\t📁 Folder Structure\n\t\n\nanas775/DETECT-AI-Dataset/\n├── text/{lang}/part-{NNNN}.parquet\n├── image/{lang}/metadata/part-{NNNN}.parquet\n├── image/{lang}/frames/{image_id}.jpg\n├── image/{lang}/faces/{image_id}_face_{NN}.jpg\n├── video/{lang}/metadata/part-{NNNN}.parquet… See the full description on the dataset page: https://huggingface.co/datasets/anas775/DETECT-AI-Dataset.",
-        "url": "https://huggingface.co/datasets/anas775/DETECT-AI-Dataset",
-        "languages": [
-          "en",
-          "ar",
-          "fr",
-          "de",
-          "es",
-          "zh",
-          "ja",
-          "ko",
-          "pt",
-          "ru",
-          "hi",
-          "it",
-          "nl",
-          "pl",
-          "sv",
-          "tr",
-          "vi",
-          "fa",
-          "uk",
-          "he",
-          "cs",
-          "id",
-          "th",
-          "bn",
-          "ur"
-        ],
-        "tasks": [
-          "text-classification",
-          "image-classification",
-          "video-classification",
-          "audio-classification"
-        ],
-        "size_categories": [
-          "1B<n<10B"
-        ]
-      },
-      {
-        "id": "jusunglee9931/Kor_OCR_Synth",
-        "author": "jusunglee9931",
-        "created_at": "2026-03-14 15:03:55+00:00",
-        "last_modified": "2026-03-14 22:52:59+00:00",
-        "downloads": 35,
-        "likes": 0,
-        "tags": [
-          "task_categories:image-to-text",
-          "task_categories:object-detection",
-          "language:ko",
-          "license:apache-2.0",
-          "size_categories:100K<n<1M",
-          "region:us"
-        ],
-        "description": null,
-        "url": "https://huggingface.co/datasets/jusunglee9931/Kor_OCR_Synth",
-        "languages": [
-          "ko"
-        ],
-        "tasks": [
-          "image-to-text",
-          "object-detection"
-        ],
-        "size_categories": [
-          "100K<n<1M"
-        ]
-      }
-    ],
-    "removed_datasets": [
-      {
-        "id": "humyn-labs/korean-voice-emotion-dataset",
-        "author": "humyn-labs",
-        "created_at": "2025-08-01 06:57:52+00:00",
-        "last_modified": "2026-03-03 09:50:55+00:00",
-        "downloads": 452,
-        "likes": 17,
-        "tags": [
-          "task_categories:audio-classification",
-          "language:ko",
-          "license:cc-by-4.0",
-          "size_categories:n<1K",
-          "format:audiofolder",
-          "modality:audio",
+          "language:gv",
+          "language:tzh",
+          "language:mdh",
+          "language:lss",
+          "license:cc0-1.0",
+          "size_categories:10K<n<100K",
+          "format:parquet",
+          "modality:tabular",
           "modality:text",
+          "modality:audio",
           "library:datasets",
+          "library:dask",
+          "library:polars",
           "library:mlcroissant",
           "region:us",
+          "audio",
           "speech",
-          "emotional-speech",
-          "audio-recognition",
-          "ai-research",
-          "voice-analysis",
-          "natural-speech",
-          "emotional-tones",
-          "korean"
+          "prosody",
+          "acoustics",
+          "linguistics",
+          "phonetics",
+          "voice-analytics",
+          "multilingual"
         ],
-        "description": "\n\t\n\t\t\n\t\tKorean Voice Emotion Dataset\n\t\n\n*This dataset contains high-quality (“A-grade”) data. It has been carefully curated, cleaned, and verified to ensure accuracy, completeness, and consistency, making it suitable for high-stakes or production-grade model training.\n\n\t\n\t\t\n\t\tDataset Summary\n\t\n\nThis dataset comprises high-quality Korean speech recordings designed for training and evaluating Speech Emotion Recognition (SER) models. The dataset contains voice samples expressing four distinct… See the full description on the dataset page: https://huggingface.co/datasets/humyn-labs/korean-voice-emotion-dataset.",
-        "url": "https://huggingface.co/datasets/humyn-labs/korean-voice-emotion-dataset",
+        "description": "\n\t\n\t\t\n\t\tAlexandria Voice Corpus — Multilingual Macro-Prosody Telemetry\n\t\n\nVersion 1.1 — Replacement release\nThis pack supersedes the earlier Korean & Hindi two-language release. That release was built on a pipeline with several unresolved quality-gate bugs (documented below). This version corrects all known issues and expands to seven typologically diverse languages.\nNo audio is included. This is a structured acoustic feature dataset for linguistic research, speech technology, and… See the full description on the dataset page: https://huggingface.co/datasets/vadette/macro_prosody_sample_set.",
+        "url": "https://huggingface.co/datasets/vadette/macro_prosody_sample_set",
         "languages": [
-          "ko"
-        ],
-        "tasks": [
-          "audio-classification"
-        ],
-        "size_categories": [
-          "n<1K"
-        ]
-      },
-      {
-        "id": "athenasaurav/final_Qwen_multi_old",
-        "author": "athenasaurav",
-        "created_at": "2026-02-02 17:40:49+00:00",
-        "last_modified": "2026-02-02 17:57:37+00:00",
-        "downloads": 18,
-        "likes": 0,
-        "tags": [
-          "task_categories:automatic-speech-recognition",
-          "multilinguality:multilingual",
-          "language:ar",
-          "language:en",
-          "language:es",
-          "language:fr",
-          "language:de",
-          "language:zh",
-          "language:ja",
-          "language:ko",
-          "language:ru",
-          "license:cc-by-4.0",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "description": "\n\t\n\t\t\n\t\tQwen3-ASR Multilingual Fine-tuning Dataset\n\t\n\nThis dataset contains 75395 audio samples for fine-tuning Qwen3-ASR model with focus on Arabic dialects while maintaining multilingual capabilities.\n\n\t\n\t\t\n\t\tDataset Composition\n\t\n\n\nArabic: ~70% (Saudi dialects, MSA, Egyptian)\nOther Languages: ~30% (English, Spanish, French, German, Chinese, Japanese, Korean, Russian)\n\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\n\nTrain: 71628 samples\nValidation: 3767 samples\n\n\n\t\n\t\t\n\t\tColumns\n\t\n\n\naudio: Audio data (16kHz… See the full description on the dataset page: https://huggingface.co/datasets/athenasaurav/final_Qwen_multi_old.",
-        "url": "https://huggingface.co/datasets/athenasaurav/final_Qwen_multi_old",
-        "languages": [
-          "ar",
-          "en",
-          "es",
-          "fr",
-          "de",
-          "zh",
-          "ja",
           "ko",
-          "ru"
+          "hi",
+          "he",
+          "gv",
+          "tzh",
+          "mdh",
+          "lss"
         ],
         "tasks": [
-          "automatic-speech-recognition"
-        ],
-        "size_categories": [
-          "10K<n<100K"
-        ]
-      },
-      {
-        "id": "athenasaurav/final_Qwen_multi",
-        "author": "athenasaurav",
-        "created_at": "2026-02-03 06:35:57+00:00",
-        "last_modified": "2026-02-05 08:53:21+00:00",
-        "downloads": 3,
-        "likes": 0,
-        "tags": [
-          "task_categories:automatic-speech-recognition",
-          "multilinguality:multilingual",
-          "language:ar",
-          "language:en",
-          "language:es",
-          "language:fr",
-          "language:de",
-          "language:zh",
-          "language:ja",
-          "language:ko",
-          "language:ru",
-          "license:cc-by-4.0",
-          "size_categories:10K<n<100K",
-          "format:parquet",
-          "format:optimized-parquet",
-          "modality:audio",
-          "modality:text",
-          "library:datasets",
-          "library:dask",
-          "library:polars",
-          "library:mlcroissant",
-          "region:us"
-        ],
-        "description": "\n\t\n\t\t\n\t\tQwen3-ASR Multilingual Fine-tuning Dataset\n\t\n\nThis dataset contains 75395 audio samples for fine-tuning Qwen3-ASR model with focus on Arabic dialects while maintaining multilingual capabilities.\n\n\t\n\t\t\n\t\tDataset Composition\n\t\n\n\nArabic: ~70% (Saudi dialects, MSA, Egyptian)\nOther Languages: ~30% (English, Spanish, French, German, Chinese, Japanese, Korean, Russian)\n\n\n\t\n\t\t\n\t\tDataset Structure\n\t\n\n\nTrain: 71,628 samples\nValidation: 3,767 samples\nTotal: 75,395 samples\n\n\n\t\n\t\t\n\t\tColumns… See the full description on the dataset page: https://huggingface.co/datasets/athenasaurav/final_Qwen_multi.",
-        "url": "https://huggingface.co/datasets/athenasaurav/final_Qwen_multi",
-        "languages": [
-          "ar",
-          "en",
-          "es",
-          "fr",
-          "de",
-          "zh",
-          "ja",
-          "ko",
-          "ru"
-        ],
-        "tasks": [
-          "automatic-speech-recognition"
+          "feature-extraction"
         ],
         "size_categories": [
           "10K<n<100K"
@@ -1078,90 +2224,18 @@
     ],
     "updated_datasets": [
       {
-        "id": "YGGYY/GTSinger",
-        "author": "YGGYY",
-        "url": "https://huggingface.co/datasets/YGGYY/GTSinger",
-        "changes": {
-          "downloads": {
-            "previous": 73,
-            "current": 91962,
-            "change": 91889
-          },
-          "likes": {
-            "previous": 0,
-            "current": 0,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
         "id": "PleIAs/common_corpus",
         "author": "PleIAs",
         "url": "https://huggingface.co/datasets/PleIAs/common_corpus",
         "changes": {
           "downloads": {
-            "previous": 111545,
-            "current": 143103,
-            "change": 31558
+            "previous": 143103,
+            "current": 185197,
+            "change": 42094
           },
           "likes": {
-            "previous": 384,
-            "current": 386,
-            "change": 2
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "FluidInference/fleurs-full",
-        "author": "FluidInference",
-        "url": "https://huggingface.co/datasets/FluidInference/fleurs-full",
-        "changes": {
-          "downloads": {
-            "previous": 365,
-            "current": 15168,
-            "change": 14803
-          },
-          "likes": {
-            "previous": 0,
-            "current": 0,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "hltcoe/megawika",
-        "author": "hltcoe",
-        "url": "https://huggingface.co/datasets/hltcoe/megawika",
-        "changes": {
-          "downloads": {
-            "previous": 33278,
-            "current": 43842,
-            "change": 10564
-          },
-          "likes": {
-            "previous": 41,
-            "current": 41,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "Viet-Mistral/CulturaY",
-        "author": "Viet-Mistral",
-        "url": "https://huggingface.co/datasets/Viet-Mistral/CulturaY",
-        "changes": {
-          "downloads": {
-            "previous": 25636,
-            "current": 32411,
-            "change": 6775
-          },
-          "likes": {
-            "previous": 36,
-            "current": 37,
+            "previous": 386,
+            "current": 387,
             "change": 1
           },
           "description_changed": false
@@ -1173,9 +2247,9 @@
         "url": "https://huggingface.co/datasets/adithya7/xlel_wd",
         "changes": {
           "downloads": {
-            "previous": 3560,
-            "current": 9547,
-            "change": 5987
+            "previous": 9547,
+            "current": 26627,
+            "change": 17080
           },
           "likes": {
             "previous": 2,
@@ -1186,180 +2260,72 @@
         }
       },
       {
-        "id": "occiglot/tokenizer-wiki-bench",
-        "author": "occiglot",
-        "url": "https://huggingface.co/datasets/occiglot/tokenizer-wiki-bench",
+        "id": "hltcoe/megawika",
+        "author": "hltcoe",
+        "url": "https://huggingface.co/datasets/hltcoe/megawika",
         "changes": {
           "downloads": {
-            "previous": 28736,
-            "current": 32661,
-            "change": 3925
+            "previous": 43842,
+            "current": 57179,
+            "change": 13337
           },
           "likes": {
-            "previous": 6,
-            "current": 6,
+            "previous": 41,
+            "current": 41,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "csebuetnlp/xlsum",
-        "author": "csebuetnlp",
-        "url": "https://huggingface.co/datasets/csebuetnlp/xlsum",
+        "id": "ginigen-ai/smol-worldcup",
+        "author": "ginigen-ai",
+        "url": "https://huggingface.co/datasets/ginigen-ai/smol-worldcup",
         "changes": {
           "downloads": {
-            "previous": 10721,
-            "current": 14352,
-            "change": 3631
+            "previous": 1514,
+            "current": 6291,
+            "change": 4777
           },
           "likes": {
-            "previous": 149,
-            "current": 149,
+            "previous": 36,
+            "current": 38,
+            "change": 2
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "amphion/Emilia-Dataset",
+        "author": "amphion",
+        "url": "https://huggingface.co/datasets/amphion/Emilia-Dataset",
+        "changes": {
+          "downloads": {
+            "previous": 53201,
+            "current": 55867,
+            "change": 2666
+          },
+          "likes": {
+            "previous": 439,
+            "current": 439,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "daekeun-ml/naver-news-summarization-ko",
-        "author": "daekeun-ml",
-        "url": "https://huggingface.co/datasets/daekeun-ml/naver-news-summarization-ko",
+        "id": "jaymunshi/open-swara",
+        "author": "jaymunshi",
+        "url": "https://huggingface.co/datasets/jaymunshi/open-swara",
         "changes": {
           "downloads": {
-            "previous": 6073,
-            "current": 9292,
-            "change": 3219
+            "previous": 127,
+            "current": 2234,
+            "change": 2107
           },
           "likes": {
-            "previous": 63,
-            "current": 63,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "agentlans/LinguaNova",
-        "author": "agentlans",
-        "url": "https://huggingface.co/datasets/agentlans/LinguaNova",
-        "changes": {
-          "downloads": {
-            "previous": 4050,
-            "current": 6514,
-            "change": 2464
-          },
-          "likes": {
-            "previous": 1,
-            "current": 1,
-            "change": 0
-          },
-          "description_changed": true
-        }
-      },
-      {
-        "id": "CohereLabs/Global-MMLU-Lite",
-        "author": "CohereLabs",
-        "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
-        "changes": {
-          "downloads": {
-            "previous": 9640,
-            "current": 11830,
-            "change": 2190
-          },
-          "likes": {
-            "previous": 30,
-            "current": 31,
-            "change": 1
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "OpenAssistant/oasst2",
-        "author": "OpenAssistant",
-        "url": "https://huggingface.co/datasets/OpenAssistant/oasst2",
-        "changes": {
-          "downloads": {
-            "previous": 9524,
-            "current": 11364,
-            "change": 1840
-          },
-          "likes": {
-            "previous": 285,
-            "current": 285,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "jsl5710/BLUFF",
-        "author": "jsl5710",
-        "url": "https://huggingface.co/datasets/jsl5710/BLUFF",
-        "changes": {
-          "downloads": {
-            "previous": 51,
-            "current": 1864,
-            "change": 1813
-          },
-          "likes": {
-            "previous": 0,
-            "current": 0,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "arsaporta/symile-m3",
-        "author": "arsaporta",
-        "url": "https://huggingface.co/datasets/arsaporta/symile-m3",
-        "changes": {
-          "downloads": {
-            "previous": 1475,
-            "current": 3270,
-            "change": 1795
-          },
-          "likes": {
-            "previous": 8,
-            "current": 8,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "upstage-isd-agent/scenarios",
-        "author": "upstage-isd-agent",
-        "url": "https://huggingface.co/datasets/upstage-isd-agent/scenarios",
-        "changes": {
-          "downloads": {
-            "previous": 24732,
-            "current": 26489,
-            "change": 1757
-          },
-          "likes": {
-            "previous": 0,
-            "current": 0,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "stanford-oval/wikipedia",
-        "author": "stanford-oval",
-        "url": "https://huggingface.co/datasets/stanford-oval/wikipedia",
-        "changes": {
-          "downloads": {
-            "previous": 4507,
-            "current": 5984,
-            "change": 1477
-          },
-          "likes": {
-            "previous": 14,
-            "current": 14,
+            "previous": 5,
+            "current": 5,
             "change": 0
           },
           "description_changed": false
@@ -1371,9 +2337,9 @@
         "url": "https://huggingface.co/datasets/stanford-oval/ccnews",
         "changes": {
           "downloads": {
-            "previous": 3646,
-            "current": 4986,
-            "change": 1340
+            "previous": 4986,
+            "current": 6725,
+            "change": 1739
           },
           "likes": {
             "previous": 33,
@@ -1384,72 +2350,36 @@
         }
       },
       {
-        "id": "shibing624/sharegpt_gpt4",
-        "author": "shibing624",
-        "url": "https://huggingface.co/datasets/shibing624/sharegpt_gpt4",
+        "id": "agentlans/LinguaNova",
+        "author": "agentlans",
+        "url": "https://huggingface.co/datasets/agentlans/LinguaNova",
         "changes": {
           "downloads": {
-            "previous": 3229,
-            "current": 4531,
-            "change": 1302
-          },
-          "likes": {
-            "previous": 138,
-            "current": 138,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "lumees/multilingual-safety-classification-dataset",
-        "author": "lumees",
-        "url": "https://huggingface.co/datasets/lumees/multilingual-safety-classification-dataset",
-        "changes": {
-          "downloads": {
-            "previous": 496,
-            "current": 1607,
-            "change": 1111
-          },
-          "likes": {
-            "previous": 3,
-            "current": 3,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "HuggingFaceFW/finepdfs-edu",
-        "author": "HuggingFaceFW",
-        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs-edu",
-        "changes": {
-          "downloads": {
-            "previous": 5474,
-            "current": 6462,
-            "change": 988
-          },
-          "likes": {
-            "previous": 82,
-            "current": 83,
-            "change": 1
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "refine-ai/subscene",
-        "author": "refine-ai",
-        "url": "https://huggingface.co/datasets/refine-ai/subscene",
-        "changes": {
-          "downloads": {
-            "previous": 3145,
-            "current": 3959,
-            "change": 814
+            "previous": 6514,
+            "current": 8249,
+            "change": 1735
           },
           "likes": {
             "previous": 1,
             "current": 1,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "nthakur/swim-ir-cross-lingual",
+        "author": "nthakur",
+        "url": "https://huggingface.co/datasets/nthakur/swim-ir-cross-lingual",
+        "changes": {
+          "downloads": {
+            "previous": 1620,
+            "current": 3351,
+            "change": 1731
+          },
+          "likes": {
+            "previous": 9,
+            "current": 9,
             "change": 0
           },
           "description_changed": false
@@ -1461,13 +2391,121 @@
         "url": "https://huggingface.co/datasets/aiana94/polynews-parallel",
         "changes": {
           "downloads": {
-            "previous": 1280,
-            "current": 2058,
-            "change": 778
+            "previous": 2058,
+            "current": 3655,
+            "change": 1597
           },
           "likes": {
             "previous": 13,
             "current": 13,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "csebuetnlp/xlsum",
+        "author": "csebuetnlp",
+        "url": "https://huggingface.co/datasets/csebuetnlp/xlsum",
+        "changes": {
+          "downloads": {
+            "previous": 14352,
+            "current": 15924,
+            "change": 1572
+          },
+          "likes": {
+            "previous": 149,
+            "current": 150,
+            "change": 1
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "daekeun-ml/naver-news-summarization-ko",
+        "author": "daekeun-ml",
+        "url": "https://huggingface.co/datasets/daekeun-ml/naver-news-summarization-ko",
+        "changes": {
+          "downloads": {
+            "previous": 9292,
+            "current": 10686,
+            "change": 1394
+          },
+          "likes": {
+            "previous": 63,
+            "current": 63,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "OpenAssistant/oasst2",
+        "author": "OpenAssistant",
+        "url": "https://huggingface.co/datasets/OpenAssistant/oasst2",
+        "changes": {
+          "downloads": {
+            "previous": 11364,
+            "current": 12681,
+            "change": 1317
+          },
+          "likes": {
+            "previous": 285,
+            "current": 287,
+            "change": 2
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "Viet-Mistral/CulturaY",
+        "author": "Viet-Mistral",
+        "url": "https://huggingface.co/datasets/Viet-Mistral/CulturaY",
+        "changes": {
+          "downloads": {
+            "previous": 32411,
+            "current": 33689,
+            "change": 1278
+          },
+          "likes": {
+            "previous": 37,
+            "current": 38,
+            "change": 1
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "DeliberatorArchiver/gi_cutscn_new",
+        "author": "DeliberatorArchiver",
+        "url": "https://huggingface.co/datasets/DeliberatorArchiver/gi_cutscn_new",
+        "changes": {
+          "downloads": {
+            "previous": 389,
+            "current": 1652,
+            "change": 1263
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "yhavinga/ccmatrix",
+        "author": "yhavinga",
+        "url": "https://huggingface.co/datasets/yhavinga/ccmatrix",
+        "changes": {
+          "downloads": {
+            "previous": 755,
+            "current": 1947,
+            "change": 1192
+          },
+          "likes": {
+            "previous": 26,
+            "current": 26,
             "change": 0
           },
           "description_changed": false
@@ -1479,32 +2517,14 @@
         "url": "https://huggingface.co/datasets/neulab/CulturalGround",
         "changes": {
           "downloads": {
-            "previous": 2074,
-            "current": 2829,
-            "change": 755
+            "previous": 2829,
+            "current": 3996,
+            "change": 1167
           },
           "likes": {
-            "previous": 16,
-            "current": 17,
+            "previous": 17,
+            "current": 18,
             "change": 1
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "GEM/xlsum",
-        "author": "GEM",
-        "url": "https://huggingface.co/datasets/GEM/xlsum",
-        "changes": {
-          "downloads": {
-            "previous": 693,
-            "current": 1436,
-            "change": 743
-          },
-          "likes": {
-            "previous": 5,
-            "current": 5,
-            "change": 0
           },
           "description_changed": false
         }
@@ -1515,9 +2535,9 @@
         "url": "https://huggingface.co/datasets/google-research-datasets/tydiqa",
         "changes": {
           "downloads": {
-            "previous": 3979,
-            "current": 4617,
-            "change": 638
+            "previous": 4617,
+            "current": 5739,
+            "change": 1122
           },
           "likes": {
             "previous": 33,
@@ -1528,140 +2548,32 @@
         }
       },
       {
-        "id": "jp1924/KoreaSpeech",
-        "author": "jp1924",
-        "url": "https://huggingface.co/datasets/jp1924/KoreaSpeech",
+        "id": "sentence-transformers/parallel-sentences-ccmatrix",
+        "author": "sentence-transformers",
+        "url": "https://huggingface.co/datasets/sentence-transformers/parallel-sentences-ccmatrix",
         "changes": {
           "downloads": {
-            "previous": 52,
-            "current": 680,
-            "change": 628
+            "previous": 1351,
+            "current": 2372,
+            "change": 1021
           },
           "likes": {
-            "previous": 12,
-            "current": 12,
-            "change": 0
-          },
-          "description_changed": true
-        }
-      },
-      {
-        "id": "CohereLabs/include-base-44",
-        "author": "CohereLabs",
-        "url": "https://huggingface.co/datasets/CohereLabs/include-base-44",
-        "changes": {
-          "downloads": {
-            "previous": 4916,
-            "current": 5520,
-            "change": 604
-          },
-          "likes": {
-            "previous": 44,
-            "current": 45,
-            "change": 1
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "nvidia/HelpSteer3",
-        "author": "nvidia",
-        "url": "https://huggingface.co/datasets/nvidia/HelpSteer3",
-        "changes": {
-          "downloads": {
-            "previous": 4061,
-            "current": 4650,
-            "change": 589
-          },
-          "likes": {
-            "previous": 97,
-            "current": 105,
-            "change": 8
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "nthakur/swim-ir-cross-lingual",
-        "author": "nthakur",
-        "url": "https://huggingface.co/datasets/nthakur/swim-ir-cross-lingual",
-        "changes": {
-          "downloads": {
-            "previous": 1079,
-            "current": 1620,
-            "change": 541
-          },
-          "likes": {
-            "previous": 9,
-            "current": 9,
+            "previous": 13,
+            "current": 13,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "HAERAE-HUB/KMMMU",
-        "author": "HAERAE-HUB",
-        "url": "https://huggingface.co/datasets/HAERAE-HUB/KMMMU",
+        "id": "juletxara/tydiqa_xtreme",
+        "author": "juletxara",
+        "url": "https://huggingface.co/datasets/juletxara/tydiqa_xtreme",
         "changes": {
           "downloads": {
-            "previous": 3142,
-            "current": 3682,
-            "change": 540
-          },
-          "likes": {
-            "previous": 11,
-            "current": 11,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "openfoodfacts/product-database",
-        "author": "openfoodfacts",
-        "url": "https://huggingface.co/datasets/openfoodfacts/product-database",
-        "changes": {
-          "downloads": {
-            "previous": 5151,
-            "current": 5690,
-            "change": 539
-          },
-          "likes": {
-            "previous": 116,
-            "current": 116,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "wdcqc/starcraft-remastered-melee-maps",
-        "author": "wdcqc",
-        "url": "https://huggingface.co/datasets/wdcqc/starcraft-remastered-melee-maps",
-        "changes": {
-          "downloads": {
-            "previous": 2780,
-            "current": 3319,
-            "change": 539
-          },
-          "likes": {
-            "previous": 2,
-            "current": 2,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "GEM/surface_realisation_st_2020",
-        "author": "GEM",
-        "url": "https://huggingface.co/datasets/GEM/surface_realisation_st_2020",
-        "changes": {
-          "downloads": {
-            "previous": 2176,
-            "current": 2705,
-            "change": 529
+            "previous": 220,
+            "current": 1234,
+            "change": 1014
           },
           "likes": {
             "previous": 1,
@@ -1672,18 +2584,108 @@
         }
       },
       {
-        "id": "almanach/Biomed-Enriched",
-        "author": "almanach",
-        "url": "https://huggingface.co/datasets/almanach/Biomed-Enriched",
+        "id": "CohereLabs/Global-MMLU-Lite",
+        "author": "CohereLabs",
+        "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
         "changes": {
           "downloads": {
-            "previous": 444,
-            "current": 958,
-            "change": 514
+            "previous": 11830,
+            "current": 12783,
+            "change": 953
           },
           "likes": {
-            "previous": 6,
-            "current": 6,
+            "previous": 31,
+            "current": 31,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "OpenAssistant/oasst1",
+        "author": "OpenAssistant",
+        "url": "https://huggingface.co/datasets/OpenAssistant/oasst1",
+        "changes": {
+          "downloads": {
+            "previous": 10624,
+            "current": 11563,
+            "change": 939
+          },
+          "likes": {
+            "previous": 1487,
+            "current": 1490,
+            "change": 3
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "jp1924/KoreaSpeech",
+        "author": "jp1924",
+        "url": "https://huggingface.co/datasets/jp1924/KoreaSpeech",
+        "changes": {
+          "downloads": {
+            "previous": 680,
+            "current": 1564,
+            "change": 884
+          },
+          "likes": {
+            "previous": 12,
+            "current": 12,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "nvidia/HelpSteer3",
+        "author": "nvidia",
+        "url": "https://huggingface.co/datasets/nvidia/HelpSteer3",
+        "changes": {
+          "downloads": {
+            "previous": 4650,
+            "current": 5424,
+            "change": 774
+          },
+          "likes": {
+            "previous": 105,
+            "current": 106,
+            "change": 1
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "CohereLabs/Global-MMLU",
+        "author": "CohereLabs",
+        "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU",
+        "changes": {
+          "downloads": {
+            "previous": 10038,
+            "current": 10786,
+            "change": 748
+          },
+          "likes": {
+            "previous": 150,
+            "current": 151,
+            "change": 1
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "styletts2-community/multilingual-pl-bert",
+        "author": "styletts2-community",
+        "url": "https://huggingface.co/datasets/styletts2-community/multilingual-pl-bert",
+        "changes": {
+          "downloads": {
+            "previous": 3454,
+            "current": 4195,
+            "change": 741
+          },
+          "likes": {
+            "previous": 19,
+            "current": 19,
             "change": 0
           },
           "description_changed": false
@@ -1695,13 +2697,157 @@
         "url": "https://huggingface.co/datasets/miracl/miracl",
         "changes": {
           "downloads": {
-            "previous": 1970,
-            "current": 2473,
-            "change": 503
+            "previous": 2473,
+            "current": 3211,
+            "change": 738
           },
           "likes": {
             "previous": 68,
-            "current": 68,
+            "current": 69,
+            "change": 1
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "khalidalt/tydiqa-goldp",
+        "author": "khalidalt",
+        "url": "https://huggingface.co/datasets/khalidalt/tydiqa-goldp",
+        "changes": {
+          "downloads": {
+            "previous": 1237,
+            "current": 1970,
+            "change": 733
+          },
+          "likes": {
+            "previous": 12,
+            "current": 12,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "Shitao/MLDR",
+        "author": "Shitao",
+        "url": "https://huggingface.co/datasets/Shitao/MLDR",
+        "changes": {
+          "downloads": {
+            "previous": 1227,
+            "current": 1948,
+            "change": 721
+          },
+          "likes": {
+            "previous": 75,
+            "current": 76,
+            "change": 1
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "YGGYY/GTSinger",
+        "author": "YGGYY",
+        "url": "https://huggingface.co/datasets/YGGYY/GTSinger",
+        "changes": {
+          "downloads": {
+            "previous": 91962,
+            "current": 92680,
+            "change": 718
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "lumees/multilingual-safety-classification-dataset",
+        "author": "lumees",
+        "url": "https://huggingface.co/datasets/lumees/multilingual-safety-classification-dataset",
+        "changes": {
+          "downloads": {
+            "previous": 1607,
+            "current": 2293,
+            "change": 686
+          },
+          "likes": {
+            "previous": 3,
+            "current": 3,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "arsaporta/symile-m3",
+        "author": "arsaporta",
+        "url": "https://huggingface.co/datasets/arsaporta/symile-m3",
+        "changes": {
+          "downloads": {
+            "previous": 3270,
+            "current": 3945,
+            "change": 675
+          },
+          "likes": {
+            "previous": 8,
+            "current": 8,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "CohereLabs/include-base-44",
+        "author": "CohereLabs",
+        "url": "https://huggingface.co/datasets/CohereLabs/include-base-44",
+        "changes": {
+          "downloads": {
+            "previous": 5520,
+            "current": 6087,
+            "change": 567
+          },
+          "likes": {
+            "previous": 45,
+            "current": 46,
+            "change": 1
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "facebook/belebele",
+        "author": "facebook",
+        "url": "https://huggingface.co/datasets/facebook/belebele",
+        "changes": {
+          "downloads": {
+            "previous": 10328,
+            "current": 10894,
+            "change": 566
+          },
+          "likes": {
+            "previous": 122,
+            "current": 124,
+            "change": 2
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "wdcqc/starcraft-remastered-melee-maps",
+        "author": "wdcqc",
+        "url": "https://huggingface.co/datasets/wdcqc/starcraft-remastered-melee-maps",
+        "changes": {
+          "downloads": {
+            "previous": 3319,
+            "current": 3872,
+            "change": 553
+          },
+          "likes": {
+            "previous": 2,
+            "current": 2,
             "change": 0
           },
           "description_changed": false
@@ -1713,9 +2859,9 @@
         "url": "https://huggingface.co/datasets/Helsinki-NLP/tatoeba_mt",
         "changes": {
           "downloads": {
-            "previous": 3071,
-            "current": 3567,
-            "change": 496
+            "previous": 3567,
+            "current": 4110,
+            "change": 543
           },
           "likes": {
             "previous": 61,
@@ -1726,50 +2872,50 @@
         }
       },
       {
-        "id": "google/svq",
-        "author": "google",
-        "url": "https://huggingface.co/datasets/google/svq",
+        "id": "esdurmus/wiki_lingua",
+        "author": "esdurmus",
+        "url": "https://huggingface.co/datasets/esdurmus/wiki_lingua",
         "changes": {
           "downloads": {
-            "previous": 2188,
-            "current": 2650,
-            "change": 462
+            "previous": 541,
+            "current": 1041,
+            "change": 500
           },
           "likes": {
-            "previous": 41,
-            "current": 41,
+            "previous": 53,
+            "current": 53,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "HYU-NLP/BlendX",
-        "author": "HYU-NLP",
-        "url": "https://huggingface.co/datasets/HYU-NLP/BlendX",
+        "id": "openai/MMMLU",
+        "author": "openai",
+        "url": "https://huggingface.co/datasets/openai/MMMLU",
         "changes": {
           "downloads": {
-            "previous": 68,
-            "current": 497,
-            "change": 429
+            "previous": 6916,
+            "current": 7409,
+            "change": 493
           },
           "likes": {
-            "previous": 3,
-            "current": 3,
+            "previous": 517,
+            "current": 517,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "laion/emolia-hq",
-        "author": "laion",
-        "url": "https://huggingface.co/datasets/laion/emolia-hq",
+        "id": "refine-ai/subscene",
+        "author": "refine-ai",
+        "url": "https://huggingface.co/datasets/refine-ai/subscene",
         "changes": {
           "downloads": {
-            "previous": 8,
-            "current": 420,
-            "change": 412
+            "previous": 3959,
+            "current": 4436,
+            "change": 477
           },
           "likes": {
             "previous": 1,
@@ -1780,36 +2926,126 @@
         }
       },
       {
-        "id": "pacscilab/VoxCommunis",
-        "author": "pacscilab",
-        "url": "https://huggingface.co/datasets/pacscilab/VoxCommunis",
+        "id": "google/xtreme",
+        "author": "google",
+        "url": "https://huggingface.co/datasets/google/xtreme",
         "changes": {
           "downloads": {
-            "previous": 3986,
-            "current": 4377,
-            "change": 391
+            "previous": 4400,
+            "current": 4842,
+            "change": 442
           },
           "likes": {
-            "previous": 9,
-            "current": 9,
+            "previous": 115,
+            "current": 115,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "zhihz0535/X-AlpacaEval",
-        "author": "zhihz0535",
-        "url": "https://huggingface.co/datasets/zhihz0535/X-AlpacaEval",
+        "id": "neulab/PangeaBench-xgqa",
+        "author": "neulab",
+        "url": "https://huggingface.co/datasets/neulab/PangeaBench-xgqa",
         "changes": {
           "downloads": {
-            "previous": 195,
-            "current": 577,
-            "change": 382
+            "previous": 892,
+            "current": 1285,
+            "change": 393
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "HuggingFaceFW/finepdfs-edu",
+        "author": "HuggingFaceFW",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs-edu",
+        "changes": {
+          "downloads": {
+            "previous": 6462,
+            "current": 6847,
+            "change": 385
+          },
+          "likes": {
+            "previous": 83,
+            "current": 84,
+            "change": 1
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "LHF/escorpius-mr",
+        "author": "LHF",
+        "url": "https://huggingface.co/datasets/LHF/escorpius-mr",
+        "changes": {
+          "downloads": {
+            "previous": 288,
+            "current": 660,
+            "change": 372
           },
           "likes": {
             "previous": 5,
             "current": 5,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "codefuse-ai/F2LLM-v2",
+        "author": "codefuse-ai",
+        "url": "https://huggingface.co/datasets/codefuse-ai/F2LLM-v2",
+        "changes": {
+          "downloads": {
+            "previous": 85,
+            "current": 433,
+            "change": 348
+          },
+          "likes": {
+            "previous": 1,
+            "current": 2,
+            "change": 1
+          },
+          "description_changed": true
+        }
+      },
+      {
+        "id": "neulab/PangeaBench-xm100",
+        "author": "neulab",
+        "url": "https://huggingface.co/datasets/neulab/PangeaBench-xm100",
+        "changes": {
+          "downloads": {
+            "previous": 1498,
+            "current": 1842,
+            "change": 344
+          },
+          "likes": {
+            "previous": 0,
+            "current": 0,
+            "change": 0
+          },
+          "description_changed": false
+        }
+      },
+      {
+        "id": "TTS-AGI/emilia-yodas",
+        "author": "TTS-AGI",
+        "url": "https://huggingface.co/datasets/TTS-AGI/emilia-yodas",
+        "changes": {
+          "downloads": {
+            "previous": 349,
+            "current": 690,
+            "change": 341
+          },
+          "likes": {
+            "previous": 4,
+            "current": 4,
             "change": 0
           },
           "description_changed": false
@@ -1821,9 +3057,9 @@
         "url": "https://huggingface.co/datasets/castorini/mr-tydi",
         "changes": {
           "downloads": {
-            "previous": 969,
-            "current": 1340,
-            "change": 371
+            "previous": 1340,
+            "current": 1659,
+            "change": 319
           },
           "likes": {
             "previous": 22,
@@ -1834,32 +3070,32 @@
         }
       },
       {
-        "id": "AaronZ345/GTSinger",
-        "author": "AaronZ345",
-        "url": "https://huggingface.co/datasets/AaronZ345/GTSinger",
+        "id": "Arabic-Clip/xtd_11",
+        "author": "Arabic-Clip",
+        "url": "https://huggingface.co/datasets/Arabic-Clip/xtd_11",
         "changes": {
           "downloads": {
-            "previous": 2643,
-            "current": 3011,
-            "change": 368
+            "previous": 134,
+            "current": 448,
+            "change": 314
           },
           "likes": {
-            "previous": 13,
-            "current": 13,
+            "previous": 3,
+            "current": 3,
             "change": 0
           },
           "description_changed": false
         }
       },
       {
-        "id": "sentence-transformers/mldr",
-        "author": "sentence-transformers",
-        "url": "https://huggingface.co/datasets/sentence-transformers/mldr",
+        "id": "almanach/Biomed-Enriched",
+        "author": "almanach",
+        "url": "https://huggingface.co/datasets/almanach/Biomed-Enriched",
         "changes": {
           "downloads": {
-            "previous": 2207,
-            "current": 2566,
-            "change": 359
+            "previous": 958,
+            "current": 1254,
+            "change": 296
           },
           "likes": {
             "previous": 6,
@@ -1870,121 +3106,31 @@
         }
       },
       {
-        "id": "Anne-Desk/Medical-QA-Dataset",
-        "author": "Anne-Desk",
-        "url": "https://huggingface.co/datasets/Anne-Desk/Medical-QA-Dataset",
+        "id": "FBK-MT/Speech-MASSIVE",
+        "author": "FBK-MT",
+        "url": "https://huggingface.co/datasets/FBK-MT/Speech-MASSIVE",
         "changes": {
           "downloads": {
-            "previous": 673,
-            "current": 1010,
-            "change": 337
+            "previous": 1339,
+            "current": 1622,
+            "change": 283
           },
           "likes": {
-            "previous": 1,
-            "current": 1,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "CohereLabs/Global-MMLU",
-        "author": "CohereLabs",
-        "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU",
-        "changes": {
-          "downloads": {
-            "previous": 9718,
-            "current": 10038,
-            "change": 320
-          },
-          "likes": {
-            "previous": 150,
-            "current": 150,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "allganize/IFEval-Ko",
-        "author": "allganize",
-        "url": "https://huggingface.co/datasets/allganize/IFEval-Ko",
-        "changes": {
-          "downloads": {
-            "previous": 809,
-            "current": 1126,
-            "change": 317
-          },
-          "likes": {
-            "previous": 11,
-            "current": 11,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "suchirsalhan/Phonemized-UD",
-        "author": "suchirsalhan",
-        "url": "https://huggingface.co/datasets/suchirsalhan/Phonemized-UD",
-        "changes": {
-          "downloads": {
-            "previous": 921,
-            "current": 1212,
-            "change": 291
-          },
-          "likes": {
-            "previous": 0,
-            "current": 0,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "google-research-datasets/paws-x",
-        "author": "google-research-datasets",
-        "url": "https://huggingface.co/datasets/google-research-datasets/paws-x",
-        "changes": {
-          "downloads": {
-            "previous": 6395,
-            "current": 6672,
-            "change": 277
-          },
-          "likes": {
-            "previous": 50,
-            "current": 50,
-            "change": 0
-          },
-          "description_changed": false
-        }
-      },
-      {
-        "id": "HAERAE-HUB/HAE_RAE_BENCH_1.1",
-        "author": "HAERAE-HUB",
-        "url": "https://huggingface.co/datasets/HAERAE-HUB/HAE_RAE_BENCH_1.1",
-        "changes": {
-          "downloads": {
-            "previous": 1494,
-            "current": 1764,
-            "change": 270
-          },
-          "likes": {
-            "previous": 20,
-            "current": 20,
+            "previous": 48,
+            "current": 48,
             "change": 0
           },
           "description_changed": false
         }
       }
     ],
-    "unchanged_count": 129
+    "unchanged_count": 122
   },
   "summary": {
-    "new_count": 16,
+    "new_count": 36,
     "removed_count": 3,
     "updated_count": 50,
-    "unchanged_count": 129,
-    "net_change": 13
+    "unchanged_count": 122,
+    "net_change": 33
   }
 }
