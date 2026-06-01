@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T03:26:29.296652",
+  "generated_at": "2026-06-01T03:37:24.149956",
   "trends": {
     "dates": [
       "20251012",
@@ -34,7 +34,8 @@
       "20260504",
       "20260511",
       "20260518",
-      "20260525"
+      "20260525",
+      "20260601"
     ],
     "total_datasets": [
       1326,
@@ -69,7 +70,8 @@
       1940,
       1993,
       2039,
-      2078
+      2078,
+      2107
     ],
     "total_downloads": [
       890871,
@@ -104,7 +106,8 @@
       1194956,
       1846842,
       2318710,
-      2522847
+      2522847,
+      2530503
     ],
     "total_likes": [
       10761,
@@ -139,7 +142,8 @@
       13502,
       13640,
       13738,
-      13835
+      13835,
+      13962
     ],
     "multilingual_count": [
       585,
@@ -174,13 +178,14 @@
       970,
       998,
       1030,
-      1059
+      1059,
+      1075
     ],
-    "growth_rate": 56.71,
+    "growth_rate": 58.9,
     "latest_stats": {
-      "total_datasets": 2078,
-      "total_downloads": 2522847,
-      "total_likes": 13835,
+      "total_datasets": 2107,
+      "total_downloads": 2530503,
+      "total_likes": 13962,
       "top_authors": {
         "nmixx-fin": 37,
         "nayohan": 31,
@@ -194,21 +199,21 @@
         "KETI-AIR": 14
       },
       "top_tasks": {
-        "text-generation": 558,
-        "text-classification": 290,
-        "question-answering": 286,
-        "translation": 178,
-        "automatic-speech-recognition": 86,
-        "feature-extraction": 64,
-        "text-retrieval": 61,
-        "summarization": 55,
-        "image-to-text": 51,
-        "text-to-speech": 51
+        "text-generation": 565,
+        "question-answering": 298,
+        "text-classification": 295,
+        "translation": 179,
+        "automatic-speech-recognition": 93,
+        "feature-extraction": 67,
+        "text-retrieval": 65,
+        "summarization": 56,
+        "image-to-text": 53,
+        "text-to-speech": 52
       },
-      "multilingual_count": 1059
+      "multilingual_count": 1075
     },
     "first_date": "20251012",
-    "last_date": "20260525",
-    "total_weeks": 33
+    "last_date": "20260601",
+    "total_weeks": 34
   }
 }
