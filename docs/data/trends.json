@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T03:37:24.149956",
+  "generated_at": "2026-06-08T03:34:46.538379",
   "trends": {
     "dates": [
       "20251012",
@@ -35,7 +35,8 @@
       "20260511",
       "20260518",
       "20260525",
-      "20260601"
+      "20260601",
+      "20260608"
     ],
     "total_datasets": [
       1326,
@@ -71,7 +72,8 @@
       1993,
       2039,
       2078,
-      2107
+      2107,
+      2180
     ],
     "total_downloads": [
       890871,
@@ -107,7 +109,8 @@
       1846842,
       2318710,
       2522847,
-      2530503
+      2530503,
+      2124922
     ],
     "total_likes": [
       10761,
@@ -143,7 +146,8 @@
       13640,
       13738,
       13835,
-      13962
+      13962,
+      14116
     ],
     "multilingual_count": [
       585,
@@ -179,14 +183,16 @@
       998,
       1030,
       1059,
-      1075
+      1075,
+      1140
     ],
-    "growth_rate": 58.9,
+    "growth_rate": 64.4,
     "latest_stats": {
-      "total_datasets": 2107,
-      "total_downloads": 2530503,
-      "total_likes": 13962,
+      "total_datasets": 2180,
+      "total_downloads": 2124922,
+      "total_likes": 14116,
       "top_authors": {
+        "Gingiris": 41,
         "nmixx-fin": 37,
         "nayohan": 31,
         "jp1924": 29,
@@ -195,25 +201,24 @@
         "davidkim205": 23,
         "ChuGyouk": 21,
         "youjunhyeok": 17,
-        "agentlans": 15,
-        "KETI-AIR": 14
+        "agentlans": 15
       },
       "top_tasks": {
-        "text-generation": 565,
-        "question-answering": 298,
-        "text-classification": 295,
-        "translation": 179,
+        "text-generation": 602,
+        "question-answering": 309,
+        "text-classification": 304,
+        "translation": 175,
         "automatic-speech-recognition": 93,
-        "feature-extraction": 67,
-        "text-retrieval": 65,
+        "text-retrieval": 75,
+        "feature-extraction": 73,
+        "token-classification": 61,
         "summarization": 56,
-        "image-to-text": 53,
-        "text-to-speech": 52
+        "image-to-text": 54
       },
-      "multilingual_count": 1075
+      "multilingual_count": 1140
     },
     "first_date": "20251012",
-    "last_date": "20260601",
-    "total_weeks": 34
+    "last_date": "20260608",
+    "total_weeks": 35
   }
 }
