@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T03:34:46.538379",
+  "generated_at": "2026-06-15T03:46:33.933380",
   "trends": {
     "dates": [
       "20251012",
@@ -36,7 +36,8 @@
       "20260518",
       "20260525",
       "20260601",
-      "20260608"
+      "20260608",
+      "20260615"
     ],
     "total_datasets": [
       1326,
@@ -73,7 +74,8 @@
       2039,
       2078,
       2107,
-      2180
+      2180,
+      2215
     ],
     "total_downloads": [
       890871,
@@ -110,7 +112,8 @@
       2318710,
       2522847,
       2530503,
-      2124922
+      2124922,
+      1548169
     ],
     "total_likes": [
       10761,
@@ -147,7 +150,8 @@
       13738,
       13835,
       13962,
-      14116
+      14116,
+      14191
     ],
     "multilingual_count": [
       585,
@@ -184,15 +188,16 @@
       1030,
       1059,
       1075,
-      1140
+      1140,
+      1158
     ],
-    "growth_rate": 64.4,
+    "growth_rate": 67.04,
     "latest_stats": {
-      "total_datasets": 2180,
-      "total_downloads": 2124922,
-      "total_likes": 14116,
+      "total_datasets": 2215,
+      "total_downloads": 1548169,
+      "total_likes": 14191,
       "top_authors": {
-        "Gingiris": 41,
+        "Gingiris": 42,
         "nmixx-fin": 37,
         "nayohan": 31,
         "jp1924": 29,
@@ -201,24 +206,24 @@
         "davidkim205": 23,
         "ChuGyouk": 21,
         "youjunhyeok": 17,
-        "agentlans": 15
+        "agentlans": 16
       },
       "top_tasks": {
-        "text-generation": 602,
-        "question-answering": 309,
-        "text-classification": 304,
-        "translation": 175,
-        "automatic-speech-recognition": 93,
-        "text-retrieval": 75,
-        "feature-extraction": 73,
-        "token-classification": 61,
-        "summarization": 56,
-        "image-to-text": 54
+        "text-generation": 614,
+        "question-answering": 315,
+        "text-classification": 310,
+        "translation": 180,
+        "automatic-speech-recognition": 94,
+        "text-retrieval": 79,
+        "feature-extraction": 77,
+        "token-classification": 62,
+        "summarization": 57,
+        "image-to-text": 55
       },
-      "multilingual_count": 1140
+      "multilingual_count": 1158
     },
     "first_date": "20251012",
-    "last_date": "20260608",
-    "total_weeks": 35
+    "last_date": "20260615",
+    "total_weeks": 36
   }
 }
