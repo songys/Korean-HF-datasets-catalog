@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T02:24:05.828312",
+  "generated_at": "2026-07-20T02:57:19.192756",
   "trends": {
     "dates": [
       "20251012",
@@ -41,7 +41,8 @@
       "20260622",
       "20260629",
       "20260706",
-      "20260713"
+      "20260713",
+      "20260720"
     ],
     "total_datasets": [
       1326,
@@ -83,7 +84,8 @@
       2253,
       2299,
       2334,
-      2380
+      2380,
+      2419
     ],
     "total_downloads": [
       890871,
@@ -125,7 +127,8 @@
       1304231,
       1352865,
       1369052,
-      1485677
+      1485677,
+      1445780
     ],
     "total_likes": [
       10761,
@@ -167,7 +170,8 @@
       14269,
       14346,
       14419,
-      14493
+      14493,
+      14581
     ],
     "multilingual_count": [
       585,
@@ -209,13 +213,14 @@
       1182,
       1216,
       1241,
-      1262
+      1262,
+      1288
     ],
-    "growth_rate": 79.49,
+    "growth_rate": 82.43,
     "latest_stats": {
-      "total_datasets": 2380,
-      "total_downloads": 1485677,
-      "total_likes": 14493,
+      "total_datasets": 2419,
+      "total_downloads": 1445780,
+      "total_likes": 14581,
       "top_authors": {
         "Gingiris": 39,
         "nmixx-fin": 37,
@@ -229,21 +234,21 @@
         "youjunhyeok": 17
       },
       "top_tasks": {
-        "text-generation": 696,
-        "text-classification": 340,
-        "question-answering": 325,
-        "translation": 186,
-        "automatic-speech-recognition": 104,
-        "text-retrieval": 90,
+        "text-generation": 717,
+        "text-classification": 346,
+        "question-answering": 328,
+        "translation": 191,
+        "automatic-speech-recognition": 105,
+        "text-retrieval": 93,
         "feature-extraction": 84,
         "summarization": 69,
-        "token-classification": 66,
+        "token-classification": 67,
         "image-to-text": 61
       },
-      "multilingual_count": 1262
+      "multilingual_count": 1288
     },
     "first_date": "20251012",
-    "last_date": "20260713",
-    "total_weeks": 40
+    "last_date": "20260720",
+    "total_weeks": 41
   }
 }
