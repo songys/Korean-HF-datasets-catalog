@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T01:21:23.010198",
+  "generated_at": "2026-08-17T00:59:26.731949",
   "trends": {
     "dates": [
       "20251012",
@@ -45,7 +45,8 @@
       "20260720",
       "20260727",
       "20260803",
-      "20260810"
+      "20260810",
+      "20260817"
     ],
     "total_datasets": [
       1326,
@@ -91,7 +92,8 @@
       2419,
       2443,
       2477,
-      2525
+      2525,
+      2568
     ],
     "total_downloads": [
       890871,
@@ -137,7 +139,8 @@
       1445780,
       1565695,
       1523626,
-      1463275
+      1463275,
+      1473430
     ],
     "total_likes": [
       10761,
@@ -183,7 +186,8 @@
       14581,
       14673,
       14773,
-      14857
+      14857,
+      14967
     ],
     "multilingual_count": [
       585,
@@ -229,15 +233,16 @@
       1288,
       1307,
       1335,
-      1371
+      1371,
+      1393
     ],
-    "growth_rate": 90.42,
+    "growth_rate": 93.67,
     "latest_stats": {
-      "total_datasets": 2525,
-      "total_downloads": 1463275,
-      "total_likes": 14857,
+      "total_datasets": 2568,
+      "total_downloads": 1473430,
+      "total_likes": 14967,
       "top_authors": {
-        "Gingiris": 40,
+        "Gingiris": 39,
         "nmixx-fin": 37,
         "nayohan": 31,
         "LLM-OS-Models": 30,
@@ -249,21 +254,21 @@
         "youjunhyeok": 17
       },
       "top_tasks": {
-        "text-generation": 744,
-        "text-classification": 363,
-        "question-answering": 334,
+        "text-generation": 752,
+        "text-classification": 366,
+        "question-answering": 338,
         "translation": 201,
-        "automatic-speech-recognition": 106,
-        "text-retrieval": 97,
-        "feature-extraction": 85,
+        "automatic-speech-recognition": 109,
+        "text-retrieval": 104,
+        "feature-extraction": 86,
         "token-classification": 74,
-        "summarization": 68,
-        "image-to-text": 62
+        "summarization": 67,
+        "image-to-text": 66
       },
-      "multilingual_count": 1371
+      "multilingual_count": 1393
     },
     "first_date": "20251012",
-    "last_date": "20260810",
-    "total_weeks": 44
+    "last_date": "20260817",
+    "total_weeks": 45
   }
 }
