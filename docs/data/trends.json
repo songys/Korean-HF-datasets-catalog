@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T03:05:47.188457",
+  "generated_at": "2026-09-21T03:03:13.668184",
   "trends": {
     "dates": [
       "20251012",
@@ -50,7 +50,8 @@
       "20260824",
       "20260831",
       "20260907",
-      "20260914"
+      "20260914",
+      "20260921"
     ],
     "total_datasets": [
       1326,
@@ -101,7 +102,8 @@
       2600,
       2639,
       2675,
-      2761
+      2761,
+      2805
     ],
     "total_downloads": [
       890871,
@@ -152,7 +154,8 @@
       1514764,
       1723813,
       1882903,
-      2092822
+      2092822,
+      2343363
     ],
     "total_likes": [
       10761,
@@ -203,7 +206,8 @@
       15036,
       15132,
       15240,
-      15360
+      15360,
+      15479
     ],
     "multilingual_count": [
       585,
@@ -254,13 +258,14 @@
       1419,
       1440,
       1465,
-      1499
+      1499,
+      1531
     ],
-    "growth_rate": 108.22,
+    "growth_rate": 111.54,
     "latest_stats": {
-      "total_datasets": 2761,
-      "total_downloads": 2092822,
-      "total_likes": 15360,
+      "total_datasets": 2805,
+      "total_downloads": 2343363,
+      "total_likes": 15479,
       "top_authors": {
         "Gingiris": 39,
         "nmixx-fin": 37,
@@ -274,21 +279,21 @@
         "ChuGyouk": 21
       },
       "top_tasks": {
-        "text-generation": 849,
-        "text-classification": 377,
-        "question-answering": 365,
-        "translation": 207,
-        "automatic-speech-recognition": 113,
-        "text-retrieval": 108,
-        "feature-extraction": 89,
-        "token-classification": 77,
-        "image-to-text": 73,
+        "text-generation": 861,
+        "text-classification": 385,
+        "question-answering": 368,
+        "translation": 209,
+        "automatic-speech-recognition": 114,
+        "text-retrieval": 109,
+        "feature-extraction": 90,
+        "token-classification": 78,
+        "image-to-text": 76,
         "summarization": 69
       },
-      "multilingual_count": 1499
+      "multilingual_count": 1531
     },
     "first_date": "20251012",
-    "last_date": "20260914",
-    "total_weeks": 49
+    "last_date": "20260921",
+    "total_weeks": 50
   }
 }
