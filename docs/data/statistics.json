@@ -1,33 +1,33 @@
 {
-  "last_updated": "2026-10-05T03:47:01.307830",
+  "last_updated": "2026-10-12T04:03:34.377380",
   "statistics": {
-    "total_datasets": 2905,
-    "total_downloads": 2255035,
-    "total_likes": 15778,
+    "total_datasets": 2964,
+    "total_downloads": 2188796,
+    "total_likes": 15923,
     "top_authors": {
       "Gingiris": 39,
       "nmixx-fin": 38,
       "PoSTMEDIA": 34,
       "nayohan": 31,
       "LLM-OS-Models": 30,
-      "jp1924": 28,
+      "jaeyong2": 27,
       "werty1248": 26,
-      "jaeyong2": 26,
       "davidkim205": 23,
-      "ChuGyouk": 21
+      "ChuGyouk": 21,
+      "ENERZAiKR": 18
     },
     "top_tasks": {
-      "text-generation": 873,
-      "text-classification": 407,
-      "question-answering": 375,
-      "translation": 211,
-      "automatic-speech-recognition": 121,
+      "text-generation": 890,
+      "text-classification": 414,
+      "question-answering": 378,
+      "translation": 212,
+      "automatic-speech-recognition": 122,
       "text-retrieval": 117,
-      "feature-extraction": 91,
-      "token-classification": 85,
-      "image-to-text": 80,
-      "text-to-speech": 74
+      "feature-extraction": 93,
+      "token-classification": 87,
+      "image-to-text": 81,
+      "text-to-speech": 75
     },
-    "multilingual_count": 1588
+    "multilingual_count": 1620
   }
 }
