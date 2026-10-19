@@ -1,0 +1,33 @@
+{
+  "last_updated": "2026-10-19T03:00:38.929855",
+  "statistics": {
+    "total_datasets": 3039,
+    "total_downloads": 2337824,
+    "total_likes": 16225,
+    "top_authors": {
+      "Gingiris": 39,
+      "nmixx-fin": 38,
+      "PoSTMEDIA": 34,
+      "nayohan": 31,
+      "LLM-OS-Models": 30,
+      "jaeyong2": 27,
+      "werty1248": 26,
+      "davidkim205": 23,
+      "ChuGyouk": 21,
+      "ENERZAiKR": 19
+    },
+    "top_tasks": {
+      "text-generation": 922,
+      "text-classification": 427,
+      "question-answering": 387,
+      "translation": 214,
+      "automatic-speech-recognition": 123,
+      "text-retrieval": 120,
+      "feature-extraction": 94,
+      "token-classification": 89,
+      "image-to-text": 83,
+      "text-to-speech": 76
+    },
+    "multilingual_count": 1674
+  }
+}

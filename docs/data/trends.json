@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T04:03:34.491735",
+  "generated_at": "2026-10-19T03:00:39.097003",
   "trends": {
     "dates": [
       "20251012",
@@ -54,7 +54,8 @@
       "20260921",
       "20260928",
       "20261005",
-      "20261012"
+      "20261012",
+      "20261019"
     ],
     "total_datasets": [
       1326,
@@ -109,7 +110,8 @@
       2805,
       2854,
       2905,
-      2964
+      2964,
+      3039
     ],
     "total_downloads": [
       890871,
@@ -164,7 +166,8 @@
       2343363,
       2364478,
       2255035,
-      2188796
+      2188796,
+      2337824
     ],
     "total_likes": [
       10761,
@@ -219,7 +222,8 @@
       15479,
       15600,
       15778,
-      15923
+      15923,
+      16225
     ],
     "multilingual_count": [
       585,
@@ -274,13 +278,14 @@
       1531,
       1560,
       1588,
-      1620
+      1620,
+      1674
     ],
-    "growth_rate": 123.53,
+    "growth_rate": 129.19,
     "latest_stats": {
-      "total_datasets": 2964,
-      "total_downloads": 2188796,
-      "total_likes": 15923,
+      "total_datasets": 3039,
+      "total_downloads": 2337824,
+      "total_likes": 16225,
       "top_authors": {
         "Gingiris": 39,
         "nmixx-fin": 38,
@@ -291,24 +296,24 @@
         "werty1248": 26,
         "davidkim205": 23,
         "ChuGyouk": 21,
-        "ENERZAiKR": 18
+        "ENERZAiKR": 19
       },
       "top_tasks": {
-        "text-generation": 890,
-        "text-classification": 414,
-        "question-answering": 378,
-        "translation": 212,
-        "automatic-speech-recognition": 122,
-        "text-retrieval": 117,
-        "feature-extraction": 93,
-        "token-classification": 87,
-        "image-to-text": 81,
-        "text-to-speech": 75
+        "text-generation": 922,
+        "text-classification": 427,
+        "question-answering": 387,
+        "translation": 214,
+        "automatic-speech-recognition": 123,
+        "text-retrieval": 120,
+        "feature-extraction": 94,
+        "token-classification": 89,
+        "image-to-text": 83,
+        "text-to-speech": 76
       },
-      "multilingual_count": 1620
+      "multilingual_count": 1674
     },
     "first_date": "20251012",
-    "last_date": "20261012",
-    "total_weeks": 53
+    "last_date": "20261019",
+    "total_weeks": 54
   }
 }
