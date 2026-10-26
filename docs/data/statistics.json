@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-10-19T03:00:38.929855",
+  "last_updated": "2026-10-26T02:56:39.710889",
   "statistics": {
-    "total_datasets": 3039,
-    "total_downloads": 2337824,
-    "total_likes": 16225,
+    "total_datasets": 3105,
+    "total_downloads": 2536718,
+    "total_likes": 16399,
     "top_authors": {
       "Gingiris": 39,
       "nmixx-fin": 38,
@@ -14,20 +14,20 @@
       "werty1248": 26,
       "davidkim205": 23,
       "ChuGyouk": 21,
-      "ENERZAiKR": 19
+      "Missing-texter": 20
     },
     "top_tasks": {
-      "text-generation": 922,
-      "text-classification": 427,
-      "question-answering": 387,
-      "translation": 214,
-      "automatic-speech-recognition": 123,
-      "text-retrieval": 120,
-      "feature-extraction": 94,
-      "token-classification": 89,
-      "image-to-text": 83,
-      "text-to-speech": 76
+      "text-generation": 946,
+      "text-classification": 455,
+      "question-answering": 394,
+      "translation": 220,
+      "automatic-speech-recognition": 126,
+      "text-retrieval": 121,
+      "feature-extraction": 111,
+      "token-classification": 100,
+      "summarization": 87,
+      "image-to-text": 86
     },
-    "multilingual_count": 1674
+    "multilingual_count": 1734
   }
 }
